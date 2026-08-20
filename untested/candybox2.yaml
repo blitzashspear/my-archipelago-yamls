@@ -1,0 +1,52 @@
+﻿name: blitzashCB2
+description: I HAVE A STRUCTUED SETTLEMENT AND I NEED CASH NOW!!!
+
+game: Candy Box 2
+requires:
+  version: 0.6.7 
+  game:
+    Candy Box 2: 1.20260816.1 
+
+Candy Box 2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  x_potion_brewing: one_at_a_time
+  enable_computer: false
+  scouting: true
+  font_traps: 1
+
+  #############
+  # Entrances #
+  #############
+  quest_randomisation: off
+  randomise_tower: true
+  randomise_x_potion: true
+
+  ###########################
+  # Inventory Customisation #
+  ###########################
+  starting_weapon: nothing
+  progressive_jump: true
+  grimoires: individual_grimoires
+  pain_au_chocolat_count: 8
+  randomise_hp_bar: true
+
+  ###########
+  # Scaling #
+  ###########
+  candy_production_multiplier: 1
+  candy_drop_multiplier: 1
+  lollipop_production_multiplier: 1
+  candy_merchant_hat_price: 750
+  sorceress_hat_price: 2500
+  teapot_hp: 100000
+
+  #######################
+  # Inter-game Features #
+  #######################
+  death_link: false
+  energy_link: true
+  gifting: true

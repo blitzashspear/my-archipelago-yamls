@@ -1,0 +1,84 @@
+﻿name: Player{number}
+description: why did my dad put the weather app on my wii bro
+
+game: NSMBW
+requires:
+  version: 0.6.7
+  game:
+    NSMBW: 0.2.2
+
+NSMBW:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  hint_movie_shop_price_logic: free
+
+  ##############
+  # Locations  #
+  ##############
+  include_shortcuts: true
+  include_level_completion: true
+  include_hintmovies: true
+  randomize_starcoins: true
+  include_inventory_powerups: 0
+  make_world_comp_priority: false # Causes generation failures ~0.5% if enabled.
+
+  #########
+  # Items #
+  #########
+  randomize_powerups: on
+  randomize_movement: off
+  randomize_time: 0
+
+  ###################
+  # Clear condition #
+  ###################
+  bowser_star_unlock: 100
+  bowser_world_unlock: 2
+
+  #########
+  # Logic #
+  #########
+  logic_difficulty: normal
+  logic_outside_powerup: disallow
+  world9_unlock_condition: gaussian
+  starting_world: random
+
+  ####################
+  # Filler and traps #
+  ####################
+  filler_items: 
+    1-ups: 10
+    Coin x01: 10
+    Coin x10: 10
+    Coin x50: 10
+    Random Power-up: 10
+    Super Speed: 10
+    fill inventory: 10
+
+  trap_items:
+    Goomba trap: 10
+    Literature trap: 10
+    Loose powerup trap: 10
+    Movement lock trap: 10
+    Reverse Control trap: 10
+    Robbery trap: 10
+    Shrink trap: 10
+    Slow Trap: 10
+    Throw trap: 10
+
+    Death trap: 0
+    Time trap: 0
+
+  trap_chance: 10
+  amount_support_received: -1
+
+  #########
+  # Other #
+  #########
+  death_link: false
+  starcoin_collect_immediately: true
+  save_state_slot: 7
+  modifier_multiplier_percentage: 100
