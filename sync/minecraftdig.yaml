@@ -11,12 +11,11 @@ Minecraft Dig:
   progression_balancing: normal
   accessibility: full
   chunk_count: 1
-  progressive_chunks: true
+
   bee_trap_weight: 5
   creeper_trap_weight: 5
   sand_rain_weight: 5
   spawn_wither_weight: 1
-
   goon_squad_weight: 5
   fish_fountain_weight: 2
   bad_air_weight: 2
