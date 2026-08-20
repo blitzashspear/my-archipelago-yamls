@@ -1,0 +1,26 @@
+﻿name: blitzashBR
+description: lets go gambling (insert laugh track here)
+
+game: Buckshot Roulette
+requires:
+  version: 0.6.6
+  game:
+    Buckshot Roulette: 0.4.0
+
+Buckshot Roulette:
+  progression_balancing: normal
+  accessibility: full
+  goal: custom
+  custom_goal_amount: 1000000
+  double_or_nothing_requirements: vanilla
+  additional_goal_requirements: none
+  asynchronous_points: false
+  point_filler_percentage: 25
+  consumable_item_logic: normal
+  included_custom_mechanics: ['Life Bank', 'Item Luck', 'Item Buffs']
+  item_buffs: ['Burner Phone', 'Beer', 'Expired Medicine', 'Adrenaline', 'Magnifying Glass', 'Cigarette Pack', 'Handcuffs', 'Hand Saw', 'Inverter']
+  included_traps: []
+  exclude_full_house: true
+  shotsanity: balanced
+  shotsanity_count: 100
+  streaksanity: 'off'

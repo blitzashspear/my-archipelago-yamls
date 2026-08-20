@@ -1,0 +1,65 @@
+name: blitzashCeleste
+description: redditors... assemble. KARMAAAA BOOOOOST!! 
+# ASYNC ONLY - ROOMSANITY, FUCKTON OF STRAWBERRIES
+
+game: Celeste (Open World)
+Celeste (Open World):
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  death_link: false
+  trap_link: true
+  logic_difficulty: developer_intended
+
+  ################
+  # Goal Options #
+  ################
+  goal_area: the_summit_a
+  lock_goal_area: false
+  goal_area_checkpointsanity: false
+  total_strawberries: 202
+  strawberries_required_percentage: random-range-75-99
+
+  ####################
+  # Location Options #
+  ####################
+  checkpointsanity: true
+  binosanity: false
+  keysanity: true
+  gemsanity: true
+  carsanity: true
+  roomsanity: true
+  include_goldens: false
+  include_core: false
+  include_farewell: none
+  include_b_sides: false
+  include_c_sides: false
+
+  ####################
+  # Movement Options #
+  ####################
+  dash_shuffle: unified
+  climb_shuffle: none
+  crouch_shuffle: true
+  split_interactables: per_level
+
+  ##################
+  # Junk and Traps #
+  ##################
+  junk_fill_percentage: 0
+  reduce_raspberries: true
+  trap_fill_percentage: 0
+
+  #####################
+  # Aesthetic Options #
+  #####################
+  music_shuffle: none
+  require_cassettes: false
+  torch_behavior: already_lit
+  madeline_hair_length: default
+  madeline_one_dash_hair_color: random
+  madeline_two_dash_hair_color: random
+  madeline_no_dash_hair_color: random
+  madeline_feather_hair_color: random

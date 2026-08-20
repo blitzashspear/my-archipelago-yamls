@@ -1,0 +1,29 @@
+name: blitzashSudoku
+description: add eggs
+# ASYNC ONLY - THAT'S A LOT OF BOARDS
+
+game: Archipeladoku
+requires:
+  version: 0.6.5 
+
+Archipeladoku:
+  progression_balancing: disabled
+  accessibility: full
+  block_size: 9
+  boards_per_cluster: 5
+  number_of_boards: 50
+  difficulty: medium
+  progression: shuffled
+  bundle_size: 5
+  duplicate_progression: 0
+  disabled_locations:
+    ['columns', 'rows']
+  location_scouting: disabled
+  solve_selected_cell_ratio: 100
+  solve_random_cell_ratio: 200
+  remove_random_candidate_ratio: 300
+  emoji_trap_ratio: 20
+  disco_trap_ratio: 20
+  tunnel_vision_trap_ratio: 0
+  pre_fill_nothings_percent: 100
+  death_link: false

@@ -1,0 +1,22 @@
+﻿name: blitzashPVZ2G
+description: brains
+
+game: PvZ2 Gardendless
+requires:
+  version: 0.6.7
+
+PvZ2 Gardendless:
+  progression_balancing: normal
+  accessibility: full
+  world_count: 12
+  goal_type: world_keys
+  worlds_required: 6
+  modern_day_victory: zomboss
+  skip_tutorial: true
+  shopsanity: false
+  shuffle_upgrades: true
+  randomize_conveyor_plants: true
+  shuffle_zombies: false
+  early_world_keys: false
+  trap_percentage: 5
+  death_link: true

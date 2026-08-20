@@ -1,0 +1,31 @@
+﻿name: blitzashMCDig
+description: diggy diggy hole
+
+game: Minecraft Dig
+requires:
+  version: 0.6.6
+  game:
+    Minecraft Dig: 0.0.10
+
+Minecraft Dig:
+  progression_balancing: normal
+  accessibility: full
+  chunk_count: 1
+  progressive_chunks: true
+  bee_trap_weight: 5
+  creeper_trap_weight: 5
+  sand_rain_weight: 5
+  spawn_wither_weight: 1
+
+  goon_squad_weight: 5
+  fish_fountain_weight: 2
+  bad_air_weight: 2
+  pocket_sand_weight: 2
+  pesky_bird_weight: 2
+  flash_flood_weight: 3
+  pet_the_kitty_weight: 3
+  wingardium_leviosa_weight: 3
+  about_face_weight: 3
+  acme_delivery_weight: 3
+  meteor_shower_weight: 3
+  increased_gravity_weight: 3

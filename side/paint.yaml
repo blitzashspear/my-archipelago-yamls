@@ -1,0 +1,18 @@
+﻿name: blitzashPaint
+description: je ne se quoi i am aurtistic
+
+game: Paint
+requires:
+  version: 0.6.1 
+
+Paint:
+  progression_balancing: normal
+  accessibility: full
+  logic_percent: 85
+  goal_percent: 85
+  half_percent_checks: random-range-50-70
+  quarter_percent_checks: random-range-70-80
+  canvas_size_increment: '100'
+  starting_tool: brush
+  trap_count: 0
+  death_link: false

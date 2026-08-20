@@ -1,0 +1,82 @@
+﻿name: blitzashPP
+description: haha i shortented pokepelago to pp please laugh
+# ASYNC ONLY - ALL REGIONS ENABLED
+
+game: Pokepelago
+requires:
+  version: 0.6.7
+  game:
+    Pokepelago: 0.6.2
+
+Pokepelago:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: random
+  dexsanity: true
+  starting_location_count: random
+  goal_type: count
+  goal_count: 1000
+
+  ###########
+  # Regions #
+  ###########
+  regions:
+    ['Kanto' , 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar', 'Hisui', 'Paldea']
+  random_region_count: disabled
+  group_hisui_galar: false
+  region_locks: random
+  starter_region: any
+  starter_pokemon: any
+  starter_count: random
+  prefer_lab_starters: random
+
+  ##############
+  # Lock Gates #
+  ##############
+  type_locks: random
+  route_locks_enabled: false
+  line_locks: false
+  badge_level_gating: random
+  legendary_locks: random
+  trade_locks: random
+  baby_locks: random
+  daycare_count: random
+  fossil_locks: random
+  ultra_beast_locks: random
+  paradox_locks: random
+  stone_locks: random
+
+  #########
+  # Items #
+  #########
+  include_shinies: true
+  master_ball_bypass_gates: true
+  pokegear_pokedex_filler: true
+  stop_autosubmit_on_goal: false
+  trap_chance: random
+  trap_weights:
+    derpy_mon: 1
+
+    big_shuffle: 0
+    release: 0
+    small_shuffle: 0
+
+  filler_weights:
+    key_items: 100
+    master_ball: 50
+    splash: 50
+
+  triggers:
+    - option_name: region_locks
+      option_result: true
+      options:
+        Pokepelago:
+          type_locks: false
+
+    - option_name: region_locks
+      option_result: false
+      options:
+        Pokepelago:
+          type_locks: true

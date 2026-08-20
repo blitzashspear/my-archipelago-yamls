@@ -1,0 +1,106 @@
+﻿name: blitzashDread
+description: nobody can take this away from me.
+
+game: Metroid Dread
+requires:
+  version: 0.6.7 
+  game:
+    Metroid Dread: 0.6.0 
+
+Metroid Dread:
+  progression_balancing: random-range-25-50
+  accessibility: minimal
+  starting_area: artaria
+  door_lock_rando: individual_doors
+  doors_to_change:
+    # Removed Sensor Doors from list
+    ['Charge Beam Door', 'Super Missile Door', 'Wide Beam Door', 'Plasma Beam Door', 'Access Open', 'Grapple Beam Door', 'Missile Door', 'Power Beam Door', 'Wave Beam Door']
+  change_doors_to:
+  # Added Ice and Diffusion Doors
+    ['Charge Beam Door', 'Super Missile Door', 'Wide Beam Door', 'Plasma Beam Door', 'Missile Door', 'Grapple Beam Door', 'Power Beam Door', 'Wave Beam Door', "Ice Missile Door", "Diffusion Beam Door"]
+  transport_rando: 'off'
+  include_boss_pickups: true
+  trick_level: beginner
+  # Switch randomly disconnects, when I reconnect it sends a faulty DeathLink
+  death_link: false
+  start_with_pulse_radar: false
+  show_boss_lifebar: false
+  show_enemy_life: false
+  show_enemy_damage: false
+  show_player_damage: false
+  enable_death_counter: true
+  show_dna_in_hud: true
+  room_name_display: always
+  raven_beak_damage_table: consistent_low
+  nerf_power_bombs: true
+  disabled_lights: random
+  x_starts_released: false
+  progressive_suit: true
+  progressive_spin: true
+  progressive_charge_beam: true
+  progressive_beam: false
+  progressive_missile: false
+  progressive_bomb: true
+  required_artifacts: 10
+  artifact_placement: anywhere
+  hint_all_dna: false
+
+  energy_tank_count: 8
+  energy_part_count: 16
+  missile_tank_count: 60
+  missile_plus_tank_count: 12
+  power_bomb_tank_count: 13
+  starting_power_bombs: 2
+  starting_missiles: 15
+  energy_per_tank: 100
+  missile_tank_ammo: 2
+  missile_plus_tank_ammo: 10
+  power_bomb_tank_ammo: 1
+
+  flash_shift_upgrade_amount: 1
+  flash_shift_upgrade_count: 2
+  speed_booster_upgrade_count: 4
+  flash_shift_included_ammo: 0
+  flash_shift_upgrade_requires_main_item: true
+
+  trick_knowledge: beginner
+  trick_movement: beginner
+  trick_combat: intermediate
+  trick_pseudo_wave_beam: beginner
+  trick_infinite_bomb_jump: intermediate
+  trick_water_bomb_jump: beginner
+  trick_water_space_jump: beginner
+  trick_single_wall_jump: beginner
+  trick_slide_jump: beginner
+  trick_speed_booster_conservation: beginner
+  trick_wall_jump: beginner
+  trick_reverse_grapple: beginner
+  trick_damage_boost: disabled
+  trick_frozen_enemy: beginner
+  trick_grapple_movement: beginner
+  trick_cross_bomb_skip: disabled
+  trick_climb_sloped_tunnels: disabled
+  trick_short_boost: disabled
+  trick_diffusion_abuse: beginner
+  trick_flash_shift_skip: disabled
+  trick_diagonal_bomb_jump: disabled
+  trick_ledge_warp: disabled
+  trick_cross_bomb_launch: disabled
+  trick_floor_clip: disabled
+  trick_climb_sloped_surfaces: disabled
+
+  # COMMENTED OUT BECAUSE NONE OF YOU CAN LISTEN TO ME WHEN I SAY "DON'T WORRY ABOUT MY DNA"
+  # start_hints:
+  # # My go mode items
+  #   ["Metroid DNA 1", "Metroid DNA 2", "Metroid DNA 3", "Metroid DNA 4", "Metroid DNA 5", "Metroid DNA 6", "Metroid DNA 7", "Metroid DNA 8", "Metroid DNA 9", "Metroid DNA 10"]
+
+  exclude_locations:
+  # Excluding Elun because warping currently breaks.
+  - "Elun: Ammo Recharge Station"
+  - "Elun: Plasma Beam Room"
+  - "Elun: Vertical Bomb Maze"
+  - "Elun: Fan Room"
+  - "Elun: Horizontal Bomb Maze"
+  # These require Elun entry
+  - "Cataris: Experiment Z-57"
+  - "Ghavoran: Golzuna"

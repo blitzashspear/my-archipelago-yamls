@@ -1,0 +1,14 @@
+name: blitzashMSS
+description: i dont have a way to connect my wii remote :(
+
+game: Mario Super Sluggers
+Mario Super Sluggers:
+  progression_balancing: normal
+  accessibility: full
+  goal_condition: defeat_bowser_monsters
+  goal_characters: 30
+  starting_captain: random
+  randomize_shops: none
+  randomize_stars: false
+  randomize_music: false
+  reduced_cutscenes: true

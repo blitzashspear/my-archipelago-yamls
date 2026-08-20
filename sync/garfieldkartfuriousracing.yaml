@@ -1,0 +1,55 @@
+﻿name: blitzashGKFR
+description: lasaga
+
+game: Garfield Kart - Furious Racing
+requires:
+  version: 0.6.7
+  game:
+    Garfield Kart - Furious Racing: 1.0.0
+
+Garfield Kart - Furious Racing:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  single_lap_mode: false
+  lap_count: 3
+  disable_cpu_items: true # I have to disable this, otherwise this game isnt sync viable.
+  item_mania: false
+  springs_only: false
+
+  ################
+  # Goal Options #
+  ################
+  goal: grand_prix
+  cc_requirement: 150cc
+
+  ###########################
+  # Race Randomizer Options #
+  ###########################
+  randomize_races: races
+  progressive_cups: false
+  time_trial_randomization: bronze
+
+  ########################
+  # Puzzle Piece Options #
+  ########################
+  randomize_puzzle_pieces: false
+
+  #####################
+  # Character Options #
+  #####################
+  randomize_characters: true
+  randomize_karts: false
+  randomize_hats: false
+  randomize_spoilers: false
+  stat_randomizer: off
+
+  ############################
+  # Other Randomizer Options #
+  ############################
+  randomize_items: false
+  lap_sanity: true
+  trap_percentage: 0
+  death_link: false

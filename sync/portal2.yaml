@@ -1,0 +1,42 @@
+﻿name: blitzashPortal2
+description: The part where he randomizes you.
+
+game: Portal 2
+requires:
+  version: 0.6.6
+  game:
+    Portal 2: 0.5.2
+
+Portal 2:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: 25
+  accessibility: full
+  death_link: false
+
+  ####################
+  # Location Options #
+  ####################
+  game_mode: normal
+  early_playability_percentage: 60
+  logic_difficulty: normal
+  remove_locations: []
+  cutscene_levels: false
+  wheatley_monitors: true
+  ratman_dens: false
+
+  ################
+  # Trap Options #
+  ################
+  trap_fill_percentage: 10
+  motion_blur_trap_weight: none
+  fizzle_portal_trap_weight: none
+  butter_fingers_trap_weight: medium
+  cube_confetti_trap_weight: medium
+  slippery_floor_trap_weight: medium
+  
+  exclude_locations:
+    [
+      "Wheatley Monitor 11"
+    ]

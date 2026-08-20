@@ -1,0 +1,85 @@
+﻿name: blitzashNSMB
+description: tears of genuine joy have been shred today
+
+game: New Super Mario Bros. DS
+requires:
+  version: 0.6.7
+  game:
+    New Super Mario Bros. DS: 0.4.2
+
+New Super Mario Bros. DS:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  death_link: false
+  goal: defeat_bowser
+  red_coin_checks: true
+  one_up_block_checks: false
+  blocksanity: false
+  secret_exit_checks: true
+  toad_house_checks: true
+  star_coin_gate_mode: individual
+  tower_castle_keys: true
+  
+  ###################
+  # License Options #
+  ###################
+  license_mini_mushroom: true
+  license_blue_shell: true
+  license_mega_mushroom: true
+  license_mushroom: true
+  license_fire_flower: true
+  license_touchscreen_pocket: true
+
+  ##################
+  # Filler Options #
+  ##################
+  filler_powerups: true
+  filler_starman: true
+  filler_extra_lives: true
+  filler_coins: true
+  filler_time_capsule: false
+  filler_starman_lite: false
+  filler_trap_shield: true
+  filler_care_package: false
+  filler_life_insurance: true
+
+  ################
+  # Trap Options #
+  ################
+  trap_percentage: 20
+  bonk_trap_can_kill: true
+  trap_hyper_speed: true
+  trap_slow_speed: true
+  trap_walljump_lock: true
+  trap_no_jump: true
+  trap_reverse_controls: true
+  trap_no_sprint: true
+  trap_ice_shoes: true
+  trap_heavy_mario: true
+  trap_auto_run: true
+  trap_sticky_buttons: true
+  trap_coin_tax: true
+  trap_camera_drift: true
+  trap_screen_flip: true
+  trap_camera_sway: true
+  trap_im_stuck: true
+  trap_screen_tint: true
+  trap_retro_filter: true
+  trap_spotlight: true
+  trap_ground_clap: true
+  trap_head_bonk: true
+  trap_crazy_pixels: true
+  trap_bonk: true
+  trap_coin_thief: true
+  trap_button_roulette: false
+  trap_boo_curse: false
+  trap_timer_drain: false
+
+  ####################
+  # Cosmetic Options #
+  ####################
+  mario_palette: gold
+  luigi_palette: silver

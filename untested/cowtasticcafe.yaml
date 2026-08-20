@@ -1,0 +1,26 @@
+﻿name: blitzashCowCafe
+description: chat shes so bad
+
+game: Cowtastic Cafe
+requires:
+  version: 0.6.7
+  game:
+    Cowtastic Cafe: 1.0.1
+
+Cowtastic Cafe:
+  progression_balancing: normal
+  accessibility: full
+  starting_ingredients:
+    ['Milk', 'Coffee']
+  drinks_per_check: 3
+  checks_per_ingredient: 4
+  shop_locations: 10
+  extra_candy: 1
+  milk_flow: 5
+  shop_base_price: 50
+  shop_price_step: 25
+  min_drink_quality: good
+  death_link: false
+  censorship_mode: false
+  allow_milk_rate_adjustment: false
+  scout_shop: visible

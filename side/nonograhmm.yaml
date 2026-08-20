@@ -1,0 +1,15 @@
+name: blitzashNono
+description: tiny baby grahmm
+
+game: Nonograhmm
+Nonograhmm:
+  progression_balancing: normal
+  accessibility: full
+  width_of_grid: 15
+  height_of_grid: 15
+  clue_types: []
+  enables_nonograhmm_hints: true
+  add_extra_items: true
+  percentage_extra_clues: 10
+  percentage_fillers_itempool: 0
+  show_all_clues: false

@@ -1,0 +1,40 @@
+name: blitzashRefunct
+description: fucked up and evil refunct yaml. a glimpse into my dark and twisted mind
+
+game: Refunct
+requires:
+  version: 0.6.7
+  game:
+    Refunct: 1.2.2
+
+Refunct:
+  progression_balancing: normal
+  accessibility: full
+  amount_of_grass: 100
+  required_grass_percentage: random-range-90-100
+  goal: button_31_1
+  cubes: red_cubes_bag
+  extra_cubes: green_cubes_bag
+  number_of_minigames: 5
+  nerf_minigame_checks: false
+  number_of_unlocks_per_minigame: 1
+  minigames_likeliness:
+    Block Blub Minigame: 0
+    Block Brawl Minigame: 0
+    Button Galore Minigame: 1
+    Climb Chaos Minigame: 0
+    Climb Line Minigame: 0
+    Climb Narrow Minigame: 0
+    Climb Spiral Minigame: 0
+    Clique: 1
+    Funny Bridge Game Minigame: 1
+    OG Randomizer Minigame: 1
+    Rando Mountain Minigame: 0
+    Refunct Mountain Minigame: 0
+    Seeker Minigame: 0
+    Vanilla Minigame: 1
+  traps: pretty
+  death_link: true
+
+  priorty_locations:
+  - Clique: The Button

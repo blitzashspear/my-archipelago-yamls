@@ -1,0 +1,15 @@
+﻿name: blitzashWonder
+description: im wondering it. im wondering it so good.
+
+game: Super Mario Bros Wonder
+requires:
+  version: 0.6.7
+
+Super Mario Bros Wonder:
+  progression_balancing: normal
+  accessibility: full
+  open_world: false
+  goal: 'bc: bowser''s rage stage - royal seed'
+  death_link: false
+  ten_coin_sanity: true
+  gold_flag_sanity: true

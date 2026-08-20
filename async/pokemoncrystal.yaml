@@ -1,0 +1,218 @@
+name: blitzashGSC
+description: WE PLAYIN ON SPEEDUP MOTHER FUCKER YEAH (& deathlink)
+#ASYNC ONLY - TRAINERSANITY
+
+game: Pokemon Crystal
+Pokemon Crystal:
+  progression_balancing: disabled
+  accessibility: full
+  goal: red
+  randomize_starting_town: false
+  johto_only: "off"
+  red_requirement: badges
+  red_count: 16
+  mt_silver_requirement: badges
+  mt_silver_count: 16
+  radio_tower_requirement: badges
+  radio_tower_count: 7
+  route_44_access_requirement: badges
+  route_44_access_count: 7
+  kanto_access_requirement: become_champion
+  kanto_access_count: 8
+  victory_road_access: vanilla
+  dark_areas: []
+  route_32_condition: egg_from_aide
+  route_2_access: ledge
+  route_3_access: vanilla
+  route_42_access: vanilla
+  mount_mortar_access: vanilla
+  red_gyarados_access: vanilla
+  blackthorn_dark_cave_access: vanilla
+  national_park_access: vanilla
+  saffron_gatehouse_tea: []
+  remove_ilex_cut_tree: true
+  undergrounds_require_power: both
+  east_west_underground: true
+  vanilla_clair: true
+  route_12_access: vanilla
+  magnet_train_access: pass
+  ss_aqua_access: vanilla
+  route_30_battle: blocks_northbound
+  randomize_badges: completely_random
+  randomize_pokegear: false
+  randomize_hidden_items: true
+  randomize_berry_trees: false
+  randomize_pokemon_requests: "off"
+  randomize_fly_unlocks: "off"
+  randomize_bug_catching_contest: "off"
+  randomize_phone_call_items: "off"
+  require_itemfinder: logically_required
+  remote_items: true
+  item_pool_fill: vanilla
+  add_missing_useful_items: false
+  exclude_post_goal_locations: true
+  grasssanity: "off"
+  shopsanity:
+    - _All
+  shopsanity_prices: vanilla
+  shopsanity_minimum_price: 1
+  shopsanity_maximum_price: 1000
+  provide_shop_hints: "off"
+  shopsanity_restrict_rare_candies: false
+  shopsanity_x_items: anywhere
+  hm_compatibility: vanilla
+  hm_badge_requirements: vanilla
+  remove_badge_requirement: []
+  require_flash: logically_required
+  field_moves_always_usable: true
+  free_fly_location: "off"
+  free_fly_blocklist: []
+  early_fly: false
+  fly_cheese: out_of_logic
+  randomize_wilds: evolution_lines
+  wild_encounter_blocklist: []
+  randomize_static_pokemon: false
+  static_blocklist: []
+  randomize_base_stats: vanilla
+  randomize_types: vanilla
+  shared_primary_type: "off"
+  randomize_evolution: vanilla
+  convergent_evolution: avoid
+  evolution_blocklist: []
+  randomize_breeding: vanilla
+  breeding_blocklist: []
+  randomize_trades: vanilla
+  encounter_grouping: all_split
+  encounter_slot_distribution: remove_one_percents
+  randomize_starters: first_stage_can_evolve
+  starters_bst_average: normal_starters
+  starter_blocklist: []
+  randomize_learnsets: start_with_four_moves
+  learnset_type_bias: 25
+  metronome_only: false
+  randomize_move_types: false
+  randomize_move_values: vanilla
+  randomize_type_chart: vanilla
+  physical_special_split: vanilla
+  hm_power_cap: none
+  randomize_tm_moves: false
+  tm_plando: {}
+  tm_compatibility: fully_compatible
+  reusable_tms: true
+  move_blocklist: [
+    "Thief"
+  ]
+  tm_blocklist: []
+  randomize_trainer_parties: completely_random
+  trainer_party_blocklist: []
+  boost_trainers: vanilla
+  trainer_level_boost: 1
+  force_fully_evolved: 30
+  dexsanity: none
+  dexcountsanity: none
+  dexcountsanity_step: 1
+  dexcountsanity_leniency: 0
+  dexsanity_starters: allow
+  johto_trainersanity: full
+  kanto_trainersanity: full
+  wild_encounter_methods_required:
+    - Bug Catching Contest
+    - Fishing
+    - Headbutt
+    - Land
+    - Rock Smash
+    - Surfing
+  enforce_wild_encounter_methods_logic: false
+  static_pokemon_required: true
+  trades_required: false
+  evolution_methods_required:
+    - Happiness
+    - Level
+    - Level Tyrogue
+    - Use Item
+  evolution_gym_levels: 8
+  breeding_methods_required: with_ditto
+
+  filler_trap_percentage: 10
+  phone_trap_weight: 50
+  sleep_trap_weight: 0
+  poison_trap_weight: 50
+  burn_trap_weight: 50
+  freeze_trap_weight: 0
+  paralysis_trap_weight: 0
+  trap_link: true
+
+  game_options:
+    ap_item_sound: "on"
+    auto_hms: "on"
+    auto_run: "off"
+    battle_animations: no_scene
+    battle_move_stats: "off"
+    battle_shift: set
+    bike_music: "off"
+    blind_trainers: "off"
+    catch_exp: "on"
+    dex_area_beep: "off"
+    exp_distribution: gen8
+    fast_egg_hatch: "on"
+    fast_egg_make: "on"
+    guaranteed_catch: "on"
+    hms_require_teaching: "off"
+    item_notification: popup
+    low_hp_beep: "on"
+    menu_account: "on"
+    more_uncaught_encounters: "off"
+    poison_flicker: "on"
+    rods_always_work: "on"
+    short_fanfares: "off"
+    skip_dex_registration: "on"
+    skip_nicknames: "off"
+    sound: mono
+    spinners: normal
+    surf_music: "off"
+    text_frame: 8
+    text_speed: instant
+    time_of_day: auto
+    trainersanity_indication: "off"
+    turbo_button: none
+
+  level_scaling: "off"
+  lock_kanto_gyms: "off"
+  all_pokemon_seen: false
+  starting_money: vanilla
+  better_marts: false
+  build_a_mart: []
+  experience_modifier: normal
+  skip_elite_four: false
+  minimum_catch_rate: 255
+  always_unlock_fly_destinations: false
+  trainer_name: BLITZ
+  field_move_menu_order:
+    - Cut
+    - Fly
+    - Surf
+    - Strength
+    - Flash
+    - Whirlpool
+    - Waterfall
+    - Rock Smash
+    - Headbutt
+    - Dig
+    - Teleport
+    - Sweet Scent
+  default_pokedex_mode: new
+  progressive_rods: true
+  require_pokegear_for_phone_numbers: true
+  death_link: true
+  randomize_palettes: completely_random
+  randomize_music: "off"
+  trainer_palette: random
+  enable_mischief: random
+
+  start_inventory_from_pool:
+    Exp Share: 1
+
+  exclude_locations: [
+    Bill's Grandpa
+    Goldenrod Dept. Store 5F - Trading
+  ]

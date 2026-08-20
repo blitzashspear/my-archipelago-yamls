@@ -1,0 +1,8 @@
+name: blitzashTF2
+description: hell
+
+game: Manual_TeamFortress2_GP
+
+Manual_TeamFortress2_GP:
+    progression_balancing: 50
+    accessibility: items

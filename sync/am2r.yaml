@@ -1,0 +1,22 @@
+﻿name: blitzashAM2R
+description: dont let the main server see this one
+
+game: AM2R
+requires:
+  version: 0.6.6 
+  game:
+    AM2R: 1.4.3 
+
+AM2R:
+  progression_balancing: normal
+  accessibility: full
+  MetroidsRequired: 30
+  MetroidsInPool: 40
+  LocationSettings: add_metroids_no_a6
+  TrapFillPercentage: 0
+  Tozos: 0
+  DeathLink: false
+
+  exclude_locations:
+  - "Industrial Complex: Behind the Green Door"
+  - "Golden Temple: EMP Room"

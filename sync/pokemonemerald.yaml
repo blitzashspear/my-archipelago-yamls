@@ -1,0 +1,66 @@
+name: blitzashRSE
+description: wowee its like im playing rom hacks again
+
+game: Pokemon Emerald
+Pokemon Emerald:
+  progression_balancing: normal
+  accessibility: full
+  goal: champion
+  badges: completely_random
+  hms: completely_random
+  key_items: true
+  bikes: true
+  event_tickets: true
+  rods: true
+  overworld_items: true
+  hidden_items: true
+  npc_gifts: true
+  berry_trees: true
+  dexsanity: false
+  trainersanity: false
+  item_pool_type: shuffled
+  require_itemfinder: true
+  require_flash: both
+  elite_four_requirement: badges
+  elite_four_count: 8
+  wild_pokemon: completely_random
+  starters: completely_random
+  trainer_parties: completely_random
+  force_fully_evolved: 30
+  legendary_encounters: completely_random
+  misc_pokemon: completely_random
+  types: vanilla
+  abilities: follow_evolutions
+  level_up_moves: start_with_four_moves
+  move_match_type_bias: 25
+  move_normal_type_bias: 0
+  tm_tutor_compatibility: -1
+  hm_compatibility: 100
+  tm_tutor_moves: true
+  reusable_tms_tutors: true
+  guaranteed_catch: true
+  normalize_encounter_rates: false
+  exp_modifier: 400
+  blind_trainers: true
+  purge_spinners: false
+  match_trainer_levels: "off"
+  match_trainer_levels_bonus: 0
+  double_battle_chance: 1
+  better_shops: false
+  extra_boulders: false
+  extra_bumpy_slope: false
+  modify_118: false
+  free_fly_location: false
+  hm_requirements: vanilla
+  turbo_a: true
+  receive_item_messages: progression
+  remote_items: true
+  music: false
+  fanfares: false
+  death_link: false
+  enable_wonder_trading: true
+  easter_egg: EMERALD SECRET
+
+  # No I am not playing your coin game fuck off and die.
+  exclude_locations:
+    [TM10 from Hidden Power Lady]

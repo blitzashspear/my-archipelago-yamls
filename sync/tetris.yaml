@@ -1,0 +1,27 @@
+﻿name: blitzashTetris
+description: i ate a bagel. boom. dependency.
+
+game: Tetris
+requires:
+  version: 0.6.5 
+
+Tetris:
+  progression_balancing: normal
+  accessibility: full
+  goal_score: 500000
+  location_count: 300
+  starting_speed: 25
+  target_speed: 15
+  maximum_speed: 10
+  score_multipliers: 40
+  next_piece_display: disabled_to_enabled
+  clear_random_line_weight: 25
+  max_simultaneous_clear_random_lines: 1
+  garbage_line_weight: 25
+  max_simultaneous_garbage_lines: 4
+  clear_random_lines_and_garbage_lines_cancel_each_other_out: false
+  shuffle_garbage_line_hole_weight: 10
+  random_inputs_weight: 10
+  instant_lock_weight: 0
+  wall_trap_weight: 15
+  illusory_piece_weight: 15

@@ -1,0 +1,13 @@
+name: blitzashVVVVVV
+description: tiny baby game for children
+
+game: VVVVVV
+VVVVVV:
+  progression_balancing: normal
+  accessibility: full
+  music_rando: false
+  area_rando: false
+  area_cost: true
+  death_link: false
+  death_link_amnesty: 15
+  door_cost: random-range-1-3

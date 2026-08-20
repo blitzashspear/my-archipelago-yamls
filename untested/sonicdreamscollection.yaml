@@ -1,0 +1,40 @@
+﻿name: blitzashSDC
+description: and they were roommates
+
+game: Sonic Dreams Collection
+requires:
+  version: 0.6.6
+  game:
+    Sonic Dreams Collection: 0.3.0
+
+Sonic Dreams Collection:
+  progression_balancing: normal
+  accessibility: full
+  mrs_full_story: true
+  smm_sanity: true
+  smm_eggysanity: true
+  eo_eggysanity: false
+
+  ascensions_to_goal: 
+    # The amount of Ascensions needed to goal. This will increase the amount of items and locations in the pool (7 items and 8 locations per ascension).
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 1
+    # Maximum value is 100
+    1: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-1-100: 0 # random value between 1 and 100
+
+  junk_percentage:
+    # Percentage of non-required Robust Worms to be converted to junk items.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    50: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-0-100: 0 # random value between 0 and 100

@@ -1,0 +1,27 @@
+﻿name: blitzash_UCG
+description: AAAAAAHHH UNCANNY CAT TOO SCARRY
+
+game: Uncanny Cat Golf
+requires:
+  version: 0.6.7
+  game:
+    Uncanny Cat Golf: 1.0.0
+
+Uncanny Cat Golf:
+  progression_balancing: normal
+  accessibility: full
+  goal_level: 5_18
+  prism_unlock_amount: 200
+  gimmick_lock: true
+  level_unlock_style: individual
+  minigames: false
+  world_5_levels: true
+  world_p_levels: false
+  world_e_levels: false
+  peak_checks: false
+  rank_check_difficulty: ok
+  temp_modifiers: true
+  chill_mode: false
+  panic_mode: false
+  death_link: false
+  death_link_amnesty: 10

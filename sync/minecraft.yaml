@@ -1,0 +1,26 @@
+﻿name: blitzashMC
+description: watching people play minecraft is awesome surely i will like actually playing it
+
+game: Minecraft
+requires:
+  version: 0.6.5
+  game:
+    Minecraft: 0.1.7
+
+Minecraft:
+  progression_balancing: normal
+  accessibility: full
+  advancement_goal: 50
+  egg_shards_required: 10
+  egg_shards_available: 15
+  required_bosses: ender_dragon
+  shuffle_structures: true
+  structure_compasses: true
+  combat_difficulty: normal
+    normal: 50
+  include_hard_advancements: false
+  include_unreasonable_advancements: false
+  include_postgame_advancements: false
+  bee_traps: 15
+  send_defeated_mobs: false
+  death_link: true

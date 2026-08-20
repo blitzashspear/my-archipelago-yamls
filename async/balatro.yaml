@@ -1,0 +1,38 @@
+﻿name: blitzashBalatro
+description: what was he cooking
+# ASYNC ONLY - its balatro bruh
+# Beat all decks on Black stake.
+
+game: Balatro
+requires:
+  version: 0.6.4
+
+Balatro:
+  progression_balancing: disabled
+  accessibility: full
+  goal: beat_decks_on_stake
+  decks_win_goal: 15
+  required_stake_for_goal:
+    ['Black Stake']
+  include_decksMode: choose
+  include_deckChoice:
+    ['Red Deck', 'Blue Deck', 'Yellow Deck', 'Green Deck', 'Black Deck', 'Magic Deck', 'Nebula Deck', 'Ghost Deck', 'Abandoned Deck', 'Checkered Deck', 'Zodiac Deck', 'Painted Deck', 'Anaglyph Deck', 'Plasma Deck', 'Erratic Deck']
+  stake_unlock_mode: stake_as_item_per_deck
+  include_stakesMode: choose
+  include_stakesList:
+    ['White Stake', 'Black Stake']
+  joker_bundles: false
+  remove_or_debuff_jokers: true
+  tarot_bundle: individual
+  planet_bundle: individual
+  spectral_bundle: individual
+  remove_or_debuff_consumables: true
+  decks_unlocked_from_start: 1
+  ap_consumable_items: 50
+  permanent_filler: 4
+  shop_items: 15
+  minimum_price: 1
+  maximum_price: 10
+  trap_amount: no_traps
+  deathlink: false
+  forceyaml: true

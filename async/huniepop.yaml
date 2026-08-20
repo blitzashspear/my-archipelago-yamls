@@ -1,0 +1,30 @@
+﻿name: blitzashHuniepop
+description: im sorry (no im not)
+# ASYNC ONLY - jorkin it during a sync is a bad idea.
+
+game: Hunie Pop
+requires:
+  version: 0.6.7
+  game:
+    Hunie Pop: 2.3.0
+
+Hunie Pop:
+  progression_balancing: disabled
+  accessibility: full
+  goal: panties
+  filler_item: filler
+  deathlink: disable
+  enabled_girls: ['tiffany', 'aiko', 'kyanna', 'nikki', 'beli', 'kyu', 'momo', 'celeste', 'venus']
+  number_of_starting_girls: 2
+  randomize_girl_gifts: full
+  randomize_girl_trait: true
+  progressive_dates: false
+  puzzle_moves: 20
+  puzzle_affection_base: 200
+  puzzle_affection_add: 100
+  number_shop_items: 0
+  exclude_shop_items: 20
+  shop_item_cost: single-1000
+  shop_gift_cost: single-500
+  shop_date_gift_cost: single-500
+  hunie_gift_cost: single-5000

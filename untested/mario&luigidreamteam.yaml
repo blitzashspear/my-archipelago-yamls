@@ -1,0 +1,24 @@
+﻿name: blitzashMLDT
+description: son im crine
+# ASYNC ONLY - jesus christ why would i run this in a sync
+
+game: Mario and Luigi Dream Team
+requires:
+  version: 0.6.7
+  game:
+    Mario and Luigi Dream Team: 0.1.2
+
+Mario and Luigi Dream Team:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+
+  ####################
+  # Gameplay Options #
+  ####################
+  second_hammer: mini_mario
+  reduce_mini: 'off'
+  reduce_ball_skips: 'on'
+  shopsanity: 'off'

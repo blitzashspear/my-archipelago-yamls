@@ -1,0 +1,43 @@
+﻿name: blitzashYDB
+description: god this dice game is so blissful
+
+game: Yacht Dice Bliss
+requires:
+  version: 0.6.7
+  game:
+    Yacht Dice Bliss: 2.3.4
+
+Yacht Dice Bliss:
+  progression_balancing: normal
+  accessibility: full
+  game_difficulty: hard
+  score_for_last_check: 999
+  score_for_goal: 999
+  minimal_number_of_dice_and_rolls: random
+  number_of_dice_fragments_per_dice: random
+  number_of_roll_fragments_per_roll: random
+  total_number_of_categories: 16
+  allowed_normal_categories:
+    ['Category Ones', 'Category Twos', 'Category Threes', 'Category Fours', 'Category Fives', 'Category Sixes', 'Category Choice', 'Category Inverse Choice', 'Category Pair', 'Category Three of a Kind', 'Category Four of a Kind', 'Category Tiny Straight', 'Category Small Straight', 'Category Large Straight', 'Category Full House', 'Category Yacht']
+  allowed_alternative_categories:
+    ['Category Two times Ones', 'Category Half of Sixes', 'Category Twos and Threes', 'Category Sum of Odds', 'Category Sum of Evens', 'Category Double Threes and Fours', 'Category Quadruple Ones and Twos', 'Category Micro Straight', 'Category Three Odds', 'Category Three Distinct Dice', 'Category Two Pair', 'Category Five Distinct Dice', 'Category 4&5 Full House', 'Category Pair SUM', 'Category Three of a Kind SUM', 'Category Four of a Kind SUM', 'Category Tiny Straight SUM', 'Category Small Straight SUM', 'Category Large Straight SUM', 'Category Full House SUM', 'Category Yacht SUM', 'Category Micro Straight SUM', 'Category Two Pair SUM']
+  percentage_alternative_categories: random
+  allowed_starting_categories: []
+  number_of_starting_categories: 2
+  weight_of_dice: 5
+  weight_of_roll: 20
+  weight_of_fixed_score_multiplier: 39
+  weight_of_step_score_multiplier: 0
+  weight_of_double_category: 50
+  double_category_calculation: increment
+  weight_of_points: 20
+  points_size: mix
+  minimize_extra_items: no_dont
+  add_bonus_points: sure
+  add_story_chapters: sure
+  which_story: random_story
+  include_scores: []
+  maximum_rng_in_itempool: 0
+  allow_manual_input: no_dont_allow
+  receive_death_link_toggle: true
+  send_death_link_toggle: false

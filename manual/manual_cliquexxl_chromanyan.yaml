@@ -1,0 +1,11 @@
+﻿name: blitzashXXL
+description: lowkirkuenly why did i do this
+
+game: Manual_CliqueXXL_ChromaNyan
+requires:
+  version: 0.6.6 
+
+Manual_CliqueXXL_ChromaNyan:
+  progression_balancing: disabled
+  accessibility: minimal
+  goal: buttonsanity

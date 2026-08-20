@@ -1,0 +1,13 @@
+﻿name: blitzashShaGen
+description: ow the edge
+
+game: Shadow Generations
+requires:
+  version: 0.6.7
+
+Shadow Generations:
+  progression_balancing: normal
+  accessibility: full
+  goal: defeat_black_doom
+  death_link: false
+  bolt_sanity: false

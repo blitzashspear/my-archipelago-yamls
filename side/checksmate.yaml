@@ -1,0 +1,33 @@
+﻿name: blitzashChess
+description: jet fuel doesnt melt steel beams
+
+game: ChecksMate
+requires:
+  version: 0.6.5
+
+ChecksMate:
+  progression_balancing:
+    normal: 50
+
+  accessibility:
+    full: 50
+
+  goal: progressive
+  difficulty: daily
+  enable_tactics: all
+  piece_locations: chaos
+  piece_types: stable
+  early_material: 'off'
+  max_engine_penalties: 5
+  max_pocket: 12
+  max_kings: 3
+  fairy_kings: 0
+  fairy_chess_pieces: fide
+  minor_piece_limit_by_type: disabled
+  major_piece_limit_by_type: disabled
+  queen_piece_limit_by_type: disabled
+  queen_piece_limit: disabled
+  pocket_limit_by_pocket: 3
+  locked_items: {}
+  death_link: false
+  asymmetric_trades: disabled

@@ -1,0 +1,35 @@
+﻿name: blitzashMKWii
+description: go go gadget funky kong flame runner
+
+game: Mario Kart Wii
+requires:
+  version: 0.6.7
+
+Mario Kart Wii:
+  progression_balancing: 25
+  accessibility: minimal
+  enabled_ccs: ['100cc', '150cc', '50cc']
+  enabled_cup_check_tiers: ['2nd_place', '1st_place', '3rd_place']
+  include_race_checks: true
+  cups_required_for_goal: 8
+  goal_difficulty: 1st_place
+  goal_cc: 150cc
+  enable_item_randomization: true
+  starting_items: []
+  random_item_mode: uniform
+  enable_traps: false
+  filler_item_queue_cap: 0
+  filler_weight_random: 50
+  filler_weight_mushroom: 20
+  filler_weight_triple_mushroom: 10
+  filler_weight_golden_mushroom: 5
+  filler_weight_star: 10
+  filler_weight_bullet_bill: 5
+  filler_weight_mega_mushroom: 5
+  filler_weight_blue_shell: 5
+  filler_weight_red_shell: 15
+  filler_weight_triple_red_shell: 5
+  filler_weight_bob_omb: 10
+  filler_weight_lightning_item: 5
+  filler_weight_blooper: 10
+  filler_weight_pow_block: 10

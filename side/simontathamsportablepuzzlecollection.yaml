@@ -1,0 +1,57 @@
+﻿name: blitzashSTPPC
+description: i forgot how to do half of these LMAO
+
+game: Simon Tatham's Portable Puzzle Collection
+requires:
+  version: 0.6.2 
+
+Simon Tatham's Portable Puzzle Collection:
+  progression_balancing: normal
+  accessibility: full
+  puzzle_count: 50
+  starting_puzzles: 1
+  completion_percentage: 80
+  min_difficulty: easy
+  max_difficulty: normal
+  genre_weights:
+    blackbox: 10
+    cube: 10
+    dominosa: 10
+    fifteen: 10
+    filling: 10
+    flip: 10
+    flood: 10
+    guess: 10
+    inertia: 10
+    keen: 10
+    lightup: 10
+    map: 10
+    net: 10
+    pattern: 10
+    pearl: 10
+    rect: 10
+    samegame: 10
+    signpost: 10
+    singles: 10
+    slant: 10
+    solo: 10
+    tents: 10
+    tracks: 10
+    twiddle: 10
+    unequal: 10
+    unruly: 10
+    untangle: 10
+
+    bridges: 0
+    galaxies: 0
+    loopy: 0
+    magnets: 0
+    mines: 0
+    mosaic: 0
+    netslide: 0
+    palisade: 0
+    pegs: 0
+    range: 0
+    sixteen: 0
+    towers: 0
+    undead: 0

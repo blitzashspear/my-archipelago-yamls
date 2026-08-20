@@ -1,0 +1,56 @@
+﻿name: blitzashSR
+description: THE SAMUS RETURNS... IS REAL!!!
+# ASYNC ONLY - game too long
+
+game: 'Metroid: Samus Returns'
+requires:
+  version: 0.6.7
+  game:
+    'Metroid: Samus Returns': 0.3.0
+
+'Metroid: Samus Returns':
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  dna_available: 20
+  dna_required: random-range-15-20
+  hints: true
+  death_link: true
+
+  #############
+  # Item Pool #
+  #############
+  local_dna: 0
+  shuffle_reserve_tanks: true
+  starting_scan_pulse: true
+
+  #########
+  # World #
+  #########
+  reverse_area_8: false
+
+  #########
+  # Logic #
+  #########
+  wall_jump: simple
+  super_jump: beginner
+  infinite_bomb_jump: vertical
+  damage_boost: disable
+  knowledge: disable
+  movement: simple
+  morph_extends: easy
+
+  ################
+  # Game Patches #
+  ################
+  tanks_refill_ammo: false
+
+  ############
+  # Cosmetic #
+  ############
+  display_room_names: true
+  fusion_suit: false
+  pickup_models: full
+  ap_item_models: generic

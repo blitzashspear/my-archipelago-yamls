@@ -1,0 +1,17 @@
+﻿name: blitzashXY
+description: why is this game so LONG
+
+game: Manual_XY_Snifit
+requires:
+  version: 0.6.6
+
+Manual_XY_Snifit:
+  progression_balancing: disabled
+  accessibility: minimal
+  game_version: x
+  hidden_items: true
+  dowsing_machine: true
+  npc_items: true
+  shop_tms: false
+  mega_evolutions: stones_only
+  roller_skates: false

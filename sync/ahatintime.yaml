@@ -1,0 +1,51 @@
+name: blitzashAHIT
+description: nobody is here to help
+
+game: A Hat in Time
+A Hat in Time:
+  progression_balancing: normal
+  accessibility: full
+  death_link: false
+  EndGoal: finale
+  ShuffleStorybookPages: true
+  ShuffleAlpineZiplines: true
+  ShuffleSubconPaintings: true
+  ShuffleActContracts: true
+  MinPonCost: 1
+  MaxPonCost: 200
+  BadgeSellerMinItems: 8
+  BadgeSellerMaxItems: 8
+  LogicDifficulty: normal
+  NoPaintingSkips: false
+  CTRLogic: time_stop_only
+  ActRandomizer: light
+  StartingChapter: 1
+  LowestChapterCost: 5
+  HighestChapterCost: 25
+  ChapterCostIncrement: 4
+  ChapterCostMinDifference: 4
+  FinalChapterMinCost: 40
+  FinalChapterMaxCost: 40
+  FinaleShuffle: false
+  StartWithCompassBadge: true
+  CompassBadgeMode: closest
+  RandomizeHatOrder: true
+  HatItems: true
+  UmbrellaLogic: false
+  MaxExtraTimePieces: 16
+  TimePieceBalancePercent: 35
+  EnableDLC1: true
+  Tasksanity: false
+  ExcludeTour: false
+  EnableDLC2: true
+  MetroMinPonCost: 50
+  MetroMaxPonCost: 200
+  NyakuzaThugMinShopItems: 4
+  NyakuzaThugMaxShopItems: 4
+  BaseballBat: true
+  NoTicketSkips: false
+  EnableDeathWish: false
+  TrapChance: 10
+  BabyTrapWeight: 0
+  LaserTrapWeight: 40
+  ParadeTrapWeight: 10

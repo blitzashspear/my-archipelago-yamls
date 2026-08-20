@@ -1,0 +1,83 @@
+﻿name: blitzashFusion
+description: the lore
+
+game: Metroid Fusion
+requires:
+  version: 0.6.6
+
+Metroid Fusion:
+  progression_balancing: 50
+  accessibility: full
+  allow_collecting_from: false #MWGG
+  death_link: false
+  GameMode: custom
+  InfantMetroidsInPool: 6
+  InfantMetroidsRequired: 6
+  InfantMetroidLocations: anywhere
+  EarlyProgression: advanced
+  SectorTubeShuffle: false
+  ElevatorShuffle: none
+  PointOfNoReturnsInLogic: false
+
+  #################
+  # Trick Options #
+  #################
+  ShinesparkTrickDifficulty:
+    none: 0
+    beginner: 50
+    advanced: 0
+
+  WallJumpTrickDifficulty:
+    none: 0
+    beginner: 0
+    advanced: 50
+
+  CombatDifficulty:
+    beginner: 50
+    advanced: 0
+    expert: 0
+
+  ############################
+  # Custom Game Mode Options #
+  ############################
+  StartingLocation: docking_bay
+  StartingMajorUpgrades: random-range-0-1
+  StartingEnergyTanks: 0
+
+  OpenSectorElevators:
+    false: 50
+    true: 50
+
+  SectorNavigationRoomHintLocks: true
+
+  PaletteRandomization:
+    false: 48
+    true: 2
+
+  EnableHints: true
+  RevealHiddenBlocks: true
+  FastDoorTransitions: true
+  MissileDataAmmo: 10
+  MissileTankAmmo: 5
+  PowerBombDataAmmo: 10
+  PowerBombTankAmmo: 2
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  start_hints:
+    - "Morph Ball"
+
+  # WE MUST KEEP THE LORE INTACT
+  plando_items:
+    - items:
+        Infant Metroid: 1
+      locations:
+        - "Main Deck -- Habitation Deck -- Animals"
+      from_pool: true
+      world: false
+      force: true
+
+  # PRAISE BOB
+  priority_locations:
+    - "Sector 3 (PYR) -- Bob's Abode"

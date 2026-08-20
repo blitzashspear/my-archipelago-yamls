@@ -1,0 +1,150 @@
+name: blitzashFRLG
+description: i have no funny quip for this one
+# ASYNC ONLY - TRAINERSANITY
+
+game: Pokemon FireRed and LeafGreen
+Pokemon FireRed and LeafGreen:
+  progression_balancing: disabled
+  accessibility: full
+  game_version: leafgreen
+  goal: champion_rematch
+  skip_elite_four: false
+  kanto_only: false
+  random_starting_town: true
+  starting_town_blacklist: []
+  shuffle_pokemon_centers: false
+  shuffle_gyms: false
+  shuffle_marts: false
+  shuffle_harbors: false
+  shuffle_buildings: "off"
+  shuffle_dungeons: "off"
+  shuffle_interiors: false
+  shuffle_warp_tiles: "off"
+  shuffle_dropdowns: "off"
+  mix_entrance_warp_pools: []
+  decouple_entrances_warps: false
+  randomize_fly_destinations: "off"
+  fly_destination_plando: {}
+  shuffle_badges: true
+  shuffle_hidden: "off"
+  extra_key_items: true
+  shopsanity: true
+  vending_machines: true
+  prizesanity: false
+  shop_slots: all
+  shop_prices: vanilla
+  consistent_shop_prices: true
+  trainersanity: all
+  rematchsanity: false
+  rematch_requirements: gyms
+  dexsanity: none
+  famesanity: false
+  shuffle_fly_unlocks: exclude_indigo
+  pokemon_request_locations: false
+  shuffle_pokedex: shuffle
+  shuffle_running_shoes: start_with
+  shuffle_berry_pouch: false
+  shuffle_tm_case: false
+  shuffle_jumping_shoes: false
+  post_goal_locations: false
+  card_key: vanilla
+  island_passes: vanilla
+  fishing_rods: vanilla
+  split_teas: false
+  gym_keys: false
+  itemfinder_required: logic
+  flash_required: logic
+  fame_checker_required: true
+  bicycle_requires_jumping_shoes: true
+  acrobatic_bicycle: true
+  evolutions_required:
+    - Dexsanity
+    - HM Requirement
+  evolution_methods_required:
+    - Evo & Held Item
+    - Evo Item
+    - Friendship
+    - Level
+    - Level Tyrogue
+    - Level Wurmple
+  viridian_city_roadblock: vanilla
+  pewter_city_roadblock: brock
+  modify_world_state: []
+  additional_dark_caves: []
+  remove_badge_requirement: []
+  oaks_aide_route_2: 5
+  oaks_aide_route_10: 10
+  oaks_aide_route_11: 15
+  oaks_aide_route_16: 20
+  oaks_aide_route_15: 25
+  fossil_count: 3
+  viridian_gym_requirement: badges
+  viridian_gym_count: 7
+  route22_gate_requirement: badges
+  route22_gate_count: 7
+  route23_guard_requirement: badges
+  route23_guard_count: 7
+  elite_four_requirement: badges
+  elite_four_count: 8
+  elite_four_rematch_count: 8
+  cerulean_cave_requirement: vanilla
+  cerulean_cave_count: 8
+  level_scaling: "off"
+  modify_trainer_levels: 100
+  force_fully_evolved: species
+  wild_pokemon: completely_random
+  wild_pokemon_groups: none
+  wild_pokemon_blacklist: []
+  starters: completely_random
+  starter_blacklist: []
+  trainers: completely_random
+  trainer_blacklist: []
+  legendary_pokemon: completely_random
+  legendary_pokemon_blacklist: []
+  misc_pokemon: completely_random
+  misc_pokemon_blacklist: []
+  types: vanilla
+  abilities: follow_evolutions
+  ability_blacklist: [
+    Wonder Guard
+  ]
+  moves: start_with_four_moves
+  move_match_type_bias: 25
+  move_normal_type_bias: 0
+  move_blacklist: []
+  base_stats: vanilla
+  physical_special_split: false
+  move_types: vanilla
+  damage_categories: vanilla
+  hm_compatibility: vanilla
+  tm_tutor_compatibility: vanilla
+  tm_tutor_moves: false
+  tm_tutor_moves_blacklist: []
+  reusable_tm_tutors: true
+  all_pokemon_seen: false
+  starting_money: 3000
+  better_shops: false
+  free_fly_location: false
+  free_fly_blacklist: []
+  town_map_fly_location: false
+  town_map_fly_blacklist: []
+  remote_items: true
+  randomize_music: false
+  randomize_fanfares: false
+  game_options:
+    Battle Scene: Set
+    Battle Style: Off
+    Bike Music: Off
+    Blind Trainers: On
+    Experience Distribution: Gen VIII
+    Frame: 3
+    Guaranteed Catch: On
+    Item Messages: Progression
+    Surf Music: Off
+    Text Speed: Instant
+  provide_hints: "off"
+  death_link: false
+  
+  exclude_locations: [
+    Pokedex Progress
+  ]

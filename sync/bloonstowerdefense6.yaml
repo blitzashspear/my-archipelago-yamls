@@ -1,0 +1,89 @@
+﻿name: blitzashBTD6
+description: funni monkey game
+
+game: Bloons TD6
+requires:
+  version: 0.6.7
+
+Bloons TD6:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  death_link: true
+
+  ################
+  # Goal Options #
+  ################
+  goal: default
+  total_medals: 100
+  medalreq: random-range-75-100
+
+  ###############
+  # Map Options #
+  ###############
+  mode_pool:
+    ['Easy', 'Medium', 'Hard', 'Impoppable']
+  modes_per_map: 4
+  random_mode_amount_per_map: false
+  total_maps: 15
+  starting_map_count: 3
+  min_map_diff: 0
+  max_map_diff: 1
+  map_blacklist: []
+  map_whitelist: []
+
+  ##################
+  # Monkey Options #
+  ##################
+  category_lock: false
+  starting_monkey: true
+  num_start_monkey: 1
+
+  #######################
+  # Progression Options #
+  #######################
+  progressive_knowledge: false
+  progressive_prices: true
+  max_level: 150
+  xp_curve: false
+  static_req: 5000
+
+  ###################
+  # Extra Locations #
+  ###################
+  pop_tier_checks: false
+  upgrade_sanity: false
+  round_sanity: 10
+  custom_round_checks: 
+    ["64", "68", "72", "76", "82", "84", "86", "88", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99"]
+
+  ################
+  # Trap Options #
+  ################
+  trap_percentage: 25
+  trap_weights:
+    # Specify the weights determining how many copies of each trap item will be in your itempool.
+    # If you don't want a specific type of trap, you can set the weight for it to 0.
+    # If you set all trap weights to 0, you will get no traps, bypassing the "Trap Percentage" option.
+    # For information on what the traps do, check the wiki: https://archipelago.miraheze.org/wiki/Bloons_TD6
+    Bee Trap: 10
+    Chaos Control Trap: 10
+    Flood Trap: 10
+    Freeze Trap: 10
+    Input Sequence Trap: 10
+    Literature Trap: 10
+    Math Quiz Trap: 10
+    Modified Bloons: 10
+    Number Sequence Trap: 10
+    Pokemon Trivia Trap: 10
+    Screen Flip Trap: 10
+    Shuffle Trap: 10
+    Speed Up Trap: 10
+    Swap Trap: 10
+    Trivia Trap: 10
+    Yap Trap: 10
+
+    144p Trap: 0
+    Zoom Trap: 0

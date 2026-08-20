@@ -1,0 +1,13 @@
+﻿name: blitzashJunko
+description: i will learn this game... eventually...
+
+game: Junko
+requires:
+  version: 0.6.6
+
+Junko:
+  progression_balancing: normal
+  accessibility: full
+  early_revolver: off
+  shuffle_strange_rocks: false
+  exclude_HIDDEN_orange_button: true

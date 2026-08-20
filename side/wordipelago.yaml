@@ -1,0 +1,35 @@
+﻿name: blitzashWordle
+description: xddddd ??? ? ? ?
+
+game: Wordipelago
+requires:
+  version: 0.6.4
+
+Wordipelago:
+  progression_balancing: normal
+  accessibility: full
+  starting_letters: 4
+  starting_guesses: 2
+  additional_guesses: 0
+  starting_cooldown: 120
+  yellow_unlocked: false
+  unused_letters_unlocked: false
+  shuffle_typing: none
+  word_checks: 20
+  word_streak_checks: 10
+  win_condition: words_and_streak
+  logic_difficulty: normal
+  word_weighting: 3
+  minimum_point_shop_checks: 10
+  point_shop_check_price: 300
+  green_checks: complete
+  yellow_checks: composition
+  letter_checks: all
+  time_reward_count: 12
+  time_reward_seconds: 10
+  extra_time_reward_percent: 0
+  shop_points_item_size: 100
+  shop_points_item_default_filler: false
+  bad_guess_trap_percent: 0
+  random_guess_trap_percent: 10
+  extra_cooldown_trap_percent: 10

@@ -1,0 +1,29 @@
+﻿name: blitzashClique
+description: oh fuck yeah im hard as a rock
+
+game: Clique
+requires:
+  version: 0.6.2 
+
+Clique:
+  # Game Options
+  progression_balancing: extreme
+  accessibility: full
+  plando_items: []
+
+  color:
+    red: 50
+    orange: 50
+    yellow: 50
+    green: 50
+    cyan: 50
+    blue: 50
+    magenta: 50
+    purple: 50
+    pink: 50
+    brown: 50
+    white: 0
+    black: 0
+
+  hard_mode: true
+  force_progression: true

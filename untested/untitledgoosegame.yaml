@@ -1,0 +1,47 @@
+﻿name: blitzashUGG
+description: honk
+
+game: Untitled Goose Game
+requires:
+  version: 0.6.6
+
+Untitled Goose Game:
+  progression_balancing: normal
+  accessibility: full
+  starting_area: random
+  goal: find_bell
+  include_npc_souls: true
+  logically_require_npc_souls: true
+  include_prop_souls: true
+  include_extra_tasks: true
+  include_speedrun_tasks: false
+  include_item_pickups: true
+  include_drag_items: true
+  include_interactions: true
+  include_model_church_pecks: all_pecks
+  include_milestone_locations: true
+  include_new_tasks: true
+    # - Break the intro gate
+    # - Drop some mail in the well
+    # - Short out the garden radio
+    # - Lock the groundskeeper IN the garden
+    # - Trap the TV shop owner in the garage
+    # - Break through the boards to the back gardens
+    # - Make the woman fix the topiary
+    # - Pose as a duck statue
+    # - Dress up the bush with both ribbons
+    # - Do some interior redecorating
+    # - Trip the burly man
+    # - Break a pint glass
+    # - Perform at the pub with a harmonica
+
+  filler_amount_mega_honk: 3
+  filler_amount_speedy_feet: 10
+  filler_active_silent_steps: true
+  filler_amount_goose_day: 3
+  filler_weight_coins: 50
+  trap_weight_tired_goose: 0
+  trap_weight_confused_feet: 0
+  trap_weight_butterbeak: 0
+  trap_weight_suspicious_goose: 0
+  death_link: false

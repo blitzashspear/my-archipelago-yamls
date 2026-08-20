@@ -1,0 +1,61 @@
+﻿name: blitzashSSBM
+description: i actually suck at this game
+
+game: Super Smash Bros. Melee
+requires:
+  version: 0.6.6
+
+Super Smash Bros. Melee:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  lottery_pool_mode: progressive
+
+  ####################
+  # Starting Options #
+  ####################
+  starting_character: random
+
+  ###################
+  # Trophy Settings #
+  ###################
+  trophies_required: 100
+  extra_trophies: 50
+
+  ##################
+  # Check Settings #
+  ##################
+  bonus_checks: false
+  event_checks: true
+  target_checks: true
+  ten_man_checks: true
+
+  #################
+  # Goal Settings #
+  #################
+  goal_giga_bowser: true
+  goal_crazy_hand: false
+  goal_event_51: false
+  goal_all_events: false
+  goal_all_targets: true
+
+  ################
+  # QOL Settings #
+  ################
+  solo_cstick_smash: true
+  disable_tap_jump: true
+
+  exclude_locations:
+    [
+      # Boring
+      "Training Mode - 10-Hit Combo",
+      "Training Mode - 20-Hit Combo",
+      "Event Match - Mario Bros. Madness",
+
+      # Too hard I suck
+      "Event Match - Seven Years",
+      "Adventure Mode - Giga Bowser Continueless",
+      "Event Match - The Showdown",
+    ]

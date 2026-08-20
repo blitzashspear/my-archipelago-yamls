@@ -1,0 +1,19 @@
+﻿name: blitzashSMO
+description: where the moons at? mario want boing boing!
+# ASYNC ONLY
+
+game: Super Mario Odyssey
+requires:
+  version: 0.6.6 
+
+Super Mario Odyssey:
+  progression_balancing: disabled
+  accessibility: full
+  goal: moon
+  story: 'off'
+  extra_moons: more
+  shop_sanity: 'on'
+  colors: chaos
+  counts: 'off'
+  capture_sanity: false
+  death_link: false

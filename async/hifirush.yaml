@@ -1,0 +1,24 @@
+﻿name: blitzashHiFiRush
+description: CHAI HEY HEY HEY CHAI HEY
+# ASYNC ONLY - Incredibly long game.
+
+game: Hi-Fi RUSH
+requires:
+  version: 0.6.7
+  game:
+    Hi-Fi RUSH: 0.3.1
+
+Hi-Fi RUSH:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  shuffle_chai_attacks: true
+  shuffle_peppermint_attacks: true
+  shuffle_macaron_attacks: true
+  shuffle_korsica_attacks: true
+  shuffle_special_attacks: true
+  shuffle_store_items: enabled
+  shuffle_chips: true
+  shuffle_vlogs: true

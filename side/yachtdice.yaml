@@ -1,0 +1,26 @@
+name: blitzashYD
+description: GOAT Dice
+
+game: Yacht Dice
+Yacht Dice:
+  progression_balancing: normal
+  accessibility: full
+  game_difficulty: hard
+  score_for_last_check: 999
+  score_for_goal: 999
+  minimal_number_of_dice_and_rolls: 5_dice_and_3_rolls
+  number_of_dice_fragments_per_dice: 5
+  number_of_roll_fragments_per_roll: 5
+  alternative_categories: 0
+  allow_manual_input: no_dont_allow
+  weight_of_dice: 5
+  weight_of_roll: 20
+  weight_of_fixed_score_multiplier: 30
+  weight_of_step_score_multiplier: 0
+  weight_of_double_category: 50
+  weight_of_points: 20
+  points_size: mix
+  minimize_extra_items: no_dont
+  add_bonus_points: sure
+  add_story_chapters: never
+  which_story: random_story

@@ -1,0 +1,27 @@
+name: blitzashTerraria
+game: Terraria
+description: I AM THE PROBLEM PLAYER!!!!
+# ASYNC ONLY - moon lord goal
+
+Terraria:
+  progression_balancing: '50'
+  accessibility: full
+  calamity: false
+  getfixedboi: false
+  goal: moon_lord
+  early_achievements: true
+  normal_achievements: true
+  grindy_achievements: false
+  fishing_achievements: false
+  fill_extra_checks_with: useful_items
+  death_link: false
+  exclude_locations:
+  - Old One's Army Tier 1
+  - Old One's Army Tier 2
+  - Old One's Army Tier 3
+  plando_items:
+    - items:
+        Hardmode
+      locations: non_early_locations
+      from_pool: true
+      force: true

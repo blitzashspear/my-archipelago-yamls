@@ -1,0 +1,52 @@
+﻿name: blitzashMKDS
+description: Random progression balancing (clueless). Time trials and balloon battles are excluded.
+
+game: Manual_MarioKartDS_Xanderoni
+requires:
+  version: 0.6.4
+
+Manual_MarioKartDS_Xanderoni: 
+  progression_balancing: random-range-low-0-50
+  accessibility: full
+
+  exclude_locations:
+    [
+      "Figure-8 Circuit (TA)",
+      "Yoshi Falls (TA)",
+      "Cheep Cheep Beach (TA)",
+      "Luigi's Mansion (TA)",
+      "Desert Hills (TA)",
+      "Delfino Square (TA)",
+      "Waluigi Pinball (TA)",
+      "Shroom Ridge (TA)",
+      "DK Pass (TA)",
+      "Tick-Tock Clock (TA)",
+      "Mario Circuit (TA)",
+      "Airship Fortress (TA)",
+      "Wario Stadium (TA)",
+      "Peach Gardens (TA)",
+      "Bowser Castle (TA)",
+      "Rainbow Road (TA)",
+      "SNES Mario Circuit 1 (TA)",
+      "N64 Moo Moo Farm (TA)",
+      "GBA Peach Circuit (TA)",
+      "GCN Luigi Circuit (TA)",
+      "SNES Donut Plains 1 (TA)",
+      "N64 Frappe Snowland (TA)",
+      "GBA Bowser Castle 2 (TA)",
+      "GCN Baby Park (TA)",
+      "SNES Koopa Beach 2 (TA)",
+      "N64 Choco Mountain (TA)",
+      "GBA Luigi Circuit (TA)",
+      "GCN Mushroom Bridge (TA)",
+      "SNES Choco Island 2 (TA)",
+      "N64 Banshee Boardwalk (TA)",
+      "GBA Sky Garden (TA)",
+      "GNC Yoshi Circuit (TA)",
+      "Nintendo DS (Balloon Battle)",
+      "Twilight House (Balloon Battle)",
+      "Palm Shore (Balloon Battle)",
+      "Tart Top (Balloon Battle)",
+      "N64 Block Fort (Balloon Battle)",
+      "GCN Pipe Plaza (Balloon Battle)"
+    ]

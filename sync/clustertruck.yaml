@@ -1,0 +1,24 @@
+﻿name: blitzashCT
+description: they are going to hate me
+
+game: ClusterTruck
+requires:
+  version: 0.6.4
+
+ClusterTruck:
+  progression_balancing: normal
+  accessibility: full
+  start_level: '1_1'
+  goal_level: '9_10'
+  goal_requirement: random-range-50-75
+  point_multiplier: 10
+  deathlink: true
+  deathlink_amnesty: 100
+  trap_percentage: random-range-0-25
+
+  #LOL FUNNY NUMBERS
+  priority_locations:
+  - 4-2,
+  - 6-7,
+  - 6-9,
+  - c-4

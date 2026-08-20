@@ -1,0 +1,15 @@
+﻿name: blitzashLeetCode
+description: i spent 4 years in college just to run this leetcode wrapper!
+
+game: ArchipelaCode
+requires:
+  version: 0.6.6
+  game:
+    ArchipelaCode: 0.0.1
+
+ArchipelaCode:
+  progression_balancing: normal
+  accessibility: full
+  EndGoal: 20
+  TotalProblemCount: 25
+  LanguageChoice: python

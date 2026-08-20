@@ -1,0 +1,16 @@
+﻿name: blitzashPLA
+description: EVERYTHING IS SPHERE 1 OH GOD
+
+game: Manual_PLA_Miro
+requires:
+  version: 0.6.6 
+
+Manual_PLA_Miro:
+  progression_balancing: normal
+  accessibility: full
+  wisps_total: 108
+  wisps_required: 100
+  fish_locations: all
+  alpha_locations: true
+  shiny_locations: 0
+  death_link: false

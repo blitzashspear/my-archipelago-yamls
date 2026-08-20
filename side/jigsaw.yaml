@@ -1,0 +1,50 @@
+﻿name: blitzashJigsaw
+description: Jigsaw, 100-200 pieces.
+
+game: Jigsaw
+requires:
+  version: 0.6.4 
+  game:
+    Jigsaw: 0.9.1
+
+Jigsaw:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+
+  ###############################
+  # Important options: gameplay #
+  ###############################
+  number_of_pieces: random-range-100-200
+  grid_type_and_rotations: square_no_rotation
+  uniform_piece_size: false
+  border_type: classic
+
+  ############################
+  # Important options: image #
+  ############################
+  orientation_of_image: landscape
+  which_image: random
+
+  ####################################################
+  # Optional options: extra pieces, items and checks #
+  ####################################################
+  percentage_of_extra_pieces: 5
+  minimum_number_of_pieces_per_bundle: 4
+  checks_out_of_logic: 0
+
+  #################################
+  # Optional options: piece order #
+  #################################
+  piece_order_type: random
+  strictness_piece_order_type: 75
+  piece_order: random_order
+  strictness_piece_order: 100
+
+  ###########################
+  # Optional options: other #
+  ###########################
+  enable_clues: true
+  total_size_of_image: 85
