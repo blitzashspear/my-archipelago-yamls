@@ -15,7 +15,7 @@ Garfield Kart - Furious Racing:
   accessibility: full
   single_lap_mode: false
   lap_count: 3
-  disable_cpu_items: true # I have to disable this, otherwise this game isnt sync viable.
+  disable_cpu_items: true # I have to set this to true, otherwise this game isnt sync viable.
   item_mania: false
   springs_only: false
 
