@@ -1,6 +1,6 @@
 game: Jigsaw
 name: blitzashJigsaw
-description: Jigsaw, 1000-1500 pieces.
+description: Jigsaw, 500-1000 pieces.
 # ASYNC ONLY - THAT'S A LOT OF PIECES
 
 Jigsaw:
@@ -13,7 +13,7 @@ Jigsaw:
   ###############################
   # Important options: gameplay #
   ###############################
-  number_of_pieces: random-range-1000-1500
+  number_of_pieces: random-range-high-500-1000
   grid_type_and_rotations: square_no_rotation
   uniform_piece_size: false
   border_type: classic
