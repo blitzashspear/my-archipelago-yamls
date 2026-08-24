@@ -1,0 +1,25 @@
+﻿name: blitzashFNAF
+description: He always comes back.
+
+game: Ultimate Custom Night
+requires:
+  version: 0.6.7
+  game:
+    Ultimate Custom Night: 0.1.1 
+
+Ultimate Custom Night:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  target_points: random-range-60-70
+  challenge_sanity: false
+  scare_sanity: false
+  hard_logic: false
+  trap_chance: 25
+  trap_chance_ex: 5
+  vanilla_dd: false
+  exclude_animatronics:
+    []
+  death_link: false
