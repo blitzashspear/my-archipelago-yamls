@@ -2,11 +2,6 @@
 description: im very hungry
 
 game: Hungry Pumkin
-requires:
-  version: 0.6.6
-  game:
-    Hungry Pumkin: 0.1.0
-
 Hungry Pumkin:
   progression_balancing: disabled
   accessibility: full

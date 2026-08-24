@@ -2,11 +2,6 @@ name: blitzashRefunct
 description: fucked up and evil refunct yaml. a glimpse into my dark and twisted mind
 
 game: Refunct
-requires:
-  version: 0.6.7
-  game:
-    Refunct: 1.2.2
-
 Refunct:
   progression_balancing: normal
   accessibility: full

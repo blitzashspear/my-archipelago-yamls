@@ -2,11 +2,6 @@ name: blitzash2048
 description: weeeeeee
 
 game: '2048'
-requires:
-  version: 0.6.7
-  game:
-    '2048': 1.1.1
-    
 '2048':
   progression_balancing: normal
   accessibility: full

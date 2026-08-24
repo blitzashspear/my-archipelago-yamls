@@ -2,11 +2,6 @@
 description: god this dice game is so blissful
 
 game: Yacht Dice Bliss
-requires:
-  version: 0.6.7
-  game:
-    Yacht Dice Bliss: 2.3.4
-
 Yacht Dice Bliss:
   progression_balancing: normal
   accessibility: full

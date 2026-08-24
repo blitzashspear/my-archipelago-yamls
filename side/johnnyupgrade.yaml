@@ -2,9 +2,6 @@
 description: kid named cool math games
 
 game: Johnny Upgrade
-requires:
-  version: 0.6.7
-
 Johnny Upgrade:
   progression_balancing: normal
   accessibility: full

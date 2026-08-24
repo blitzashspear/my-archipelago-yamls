@@ -2,11 +2,6 @@
 description: https://github.com/blitzashspear/ap-yhtwtg
 
 game: You Have to Win the Game
-requires:
-  version: 0.6.7
-  game:
-    You Have to Win the Game: 1.0.0
-
 You Have to Win the Game:
   ################
   # Game Options #

@@ -2,9 +2,6 @@
 description: oh fuck yeah im hard as a rock
 
 game: Clique
-requires:
-  version: 0.6.2 
-
 Clique:
   # Game Options
   progression_balancing: extreme

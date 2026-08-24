@@ -2,9 +2,6 @@
 description: xddddd ??? ? ? ?
 
 game: Wordipelago
-requires:
-  version: 0.6.4
-
 Wordipelago:
   progression_balancing: normal
   accessibility: full

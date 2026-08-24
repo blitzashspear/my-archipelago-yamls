@@ -1,7 +1,7 @@
-﻿game: Jigsaw
-name: blitzashJigsaw
+﻿name: blitzashJigsaw
 description: Jigsaw, 100-200 pieces.
 
+game: Jigsaw
 Jigsaw:
   ################
   # Game Options #

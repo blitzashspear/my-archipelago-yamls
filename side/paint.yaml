@@ -2,9 +2,6 @@
 description: je ne se quoi i am aurtistic
 
 game: Paint
-requires:
-  version: 0.6.1 
-
 Paint:
   progression_balancing: normal
   accessibility: full

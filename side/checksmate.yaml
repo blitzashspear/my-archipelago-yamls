@@ -2,16 +2,9 @@
 description: jet fuel doesnt melt steel beams
 
 game: ChecksMate
-requires:
-  version: 0.6.5
-
 ChecksMate:
-  progression_balancing:
-    normal: 50
-
-  accessibility:
-    full: 50
-
+  progression_balancing: normal
+  accessibility: full
   goal: progressive
   difficulty: daily
   enable_tactics: all

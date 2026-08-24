@@ -2,9 +2,6 @@
 description: i forgot how to do half of these LMAO
 
 game: Simon Tatham's Portable Puzzle Collection
-requires:
-  version: 0.6.2 
-
 Simon Tatham's Portable Puzzle Collection:
   progression_balancing: normal
   accessibility: full
