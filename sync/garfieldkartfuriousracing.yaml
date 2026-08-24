@@ -2,11 +2,6 @@
 description: lasaga
 
 game: Garfield Kart - Furious Racing
-requires:
-  version: 0.6.7
-  game:
-    Garfield Kart - Furious Racing: 1.0.0
-
 Garfield Kart - Furious Racing:
   ################
   # Game Options #

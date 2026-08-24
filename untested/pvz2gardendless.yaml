@@ -2,9 +2,6 @@
 description: brains
 
 game: PvZ2 Gardendless
-requires:
-  version: 0.6.7
-
 PvZ2 Gardendless:
   progression_balancing: normal
   accessibility: full

@@ -1,8 +1,8 @@
 name: blitzashShapez
-game: shapez
 description: he was reduced to a shape
 # ASYNC ONLY - i will sit and wait for my checks overnight
 
+game: shapez
 shapez:
   progression_balancing: disabled
   accessibility: full

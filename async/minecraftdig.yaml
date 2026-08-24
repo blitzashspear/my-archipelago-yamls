@@ -3,11 +3,6 @@ description: diggy diggy holes
 # ASYNC ONLY - 9 CHUNKS
 
 game: Minecraft Dig
-requires:
-  version: 0.6.6
-  game:
-    Minecraft Dig: 0.0.10
-
 Minecraft Dig:
   progression_balancing: disabled
   accessibility: full

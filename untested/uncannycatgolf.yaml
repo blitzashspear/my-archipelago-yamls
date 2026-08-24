@@ -2,11 +2,6 @@
 description: AAAAAAHHH UNCANNY CAT TOO SCARRY
 
 game: Uncanny Cat Golf
-requires:
-  version: 0.6.7
-  game:
-    Uncanny Cat Golf: 1.0.0
-
 Uncanny Cat Golf:
   progression_balancing: normal
   accessibility: full

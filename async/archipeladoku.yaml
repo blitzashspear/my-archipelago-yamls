@@ -3,9 +3,6 @@ description: add eggs
 # ASYNC ONLY - THAT'S A LOT OF BOARDS
 
 game: Archipeladoku
-requires:
-  version: 0.6.5 
-
 Archipeladoku:
   progression_balancing: disabled
   accessibility: full

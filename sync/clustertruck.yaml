@@ -2,9 +2,6 @@
 description: they are going to hate me
 
 game: ClusterTruck
-requires:
-  version: 0.6.4
-
 ClusterTruck:
   progression_balancing: normal
   accessibility: full

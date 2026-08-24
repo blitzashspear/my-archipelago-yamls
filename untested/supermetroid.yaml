@@ -2,9 +2,6 @@
 description: WHAT THE FUCK AM I DOING????
 
 game: Super Metroid
-requires:
-  version: 0.6.7 
-
 Super Metroid:
   ################
   # Game Options #

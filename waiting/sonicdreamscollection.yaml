@@ -2,11 +2,6 @@
 description: and they were roommates
 
 game: Sonic Dreams Collection
-requires:
-  version: 0.6.6
-  game:
-    Sonic Dreams Collection: 0.4.0
-
 Sonic Dreams Collection:
   progression_balancing: disabled
   accessibility: full

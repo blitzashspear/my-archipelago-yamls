@@ -2,11 +2,6 @@
 description: tears of genuine joy have been shred today
 
 game: New Super Mario Bros. DS
-requires:
-  version: 0.6.7
-  game:
-    New Super Mario Bros. DS: 0.4.2
-
 New Super Mario Bros. DS:
   ################
   # Game Options #

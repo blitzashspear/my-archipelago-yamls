@@ -2,9 +2,6 @@
 description: ow the edge
 
 game: Shadow Generations
-requires:
-  version: 0.6.7
-
 Shadow Generations:
   progression_balancing: normal
   accessibility: full

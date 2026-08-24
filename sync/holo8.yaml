@@ -2,11 +2,6 @@
 description: HELP ME IM STUCK ON FLOOR8 HELPP PLEAS EHLP ME
 
 game: holo8
-requires:
-  version: 0.6.7
-  game:
-    holo8: 0.3.0
-
 holo8:
   progression_balancing: normal
   accessibility: full

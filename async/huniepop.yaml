@@ -3,11 +3,6 @@ description: im sorry (no im not)
 # ASYNC ONLY - jorkin it during a sync is a bad idea.
 
 game: Hunie Pop
-requires:
-  version: 0.6.7
-  game:
-    Hunie Pop: 2.3.0
-
 Hunie Pop:
   progression_balancing: disabled
   accessibility: full

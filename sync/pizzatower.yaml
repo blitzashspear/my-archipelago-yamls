@@ -2,9 +2,6 @@ name: blitzashPT
 description: Pizza Tower Stress Disorder
 
 game: Pizza Tower
-requires:
-  version: 0.6.3
-
 Pizza Tower:
   progression_balancing: normal
   accessibility: full

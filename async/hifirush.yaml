@@ -3,11 +3,6 @@ description: CHAI HEY HEY HEY CHAI HEY
 # ASYNC ONLY - Incredibly long game.
 
 game: Hi-Fi RUSH
-requires:
-  version: 0.6.7
-  game:
-    Hi-Fi RUSH: 0.3.1
-
 Hi-Fi RUSH:
   ################
   # Game Options #

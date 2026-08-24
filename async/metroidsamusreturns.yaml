@@ -3,11 +3,6 @@ description: THE SAMUS RETURNS... IS REAL!!!
 # ASYNC ONLY - game too long
 
 game: 'Metroid: Samus Returns'
-requires:
-  version: 0.6.7
-  game:
-    'Metroid: Samus Returns': 0.3.0
-
 'Metroid: Samus Returns':
   ################
   # Game Options #

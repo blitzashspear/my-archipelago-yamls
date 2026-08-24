@@ -2,9 +2,6 @@
 description: funni monkey game
 
 game: Bloons TD6
-requires:
-  version: 0.6.7
-
 Bloons TD6:
   ################
   # Game Options #

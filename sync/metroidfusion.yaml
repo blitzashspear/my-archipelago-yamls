@@ -2,9 +2,6 @@
 description: the lore
 
 game: Metroid Fusion
-requires:
-  version: 0.6.6
-
 Metroid Fusion:
   progression_balancing: 50
   accessibility: full

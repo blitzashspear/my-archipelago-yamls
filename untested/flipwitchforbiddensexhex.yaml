@@ -2,9 +2,6 @@
 description: this game is gay as fuck
 
 game: Flipwitch Forbidden Sex Hex
-requires:
-  version: 0.6.7
-
 Flipwitch Forbidden Sex Hex:
   ################
   # Game Options #

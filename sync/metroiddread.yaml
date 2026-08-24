@@ -2,11 +2,6 @@
 description: nobody can take this away from me.
 
 game: Metroid Dread
-requires:
-  version: 0.6.7 
-  game:
-    Metroid Dread: 0.6.0 
-
 Metroid Dread:
   progression_balancing: random-range-25-50
   accessibility: minimal

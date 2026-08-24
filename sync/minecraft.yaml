@@ -2,11 +2,6 @@
 description: watching people play minecraft is awesome surely i will like actually playing it
 
 game: Minecraft
-requires:
-  version: 0.6.5
-  game:
-    Minecraft: 0.1.7
-
 Minecraft:
   progression_balancing: normal
   accessibility: full

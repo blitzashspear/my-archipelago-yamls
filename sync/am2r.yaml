@@ -2,11 +2,6 @@
 description: dont let the main server see this one
 
 game: AM2R
-requires:
-  version: 0.6.6 
-  game:
-    AM2R: 1.4.3 
-
 AM2R:
   progression_balancing: normal
   accessibility: full

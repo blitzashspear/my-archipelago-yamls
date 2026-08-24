@@ -4,9 +4,6 @@ description: what was he cooking
 # Beat all decks on Black stake.
 
 game: Balatro
-requires:
-  version: 0.6.4
-
 Balatro:
   progression_balancing: disabled
   accessibility: full

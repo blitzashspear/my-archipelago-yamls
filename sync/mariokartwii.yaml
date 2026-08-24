@@ -2,9 +2,6 @@
 description: go go gadget funky kong flame runner
 
 game: Mario Kart Wii
-requires:
-  version: 0.6.7
-
 Mario Kart Wii:
   progression_balancing: 25
   accessibility: minimal

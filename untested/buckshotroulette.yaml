@@ -2,11 +2,6 @@
 description: lets go gambling (insert laugh track here)
 
 game: Buckshot Roulette
-requires:
-  version: 0.6.6
-  game:
-    Buckshot Roulette: 0.4.0
-
 Buckshot Roulette:
   progression_balancing: normal
   accessibility: full

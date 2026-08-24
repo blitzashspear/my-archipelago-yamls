@@ -2,9 +2,6 @@
 description: honk
 
 game: Untitled Goose Game
-requires:
-  version: 0.6.6
-
 Untitled Goose Game:
   progression_balancing: normal
   accessibility: full

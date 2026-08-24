@@ -4,10 +4,6 @@ description: use this yaml if you want to be a pegger
 game:
   Peggle Deluxe: 50
   Peggle Nights: 50
-requires:
-  version: 0.6.7
-  game:
-    Peggle Deluxe: 1.3.0
 
 Peggle Deluxe:
   progression_balancing: normal

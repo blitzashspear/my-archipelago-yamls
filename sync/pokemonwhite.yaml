@@ -1,6 +1,7 @@
-game: Pokemon Black and White
 name: blitzashBW
 description: every copy of pokemon white is personalized
+
+game: Pokemon Black and White
 Pokemon Black and White:
   progression_balancing: normal
   accessibility: full
@@ -21,12 +22,9 @@ Pokemon Black and White:
     [Ban bad filler, Useful filler]
   modify_logic: 
     [Require Dowsing Machine, Require Flash]
-
   adjust_levels: # DO NOT DELETE THIS LINE!!!! DEFAULT IS [Wild, Trainer]!!!
     []
-    
   reusable_tms: im_not_a_masochist
-
   start_inventory_from_pool:
     Bicycle: 1
     HM02 Fly: 1

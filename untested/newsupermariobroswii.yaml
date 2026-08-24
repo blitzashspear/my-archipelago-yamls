@@ -2,11 +2,6 @@
 description: why did my dad put the weather app on my wii bro
 
 game: NSMBW
-requires:
-  version: 0.6.7
-  game:
-    NSMBW: 0.2.2
-
 NSMBW:
   ################
   # Game Options #

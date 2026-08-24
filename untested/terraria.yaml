@@ -1,8 +1,8 @@
 name: blitzashTerraria
-game: Terraria
 description: I AM THE PROBLEM PLAYER!!!!
 # ASYNC ONLY - moon lord goal
 
+game: Terraria
 Terraria:
   progression_balancing: '50'
   accessibility: full

@@ -2,9 +2,6 @@
 description: everybody super sonic racin- oh shit wrong game
 
 game: Sonic Generations
-requires:
-  version: 0.6.6
-
 Sonic Generations:
   progression_balancing: normal
   accessibility: full

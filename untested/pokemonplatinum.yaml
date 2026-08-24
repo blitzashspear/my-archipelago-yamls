@@ -2,11 +2,6 @@
 description: can the hp bar move faster pls
 
 game: Pokemon Platinum
-requires:
-  version: 0.6.7
-  game:
-    Pokemon Platinum: 0.2.0
-
 Pokemon Platinum:
   ################
   # Game Options #

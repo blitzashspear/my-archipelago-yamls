@@ -2,9 +2,6 @@
 description: i actually suck at this game
 
 game: Super Smash Bros. Melee
-requires:
-  version: 0.6.6
-
 Super Smash Bros. Melee:
   ################
   # Game Options #

@@ -2,11 +2,6 @@
 description: Archipelago Game Jam (May 22nd 2026)
 
 game: Sweet Defeat
-requires:
-  version: 0.6.7
-  game:
-    Sweet Defeat: 1.3.0
-
 Sweet Defeat:
   progression_balancing: normal
   accessibility: full

@@ -2,11 +2,6 @@
 description: I HAVE A STRUCTUED SETTLEMENT AND I NEED CASH NOW!!!
 
 game: Candy Box 2
-requires:
-  version: 0.6.7 
-  game:
-    Candy Box 2: 1.20260816.1 
-
 Candy Box 2:
   ################
   # Game Options #

@@ -2,11 +2,6 @@
 description: chat shes so bad
 
 game: Cowtastic Cafe
-requires:
-  version: 0.6.7
-  game:
-    Cowtastic Cafe: 1.0.1
-
 Cowtastic Cafe:
   progression_balancing: normal
   accessibility: full

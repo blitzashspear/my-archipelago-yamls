@@ -3,11 +3,6 @@ description: Inventory clutter!!! I love bloat!!!
 # ASYNC ONLY - 1000 ITEM GOAL
 
 game: Minecraft Fabric
-requires:
-  version: 0.6.7
-  game:
-    Minecraft Fabric: 1.1.1
-
 Minecraft Fabric:
   progression_balancing: 50
   accessibility: full

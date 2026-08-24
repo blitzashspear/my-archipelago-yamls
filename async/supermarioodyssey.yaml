@@ -3,9 +3,6 @@ description: where the moons at? mario want boing boing!
 # ASYNC ONLY
 
 game: Super Mario Odyssey
-requires:
-  version: 0.6.6 
-
 Super Mario Odyssey:
   progression_balancing: disabled
   accessibility: full

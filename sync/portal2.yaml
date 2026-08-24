@@ -2,11 +2,6 @@
 description: The part where he randomizes you.
 
 game: Portal 2
-requires:
-  version: 0.6.6
-  game:
-    Portal 2: 0.5.2
-
 Portal 2:
   ################
   # Game Options #

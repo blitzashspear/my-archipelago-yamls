@@ -2,11 +2,6 @@
 description: He always comes back.
 
 game: Ultimate Custom Night
-requires:
-  version: 0.6.7
-  game:
-    Ultimate Custom Night: 0.1.1 
-
 Ultimate Custom Night:
   ################
   # Game Options #

@@ -2,9 +2,6 @@
 description: i ate a bagel. boom. dependency.
 
 game: Tetris
-requires:
-  version: 0.6.5 
-
 Tetris:
   progression_balancing: normal
   accessibility: full
