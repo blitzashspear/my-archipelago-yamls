@@ -1,0 +1,12 @@
+﻿name: blitzashNPuzzle
+description: https://github.com/blitzashspear/ap-n-puzzle
+
+game: n-Puzzle
+n-Puzzle:
+  progression_balancing: disabled
+  accessibility: full
+  size: 
+    3x3: 45
+    4x4: 5
+    5x5: 0
+    6x6: 0

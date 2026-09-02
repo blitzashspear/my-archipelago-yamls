@@ -1,0 +1,17 @@
+﻿name: blitzashBlender
+description: Default Blender Template
+
+game: Blender
+Blender:
+  progression_balancing: normal
+  accessibility: full
+  min_percent: 5
+  max_percent: 75
+  goal_percent: 75
+  progressive_render_width_max: 2
+  progressive_render_height_max: 2
+  check_count: 30
+  trap_count: 5
+  full_arsenal_duration: 30
+  despair: true
+  death_link: false

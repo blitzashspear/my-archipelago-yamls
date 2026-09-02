@@ -1,0 +1,81 @@
+﻿name: blitzashSM
+description: WHAT THE FUCK AM I DOING????
+
+game: Super Metroid
+Super Metroid:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  start_inventory_removes_from_pool: true
+  remote_items: false
+  death_link: disable
+
+  #########
+  # Logic #
+  #########
+  preset: newbie
+  max_difficulty: easy
+  start_location: ceres
+
+  ##########################
+  # Objectives and Endgame #
+  ##########################
+  objective:
+    ['kill all G4']
+  custom_objective: false
+  tourian: vanilla
+  escape_rando: false
+  remove_escape_enemies: false
+  animals: true
+
+  ####################
+  # Areas and Layout #
+  ####################
+  area_randomization: off
+  area_layout: true
+  doors_colors_rando: true
+  allow_grey_doors: false
+  boss_randomization: false
+  layout_patches: true
+
+  #############
+  # Item Pool #
+  #############
+  morph_placement: early
+  strict_minors: false
+  missile_qty: 30
+  super_qty: 20
+  power_bomb_qty: 10
+  minor_qty: 100
+  energy_qty: vanilla
+  fun_combat: false
+  fun_movement: false
+  fun_suits: false
+
+  ###############
+  # Misc Tweaks #
+  ###############
+  varia_tweaks: true
+  gravity_behaviour: progressive
+  nerfed_charge: false
+  spin_jump_restart: false
+  rando_speed: false
+  infinite_space_jump: false
+  relaxed_round_robin_cf: false
+
+  ###################
+  # Quality of Life #
+  ###################
+  elevators_speed: true
+  fast_doors: true
+  refill_before_save: true
+
+  ############
+  # Cosmetic #
+  ############
+  hud: true
+  hide_items: false
+  no_music: false
+  random_music: false
