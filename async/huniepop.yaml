@@ -9,11 +9,11 @@ Hunie Pop:
   goal: panties
   filler_item: filler
   deathlink: disable
-  enabled_girls: ['tiffany', 'aiko', 'kyanna', 'nikki', 'beli', 'kyu', 'momo', 'celeste', 'venus']
-  number_of_starting_girls: 2
+  enabled_girls: ['tiffany', 'aiko', 'kyanna', 'nikki', 'beli', 'kyu', 'lola', 'celeste', 'venus'] # Removed Momo, Jessie, Audrey
+  number_of_starting_girls: 1
   randomize_girl_gifts: full
   randomize_girl_trait: true
-  progressive_dates: false
+  progressive_dates: true
   puzzle_moves: 20
   puzzle_affection_base: 200
   puzzle_affection_add: 100

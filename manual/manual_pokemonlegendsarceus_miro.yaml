@@ -2,9 +2,6 @@
 description: EVERYTHING IS SPHERE 1 OH GOD
 
 game: Manual_PLA_Miro
-requires:
-  version: 0.6.6 
-
 Manual_PLA_Miro:
   progression_balancing: normal
   accessibility: full

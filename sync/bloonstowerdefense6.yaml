@@ -14,8 +14,8 @@ Bloons TD6:
   # Goal Options #
   ################
   goal: default
-  total_medals: 100
-  medalreq: random-range-75-100
+  total_medals: 50
+  medalreq: random-range-50-75
 
   ###############
   # Map Options #

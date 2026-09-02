@@ -1,10 +1,7 @@
 ﻿name: blitzashShower
-description: Default Manual_TakeAShower_Hermes Template
+description: hot shower > cold shower
 
 game: Manual_TakeAShower_Hermes
-requires:
-  version: 0.6.7
-
 Manual_TakeAShower_Hermes:
   progression_balancing: normal
   accessibility: full

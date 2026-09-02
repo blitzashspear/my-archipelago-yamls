@@ -4,7 +4,7 @@ description: I AM THE PROBLEM PLAYER!!!!
 
 game: Terraria
 Terraria:
-  progression_balancing: '50'
+  progression_balancing: disabled
   accessibility: full
   calamity: false
   getfixedboi: false

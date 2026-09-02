@@ -3,11 +3,6 @@ description: haha i shortented pokepelago to pp please laugh
 # ASYNC ONLY - ALL REGIONS ENABLED
 
 game: Pokepelago
-requires:
-  version: 0.6.7
-  game:
-    Pokepelago: 0.6.2
-
 Pokepelago:
   ################
   # Game Options #

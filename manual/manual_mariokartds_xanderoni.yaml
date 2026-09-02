@@ -1,12 +1,9 @@
 ﻿name: blitzashMKDS
-description: Random progression balancing (clueless). Time trials and balloon battles are excluded.
+description: Time trials and balloon battles excluded.
 
 game: Manual_MarioKartDS_Xanderoni
-requires:
-  version: 0.6.4
-
 Manual_MarioKartDS_Xanderoni: 
-  progression_balancing: random-range-low-0-50
+  progression_balancing: 25
   accessibility: full
 
   exclude_locations:

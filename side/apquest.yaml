@@ -1,7 +1,10 @@
 name: blitzashAPQuest
 description: minus 20 seconds
 
-game: APQuest
+game: 
+  APQuest: 50
+  GBAPQuest: 50
+
 APQuest:
   progression_balancing: disabled
   accessibility: full
@@ -12,3 +15,11 @@ APQuest:
   trap_chance: '0'
   confetti_explosiveness: random
   player_sprite: random
+
+GBAPQuest:
+  progression_balancing: disabled
+  accessibility: full
+  hard_mode: true
+  hammer: true
+  extra_starting_chest: false
+  start_with_one_confetti_cannon: true

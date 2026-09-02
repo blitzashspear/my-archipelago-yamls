@@ -2,9 +2,6 @@
 description: CARPAL TUNNEL YAY
 
 game: Manual_CliqueXXXL10kButtons_creativebananaman
-requires:
-  version: 0.6.6 
-
 Manual_CliqueXXXL10kButtons_creativebananaman:
   progression_balancing: disabled
   accessibility: minimal

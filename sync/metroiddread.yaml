@@ -3,7 +3,7 @@ description: nobody can take this away from me.
 
 game: Metroid Dread
 Metroid Dread:
-  progression_balancing: random-range-25-50
+  progression_balancing: 30
   accessibility: minimal
   starting_area: artaria
   door_lock_rando: individual_doors
@@ -83,19 +83,3 @@ Metroid Dread:
   trick_cross_bomb_launch: disabled
   trick_floor_clip: disabled
   trick_climb_sloped_surfaces: disabled
-
-  # COMMENTED OUT BECAUSE NONE OF YOU CAN LISTEN TO ME WHEN I SAY "DON'T WORRY ABOUT MY DNA"
-  # start_hints:
-  # # My go mode items
-  #   ["Metroid DNA 1", "Metroid DNA 2", "Metroid DNA 3", "Metroid DNA 4", "Metroid DNA 5", "Metroid DNA 6", "Metroid DNA 7", "Metroid DNA 8", "Metroid DNA 9", "Metroid DNA 10"]
-
-  exclude_locations:
-  # Excluding Elun because warping currently breaks.
-  - "Elun: Ammo Recharge Station"
-  - "Elun: Plasma Beam Room"
-  - "Elun: Vertical Bomb Maze"
-  - "Elun: Fan Room"
-  - "Elun: Horizontal Bomb Maze"
-  # These require Elun entry
-  - "Cataris: Experiment Z-57"
-  - "Ghavoran: Golzuna"

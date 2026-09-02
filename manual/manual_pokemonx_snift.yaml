@@ -2,9 +2,6 @@
 description: why is this game so LONG
 
 game: Manual_XY_Snifit
-requires:
-  version: 0.6.6
-
 Manual_XY_Snifit:
   progression_balancing: disabled
   accessibility: minimal
