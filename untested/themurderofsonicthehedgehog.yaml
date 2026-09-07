@@ -1,0 +1,13 @@
+﻿name: blitzashTMOSTH
+description: they fucking got him
+
+game: The Murder of Sonic the Hedgehog
+The Murder of Sonic the Hedgehog:
+  progression_balancing: normal
+  accessibility: full
+  progression_mode: car_rando
+  car_dupe: 1
+  inv_dupe: 1
+  choice_sanity: off
+  deduction_sanity: off
+  runner_sanity: true
