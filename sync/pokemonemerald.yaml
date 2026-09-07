@@ -3,6 +3,9 @@ description: wowee its like im playing rom hacks again
 
 game: Pokemon Emerald
 Pokemon Emerald:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   goal: champion
@@ -61,6 +64,9 @@ Pokemon Emerald:
   enable_wonder_trading: true
   easter_egg: EMERALD SECRET
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   # No I am not playing your coin game fuck off and die.
   exclude_locations:
     [TM10 from Hidden Power Lady]

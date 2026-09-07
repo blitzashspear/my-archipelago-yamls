@@ -3,6 +3,9 @@ description: they are going to hate me
 
 game: ClusterTruck
 ClusterTruck:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   start_level: '1_1'
@@ -13,6 +16,9 @@ ClusterTruck:
   deathlink_amnesty: 100
   trap_percentage: random-range-0-25
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   #LOL FUNNY NUMBERS
   priority_locations:
   - 2-1

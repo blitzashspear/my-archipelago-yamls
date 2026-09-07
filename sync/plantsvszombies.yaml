@@ -163,5 +163,8 @@ Plants vs. Zombies:
   lawn_flip_trap_weight: 10
   lawn_randomiser_trap_weight: 10
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   non_local_items:
   - 'Random Seed Packet'

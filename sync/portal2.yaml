@@ -31,7 +31,8 @@ Portal 2:
   cube_confetti_trap_weight: medium
   slippery_floor_trap_weight: medium
   
+  ###########################
+  # Item & Location Options #
+  ###########################
   exclude_locations:
-    [
-      "Wheatley Monitor 11"
-    ]
+    - "Wheatley Monitor 11"

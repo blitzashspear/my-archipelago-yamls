@@ -4,6 +4,9 @@ description: fucked up and evil refunct yaml. a glimpse into my dark and twisted
 
 game: Refunct
 Refunct:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   amount_of_grass: 100
@@ -31,6 +34,9 @@ Refunct:
     Vanilla Minigame: 1
   traps: pretty
   death_link: true
-
+  
+  ###########################
+  # Item & Location Options #
+  ###########################
   priorty_locations:
   - Clique: The Button

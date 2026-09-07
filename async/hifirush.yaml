@@ -4,9 +4,6 @@ description: CHAI HEY HEY HEY CHAI HEY
 
 game: Hi-Fi RUSH
 Hi-Fi RUSH:
-  ################
-  # Game Options #
-  ################
   progression_balancing: disabled
   accessibility: full
   shuffle_chai_attacks: true

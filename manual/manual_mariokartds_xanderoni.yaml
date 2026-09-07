@@ -3,9 +3,15 @@ description: Time trials and balloon battles excluded.
 
 game: Manual_MarioKartDS_Xanderoni
 Manual_MarioKartDS_Xanderoni: 
+  ################
+  # Game Options #
+  ################
   progression_balancing: 25
   accessibility: full
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   exclude_locations:
     [
       "Figure-8 Circuit (TA)",

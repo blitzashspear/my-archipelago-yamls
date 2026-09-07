@@ -3,6 +3,9 @@ description: i have no funny quip for this one
 
 game: Pokemon FireRed and LeafGreen
 Pokemon FireRed and LeafGreen:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   game_version: firered
@@ -143,7 +146,9 @@ Pokemon FireRed and LeafGreen:
     Text Speed: Instant
   provide_hints: "off"
   death_link: false
-  
-  exclude_locations: [
-    Pokedex Progress
-  ]
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  exclude_locations: 
+    - Pokedex Progress

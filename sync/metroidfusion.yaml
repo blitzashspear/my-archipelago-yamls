@@ -3,6 +3,9 @@ description: the lore
 
 game: Metroid Fusion
 Metroid Fusion:
+  ################
+  # Game Options #
+  ################
   progression_balancing: 50
   accessibility: full
   allow_collecting_from: false #MWGG

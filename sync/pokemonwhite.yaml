@@ -3,6 +3,9 @@ description: every copy of pokemon white is personalized
 
 game: Pokemon Black and White
 Pokemon Black and White:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   version: white
@@ -85,16 +88,6 @@ Pokemon Black and White:
       "Victory Road Outside - Item #6"
     ]
 
-  # if i get BKed behind any of these items im GOING TO BE VERY SAD
-  plando_items: 
-    - items:
-        Parcel: 1
-        Loot Sack: 1
-      locations: early_locations
-      from_pool: true
-      world: false
-      force: true
-
   plugin_options:
     qol:
       skip_intro: false
@@ -120,3 +113,16 @@ Pokemon Black and White:
       fast_hatch: true
 
     starter_rando: true
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  # if i get BKed behind any of these items im GOING TO BE VERY SAD
+  plando_items: 
+    - items:
+        Parcel: 1
+        Loot Sack: 1
+      locations: early_locations
+      from_pool: true
+      world: false
+      force: true

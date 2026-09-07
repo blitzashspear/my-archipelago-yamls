@@ -4,6 +4,9 @@ description: every copy of pokemon black is personalized
 
 game: Pokemon Black and White
 Pokemon Black and White:
+  ################
+  # Game Options #
+  ################
   progression_balancing: disabled
   accessibility: full
   version: black

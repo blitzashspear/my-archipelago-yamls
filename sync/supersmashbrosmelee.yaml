@@ -44,6 +44,9 @@ Super Smash Bros. Melee:
   solo_cstick_smash: true
   disable_tap_jump: true
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   exclude_locations:
     [
       # Boring

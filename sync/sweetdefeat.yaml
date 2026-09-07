@@ -3,12 +3,19 @@ description: Archipelago Game Jam (May 22nd 2026)
 
 game: Sweet Defeat
 Sweet Defeat:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   death_link: false
   breath_link: true
   exclude_level_type: exclude_invisible
   hard_skips: false
+  
+  ###########################
+  # Item & Location Options #
+  ###########################
   exclude_locations:
   # This level sucks.
   - Normal Level 29

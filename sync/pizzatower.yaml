@@ -1,50 +1,52 @@
-name: blitzashPT
+﻿name: blitzashPT
 description: Pizza Tower Stress Disorder
 
 game: Pizza Tower
 Pizza Tower:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
+
+  ###################
+  # General Options #
+  ###################
   character: peppino
+  difficulty: normal
+  completion_goal: ctop
+  open_world: false
+  bonus_ladders: 0
+  snotty_floor: random
+  death_link: false
+  ring_link: true
+
+  ################
+  # Boss Options #
+  ################
   toppin_count: 100
   floor_1_cost: 10
   floor_2_cost: 30
   floor_3_cost: 50
   floor_4_cost: 70
   floor_5_cost: 90
+  shuffle_boss_keys: true
+
+  ################
+  # Extra Checks #
+  ################
   treasure_checks: true
   secret_checks: true
   srank_checks: false
   prank_checks: false
   cheftask_checks: false
-  shuffle_boss_keys: true
-  randomize_levels: false
-  randomize_bosses: false
-  randomize_secrets: false
-  open_world: false
-  bonus_ladders: 0
+  pumpkin_checks: false
+
+  ####################
+  # Filler and Traps #
+  ####################
   trap_percentage: 20
-  jumpscare: true
-  difficulty: normal
-  do_move_rando: true
-  move_rando_list:
-    ['Mach 4', 'Uppercut', 'Superjump', 'Grab', 'Taunt', 'Supertaunt', 'Bodyslam', 'Breakdance', 'Wallclimb', 'Double Jump', 'Rat Kick', 'Spin Attack', 'Wallbounce', 'Tornado', 'Crusher', 'Bomb']
-  do_transfo_rando: true
-  transfo_rando_list:
-    ['Ball', 'Knight', 'Firemouth', 'Ghost', 'Mort', 'Weenie', 'Barrel', 'Olive Bubble', 'Rocket', 'Pizzabox', 'Sticky Cheese', "Satan's Choice", 'Shotgun', 'Revolver']
-  death_link: false
-  ring_link: true
   clothing_filler: true
-  shuffle_lap2: true
-
-  trap_weights:
-    Clown Trap: 20
-    Fake Santa Trap: 20
-    Ghost Trap: 10
-    Granny Trap: 20
-    Oktoberfest!: 20
-    Timer Trap: 10
-
   filler_weights:
     Cross Buff: 20
     Nothing: 0
@@ -54,8 +56,34 @@ Pizza Tower:
     Pizza Shield: 10
     Primo Burg: 15
 
-  randomize_music: false
+  trap_weights:
+    Clown Trap: 20
+    Fake Santa Trap: 20
+    Ghost Trap: 10
+    Granny Trap: 20
+    Jumpscare: 5
+    Oktoberfest!: 20
+    Timer Trap: 10
 
+  #########################
+  # Randomization Options #
+  #########################
+  randomize_levels: false
+  randomize_bosses: false
+  randomize_secrets: false
+  do_move_rando: true
+  move_rando_list:
+    ['Mach 4', 'Uppercut', 'Superjump', 'Grab', 'Taunt', 'Supertaunt', 'Bodyslam', 'Breakdance', 'Wallclimb', 'Double Jump', 'Rat Kick', 'Spin Attack', 'Wallbounce', 'Tornado', 'Crusher', 'Bomb']
+  do_transfo_rando: true
+  transfo_rando_list:
+    ['Ball', 'Knight', 'Firemouth', 'Ghost', 'Mort', 'Weenie', 'Barrel', 'Olive Bubble', 'Rocket', 'Pizzabox', 'Sticky Cheese', "Satan's Choice", 'Shotgun', 'Revolver']
+  shuffle_lap2: true
+  randomize_music: false
+  randomize_enemies: false
+
+  ###########################
+  # Item & Location Options #
+  ###########################
   priority_locations:
   - Snotty Killed
 

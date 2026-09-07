@@ -3,6 +3,9 @@ description: dont let the main server see this one
 
 game: AM2R
 AM2R:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
   MetroidsRequired: 30
@@ -12,6 +15,9 @@ AM2R:
   Tozos: 0
   DeathLink: false
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   exclude_locations:
   - "Industrial Complex: Behind the Green Door"
   - "Golden Temple: EMP Room"
