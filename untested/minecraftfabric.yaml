@@ -24,8 +24,6 @@ Minecraft Fabric:
     #     "Exploration" - Disables Locations that might require Exploration
     #     "Unreasonable" - Disables Location's that're EXTREMELY Hard
     ['Unreasonable']
-  percentage_of_rubies_needed: 0
-  total_rubies: 0
 
   #####################
   # Itemsanty Options #
