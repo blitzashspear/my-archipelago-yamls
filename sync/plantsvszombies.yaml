@@ -98,6 +98,7 @@ Plants vs. Zombies:
   zombie_randomised_modes:
     Adventure: 1
     Mini-games: 1
+    China: 0
 
   ###################
   # Gameplay Tweaks #

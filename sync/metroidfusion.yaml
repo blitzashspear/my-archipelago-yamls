@@ -19,20 +19,9 @@ Metroid Fusion:
   #################
   # Trick Options #
   #################
-  ShinesparkTrickDifficulty:
-    none: 0
-    beginner: 50
-    advanced: 0
-
-  WallJumpTrickDifficulty:
-    none: 0
-    beginner: 0
-    advanced: 50
-
-  CombatDifficulty:
-    beginner: 50
-    advanced: 0
-    expert: 0
+  ShinesparkTrickDifficulty: beginner
+  WallJumpTrickDifficulty: advanced
+  CombatDifficulty: beginner
 
   ############################
   # Custom Game Mode Options #
@@ -40,17 +29,11 @@ Metroid Fusion:
   StartingLocation: docking_bay
   StartingMajorUpgrades: random-range-0-1
   StartingEnergyTanks: 0
-
-  OpenSectorElevators:
-    false: 50
-    true: 50
-
+  OpenSectorElevators: random
   SectorNavigationRoomHintLocks: true
-
   PaletteRandomization:
     false: 48
     true: 2
-
   EnableHints: true
   RevealHiddenBlocks: true
   FastDoorTransitions: true

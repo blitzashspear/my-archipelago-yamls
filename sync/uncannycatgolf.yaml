@@ -5,7 +5,7 @@ game: Uncanny Cat Golf
 Uncanny Cat Golf:
   progression_balancing: normal
   accessibility: full
-  goal_level: 5_18
+  goal_level: '5_18'
   prism_unlock_amount: 200
   gimmick_lock: true
   level_unlock_style: individual

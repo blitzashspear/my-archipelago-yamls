@@ -1,5 +1,6 @@
 name: blitzashAPQuest
 description: minus 20 seconds
+# SIDE GAME
 
 game: 
   APQuest: 50

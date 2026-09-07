@@ -1,7 +1,6 @@
 ﻿name: blitzashBalatro
 description: what was he cooking
-# ASYNC ONLY - its balatro bruh
-# Beat all decks on Black stake.
+# ASYNC ONLY
 
 game: Balatro
 Balatro:

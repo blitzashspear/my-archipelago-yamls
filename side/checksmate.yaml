@@ -1,5 +1,6 @@
 ﻿name: blitzashChess
 description: jet fuel doesnt melt steel beams
+# SIDE GAME
 
 game: ChecksMate
 ChecksMate:

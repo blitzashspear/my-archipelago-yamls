@@ -11,7 +11,7 @@ Metroid Dread:
     # Removed Sensor Doors from list
     ['Charge Beam Door', 'Super Missile Door', 'Wide Beam Door', 'Plasma Beam Door', 'Access Open', 'Grapple Beam Door', 'Missile Door', 'Power Beam Door', 'Wave Beam Door']
   change_doors_to:
-  # Added Ice and Diffusion Doors
+  # Added Ice and Diffusion Doors they dont work.
     ['Charge Beam Door', 'Super Missile Door', 'Wide Beam Door', 'Plasma Beam Door', 'Missile Door', 'Grapple Beam Door', 'Power Beam Door', 'Wave Beam Door', "Ice Missile Door", "Diffusion Beam Door"]
   transport_rando: 'off'
   include_boss_pickups: true

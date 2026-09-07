@@ -6,8 +6,6 @@ Clique:
   # Game Options
   progression_balancing: extreme
   accessibility: full
-  plando_items: []
-
   color:
     red: 50
     orange: 50
@@ -21,6 +19,5 @@ Clique:
     brown: 50
     white: 0
     black: 0
-
   hard_mode: true
   force_progression: true

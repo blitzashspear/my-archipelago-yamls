@@ -10,7 +10,7 @@ Flipwitch Forbidden Sex Hex:
   starting_area: beatrice_house
   shuffle_double_jump: false
   shuffle_dodge: false
-  shuffle_chaos_pieces: false
+  shuffle_chaos_pieces: true
   pottery_lottery: true
   shopsanity: true
   shop_prices: 25

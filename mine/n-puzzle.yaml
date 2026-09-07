@@ -1,5 +1,7 @@
 ﻿name: blitzashNPuzzle
 description: https://github.com/blitzashspear/ap-n-puzzle
+# APWorld 2
+# SIDE GAME
 
 game: n-Puzzle
 n-Puzzle:
@@ -8,5 +10,3 @@ n-Puzzle:
   size: 
     3x3: 45
     4x4: 5
-    5x5: 0
-    6x6: 0

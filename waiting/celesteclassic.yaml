@@ -1,0 +1,10 @@
+﻿name: blitzashCLC
+description: This repository was archived by the owner on Aug 28, 2026. It is now read-only.  OH NO ITS GONNA BE LOST MEDIA
+
+game: Celeste Classic
+Celeste Classic:
+  progression_balancing: normal
+  accessibility: full
+  death_link: false
+  strawberries_required: 15
+  logic_difficulty: developer_intended

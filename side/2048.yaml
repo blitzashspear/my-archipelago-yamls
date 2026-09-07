@@ -1,5 +1,6 @@
 name: blitzash2048
 description: weeeeeee
+# SIDE GAME
 
 game: '2048'
 '2048':
