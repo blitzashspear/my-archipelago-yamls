@@ -1,0 +1,145 @@
+﻿name: blitzashDPP
+description: can the hp bar move faster pls
+# ASYNC ONLY - uh oh big ass region
+
+game: Pokemon Platinum
+Pokemon Platinum:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  goal: champion
+  death_link: false
+  death_link_group: ''
+  remote_items: all
+  cheats_enabled: false
+
+  #################
+  # Item Shuffles #
+  #################
+  overworlds: true
+  hiddens: false
+  npc_gifts: true
+  key_items: true
+  hms: true
+  badges: true
+  rods: true
+  bicycle: true
+  bag: false
+  running_shoes: false
+  poketch_apps: false
+  cartridges: true
+  pokedex: false
+  accessories: false
+  time_items: true
+  randomize_fly_items: all_except_pokemon_league
+
+  ################
+  # Logic Tweaks #
+  ################
+  poketch_route_203: true
+  north_sinnoh_fly: false
+  visibility_hm_logic: true
+  dowsing_machine_logic: true
+  marsh_pass: true
+  storage_key: true
+  s_s_ticket: false
+  unown_option: none
+
+  ####################
+  # Roadblock Tweaks #
+  ####################
+  pastoria_barriers: false
+  early_sunyshore: false
+  boat_canalave_pastoria: off
+  boat_canalave_snowpoint: off
+  boat_pastoria_snowpoint: off
+  route_207_barricade: bicycle_slope
+  route_210_lower_barricade: none
+  route_215_barricade: none
+
+  ############
+  # Starters #
+  ############
+  randomize_starters: true
+  require_two_level_evolution_starters: false
+  randomize_intro_mon: true
+
+  ###########
+  # Pokémon #
+  ###########
+  randomize_encounters: true
+  in_logic_encounters:
+    ['swarms', 'regular_honey_tree', 'surf', 'munchlax_honey_tree', 'odd_keystone', 'great_marsh_observatory', 'firered', 'ruby', 'emerald', 'trophy_garden', 'radar', 'great_marsh_observatory_national_dex', 'super_rod', 'roamers', 'sapphire', 'good_rod', 'day', 'leafgreen', 'night', 'old_rod', 'feebas_fishing']
+  dexsanity: none
+  evo_items_shop_in_ap_helper: true
+  reusable_tms: true
+  regional_dex_goal: 60
+  start_with_swarms: true
+  randomize_roamers: true
+  can_reset_legendaries_in_ap_helper: true
+
+  ############
+  # Trainers #
+  ############
+  trainersanity: none
+  randomize_trainer_parties: true
+
+  #######
+  # HMs #
+  #######
+  hm_badge_requirement: true
+  hm_reader: precollected
+  hm_reader_mode: noreq_mon
+  tmhm_compatibility: none
+
+  ###################
+  # Quality of Life #
+  ###################
+  game_options:
+    battle_scene: 'off'
+    battle_style: s
+    button_mode: normal
+    default_gender: random
+    default_player_name: "Blitz"
+    default_rival_name: random
+    name_strictness: relaxed
+    received_items_notification: none
+    sound: stereo
+    text_frame: 1
+    text_speed: fast
+
+  blind_trainers: true
+  hm_cut_ins: false
+  fps60: true
+  buck_pos: false
+  hb_speed: 10
+  normalize_encounters: true
+  instant_text: true
+  hold_a_to_advance: true
+  always_catch: true
+  guaranteed_escape: true
+  talk_trainers_without_fight: false
+  exp_multiplier: 25
+  master_repel: true
+  require_fly_items_for_flight: false
+  item_notifications_mask:
+    ['useful', 'progression']
+  fast_fishing: true
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  start_inventory_from_pool:
+    Master Repel: 1
+    Bicycle: 1
+    HM02 Fly: 1
+
+  exclude_locations:
+    # No thank you dexsanity
+    - Lab - Item from Prof Rowan
+    - Oreburgh City - Show Geodude to Overalls Man in North House
+
+    # ts annoying
+    - Solaceon Town - Item from Man After Leaving a Pokemon
