@@ -7,7 +7,7 @@ Pokemon Platinum:
   ################
   # Game Options #
   ################
-  progression_balancing: normal
+  progression_balancing: disabled
   accessibility: full
   goal: champion
   death_link: false

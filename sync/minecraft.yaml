@@ -12,7 +12,6 @@ Minecraft:
   shuffle_structures: true
   structure_compasses: true
   combat_difficulty: normal
-    normal: 50
   include_hard_advancements: false
   include_unreasonable_advancements: false
   include_postgame_advancements: false

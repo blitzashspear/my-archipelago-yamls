@@ -1,0 +1,24 @@
+﻿name: blitzashSuika
+description: 10 Things Only Cristiano Ronaldo Did in Football
+
+game: Suikapelago
+Suikapelago:
+  progression_balancing: normal
+  accessibility: full
+  death_link: false
+  goal: both
+  scoresanity: with_extra
+  scoresanity_difficulty: normal
+  starting_max_fruit_size: 2
+  shuffle_fruit_order: false
+  height_upgrade_count: 5
+  cooldown_upgrade_count: 0
+  next_needs_unlock: true
+  bonus_points_chance: 10
+  trap_chance: 10
+  insta_drop_trap_weight: 50
+  shuffle_trap_weight: 50
+  impulse_trap_weight: 50
+  thanos_trap_weight: 50
+  secrecy_trap_weight: 50
+  blind_trap_weight: 50

@@ -1,6 +1,6 @@
 ﻿name: blitzashMKSeries
-description: YES ITS LITERALLY EVERY MAINLINE MARIO KART GAME
-# ASYNC ONLY - See above.
+description: THAT'S A LOT OF MARIO KARTIN
+# ASYNC ONLY
 
 game: Manual_MarioKartSeries_arg7
 Manual_MarioKartSeries_arg7:
@@ -10,11 +10,11 @@ Manual_MarioKartSeries_arg7:
   progression_balancing: disabled
   accessibility: full
   enabled_games:
-    ['Mario Kart 7', 'Mario Kart 8', 'Mario Kart Wii', 'Mario Kart Super Circuit', 'Mario Kart Double Dash!!', 'Super Mario Kart', 'Mario Kart 64', 'Mario Kart DS', 'Mario Kart World']
+    ['Mario Kart DS', 'Mario Kart Wii', 'Mario Kart 7', 'Mario Kart 8', 'Mario Kart World']
   enable_booster_course_pass: true
 
   ###################
   # Trophy Settings #
   ###################
-  total_trophy_count: 300
+  total_trophy_count: 200
   trophy_percent: 90

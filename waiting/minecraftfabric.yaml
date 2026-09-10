@@ -1,0 +1,104 @@
+﻿name: blitzashMCF
+description: Inventory clutter!!! I love bloat!!!
+# ASYNC ONLY - 1000 ITEM GOAL
+
+game: Minecraft Fabric
+Minecraft Fabric:
+  progression_balancing: disabled
+  accessibility: full
+
+  ################
+  # Goal Options #
+  ################
+  goal_condition: advancements_and_items_only
+  advancements_required_for_goal: 50
+  excluded_locations:
+    # Determines Blacklisted Locations in the Randomizer
+    # If a Location Category is given here, Checks won't appear in locations categorized under it
+    # 
+    # This Wiki Page details all locations that're blacklisted via these settings:
+    # https://modded.wiki/w/Fabric_Archipelago_Mod:Optional_Locations
+    # 
+    # Options:
+    #     "Hard" - Disables Locations that're Hard
+    #     "Exploration" - Disables Locations that might require Exploration
+    #     "Unreasonable" - Disables Location's that're EXTREMELY Hard
+    ['Unreasonable']
+
+  #####################
+  # Itemsanty Options #
+  #####################
+  itemsanity: true
+  items_required_for_goal: 1000
+
+  itemsanity_local_fill: random-range-90-95
+  excluded_from_itemsanity:
+    # Determines certain Items that shouldn't appear in Itemsanity
+    # Useful for blacklisting tedious items, or cutting down the amount of Itemsanity checks in a game
+    # 
+    # Options:
+    #     Discs - Music Discs
+    #     Dyed Items - Items that are Dyed (Concretes, Wools, Terracottas, etc.)
+    #     Flowers - Flowers (all flowers except Wither Rose)
+    #     Rare Ores - Ores that are extremely rare (such as Deepslate Emerald)
+    #     Mob Heads - Mob Heads that're only dropped from Charged Creeper Explosions
+    #     Netherite Gear - Netherite Tools, Armor, and Netherite Smithing Template
+    #     Trims - Smithing Templates that're used for Trims (Doesn't include Upgrade Templates)
+    #     Sherds - Pottery Sherds
+    #     Slabs - Slabs (such as Oak Slabs, Stone Slabs, etc.)
+    #     Stairs - Stairs (such as Oak Stairs, Stone Stairs, etc.)
+    #     Walls - Walls, Fences, and Fence Gates (Oak Fence, Stone Wall, etc.)
+    ['Discs', 'Rare Ores', 'Sherds', 'Mob Heads', 'Trims']
+  empty_fill_percentage: 0
+
+  ######################
+  # Difficulty Options #
+  ######################
+  required_before_nether:
+    ['Sprint']
+
+  required_before_bosses:
+    ['Bow', 'Beds', 'Iron Armor', 'Iron Weapons', 'Jump', 'Sprint']
+
+  required_before_raids:
+    ['Jump', 'Iron Armor', 'Iron Weapons']
+
+  keep_inventory: true
+
+  randomized_abilities:
+    ['Jump', 'Sprint', 'Swim']
+
+  time_saving_options:
+    ['Rabbits Foot', 'Wither Skulls', 'Copper Oxidation', 'Drowned Items']
+
+  #################
+  # Traps Options #
+  #################
+  trap_fill_percentage: 5
+  reverse_controls_trap_weight: medium
+  inverted_mouse_trap_weight: medium
+  ice_trap_weight: medium
+  random_effect_trap_weight: medium
+  stun_trap_weight: medium
+  tnt_trap_weight: medium
+  teleport_trap_weight:  medium
+  bee_trap_weight: medium
+  literature_trap_weight: medium
+
+  ######################
+  # World Link Options #
+  ######################
+  deathlink_enabled: false
+  traplink_enabled: true
+
+  ###############
+  # Mod Support #
+  ###############
+  enabled_mods:
+    # WARNING: Fabric Archipelago's Mod support is still in a very early stage, so do keep in mind that playing with mods can lead to unbeatable games!
+    # 
+    # This option allows other mods to be integrated into the randomizer if they are supported.
+    # You can add a mod by putting its Mod ID here.
+    # 
+    # For a list of supported Mods, refer to here: https://modded.wiki/w/Fabric_Archipelago_Mod:Mod_Support
+    ['minecraft']

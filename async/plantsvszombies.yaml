@@ -7,7 +7,7 @@ Plants vs. Zombies:
   ################
   # Game Options #
   ################
-  progression_balancing: 50
+  progression_balancing: disabled
   accessibility: full
 
   ###############
