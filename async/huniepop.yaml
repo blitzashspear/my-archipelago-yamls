@@ -19,7 +19,7 @@ Hunie Pop:
     - lola
     - celeste
     - venus
-  number_of_starting_girls: 1
+  number_of_starting_girls: 2
   randomize_girl_gifts: full
   randomize_girl_trait: true
   progressive_dates: true

@@ -9,7 +9,7 @@ Super Mario Odyssey:
   goal: moon
   story: off
   extra_moons: more
-  shop_sanity: on
+  shop_sanity: all
   colors: chaos
   counts: off
   capture_sanity: false

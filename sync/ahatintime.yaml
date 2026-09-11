@@ -11,7 +11,7 @@ A Hat in Time:
   ShuffleAlpineZiplines: true
   ShuffleSubconPaintings: true
   ShuffleActContracts: true
-  MinPonCost: 1
+  MinPonCost: 10
   MaxPonCost: 200
   BadgeSellerMinItems: 8
   BadgeSellerMaxItems: 8

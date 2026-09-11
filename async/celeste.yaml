@@ -57,7 +57,7 @@ Celeste (Open World):
   #####################
   music_shuffle: none
   require_cassettes: false
-  torch_behavior: already_lit
+  torch_behavior: start_lit
   madeline_hair_length: default
   madeline_one_dash_hair_color: random
   madeline_two_dash_hair_color: random

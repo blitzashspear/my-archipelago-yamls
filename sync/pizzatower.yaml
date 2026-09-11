@@ -111,7 +111,7 @@ Pizza Tower:
   # Item & Location Options #
   ###########################
   priority_locations:
-  - Snotty Killed
+  - Snotty Murdered
 
   excluded_locations:
   # i can get one level, okay.

@@ -19,5 +19,5 @@ AM2R:
   # Item & Location Options #
   ###########################
   exclude_locations:
-  - Industrial Complex: Behind the Green Door
-  - Golden Temple: EMP Room
+  - "Industrial Complex: Behind the Green Door"
+  - "Golden Temple: EMP Room"

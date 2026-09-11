@@ -133,8 +133,8 @@ Pokemon FireRed and LeafGreen:
   randomize_music: false
   randomize_fanfares: false
   game_options:
-    Battle Scene: Set
-    Battle Style: Off
+    Battle Scene: Off
+    Battle Style: Set
     Bike Music: Off
     Blind Trainers: On
     Experience Distribution: Gen VIII

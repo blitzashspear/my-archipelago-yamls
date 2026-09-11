@@ -75,7 +75,7 @@ Pokemon Black and White:
       force: true
 
   exclude_locations:
-    - Abyssal Ruins items,
+    - Abyssal Ruins items
 
     # find this random pokemon haha please god no
     - Castelia City - Item from scientist in building in northern street

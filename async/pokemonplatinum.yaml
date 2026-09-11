@@ -160,7 +160,6 @@ Pokemon Platinum:
 
   exclude_locations:
     # No thank you dexsanity
-    - Lab - Item from Prof Rowan
     - Oreburgh City - Show Geodude to Overalls Man in North House
 
     # ts annoying
