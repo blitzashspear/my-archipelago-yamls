@@ -5,8 +5,14 @@ game: Mario Kart Wii
 Mario Kart Wii:
   progression_balancing: 25
   accessibility: minimal
-  enabled_ccs: ['100cc', '150cc', '50cc']
-  enabled_cup_check_tiers: ['2nd_place', '1st_place', '3rd_place']
+  enabled_ccs:
+    - 50cc
+    - 100cc
+    - 150cc
+  enabled_cup_check_tiers:
+    - 1st_place
+    - 2nd_place
+    - 3rd_place
   include_race_checks: true
   cups_required_for_goal: 8
   goal_difficulty: 1st_place

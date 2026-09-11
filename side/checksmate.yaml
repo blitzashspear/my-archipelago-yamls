@@ -11,7 +11,7 @@ ChecksMate:
   enable_tactics: all
   piece_locations: chaos
   piece_types: stable
-  early_material: 'off'
+  early_material: off
   max_engine_penalties: 5
   max_pocket: 12
   max_kings: 3

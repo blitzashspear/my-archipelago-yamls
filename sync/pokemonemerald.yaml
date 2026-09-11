@@ -46,7 +46,7 @@ Pokemon Emerald:
   exp_modifier: 400
   blind_trainers: true
   purge_spinners: false
-  match_trainer_levels: "off"
+  match_trainer_levels: off
   match_trainer_levels_bonus: 0
   double_battle_chance: 1
   better_shops: false
@@ -69,4 +69,4 @@ Pokemon Emerald:
   ###########################
   # No I am not playing your coin game fuck off and die.
   exclude_locations:
-    [TM10 from Hidden Power Lady]
+    - TM10 from Hidden Power Lady

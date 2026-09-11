@@ -8,7 +8,7 @@ Metroid Fusion:
   ################
   progression_balancing: 50
   accessibility: full
-  allow_collecting_from: false #MWGG
+  allow_collecting_from: false # MWGG
   death_link: false
   GameMode: custom
   InfantMetroidsInPool: 6
@@ -49,18 +49,18 @@ Metroid Fusion:
   # Item & Location Options #
   ###########################
   start_hints:
-    - "Morph Ball"
+    - Morph Ball
 
   # WE MUST KEEP THE LORE INTACT
   plando_items:
     - items:
         Infant Metroid: 1
       locations:
-        - "Main Deck -- Habitation Deck -- Animals"
+        - Main Deck -- Habitation Deck -- Animals
       from_pool: true
       world: false
       force: true
 
   # PRAISE BOB
   priority_locations:
-    - "Sector 3 (PYR) -- Bob's Abode"
+    - Sector 3 (PYR) -- Bob's Abode

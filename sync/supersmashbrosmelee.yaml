@@ -48,14 +48,12 @@ Super Smash Bros. Melee:
   # Item & Location Options #
   ###########################
   exclude_locations:
-    [
-      # Boring
-      "Training Mode - 10-Hit Combo",
-      "Training Mode - 20-Hit Combo",
-      "Event Match - Mario Bros. Madness",
+    # Boring
+    - Training Mode - 10-Hit Combo
+    - Training Mode - 20-Hit Combo
+    - Event Match - Mario Bros. Madness
 
-      # Too hard I suck
-      "Event Match - Seven Years",
-      "Adventure Mode - Giga Bowser Continueless",
-      "Event Match - The Showdown",
-    ]
+    # Too hard I suck
+    - Event Match - Seven Years
+    - Adventure Mode - Giga Bowser Continueless
+    - Event Match - The Showdown

@@ -1,6 +1,6 @@
 name: blitzashGSC
 description: WE PLAYIN ON SPEEDUP MOTHER FUCKER YEAH (& deathlink)
-#ASYNC ONLY - TRAINERSANITY
+# ASYNC ONLY - TRAINERSANITY
 
 game: Pokemon Crystal
 Pokemon Crystal:
@@ -8,7 +8,7 @@ Pokemon Crystal:
   accessibility: full
   goal: red
   randomize_starting_town: false
-  johto_only: "off"
+  johto_only: off
   red_requirement: badges
   red_count: 16
   mt_silver_requirement: badges
@@ -42,22 +42,22 @@ Pokemon Crystal:
   randomize_pokegear: false
   randomize_hidden_items: true
   randomize_berry_trees: false
-  randomize_pokemon_requests: "off"
-  randomize_fly_unlocks: "off"
-  randomize_bug_catching_contest: "off"
-  randomize_phone_call_items: "off"
+  randomize_pokemon_requests: off
+  randomize_fly_unlocks: off
+  randomize_bug_catching_contest: off
+  randomize_phone_call_items: off
   require_itemfinder: logically_required
   remote_items: true
   item_pool_fill: vanilla
   add_missing_useful_items: false
   exclude_post_goal_locations: true
-  grasssanity: "off"
+  grasssanity: off
   shopsanity:
     - _All
   shopsanity_prices: vanilla
   shopsanity_minimum_price: 1
   shopsanity_maximum_price: 1000
-  provide_shop_hints: "off"
+  provide_shop_hints: off
   shopsanity_restrict_rare_candies: false
   shopsanity_x_items: anywhere
   hm_compatibility: vanilla
@@ -65,7 +65,7 @@ Pokemon Crystal:
   remove_badge_requirement: []
   require_flash: logically_required
   field_moves_always_usable: true
-  free_fly_location: "off"
+  free_fly_location: off
   free_fly_blocklist: []
   early_fly: false
   fly_cheese: out_of_logic
@@ -75,7 +75,7 @@ Pokemon Crystal:
   static_blocklist: []
   randomize_base_stats: vanilla
   randomize_types: vanilla
-  shared_primary_type: "off"
+  shared_primary_type: off
   randomize_evolution: vanilla
   convergent_evolution: avoid
   evolution_blocklist: []
@@ -99,9 +99,8 @@ Pokemon Crystal:
   tm_plando: {}
   tm_compatibility: fully_compatible
   reusable_tms: true
-  move_blocklist: [
-    "Thief"
-  ]
+  move_blocklist:
+    - Thief
   tm_blocklist: []
   randomize_trainer_parties: completely_random
   trainer_party_blocklist: []
@@ -143,41 +142,41 @@ Pokemon Crystal:
   trap_link: true
 
   game_options:
-    ap_item_sound: "on"
-    auto_hms: "on"
-    auto_run: "off"
+    ap_item_sound: on
+    auto_hms: on
+    auto_run: off
     battle_animations: no_scene
-    battle_move_stats: "off"
+    battle_move_stats: off
     battle_shift: set
-    bike_music: "off"
-    blind_trainers: "off"
-    catch_exp: "on"
-    dex_area_beep: "off"
+    bike_music: off
+    blind_trainers: off
+    catch_exp: on
+    dex_area_beep: off
     exp_distribution: gen8
-    fast_egg_hatch: "on"
-    fast_egg_make: "on"
-    guaranteed_catch: "on"
-    hms_require_teaching: "off"
+    fast_egg_hatch: on
+    fast_egg_make: on
+    guaranteed_catch: on
+    hms_require_teaching: off
     item_notification: popup
-    low_hp_beep: "on"
-    menu_account: "on"
-    more_uncaught_encounters: "off"
-    poison_flicker: "on"
-    rods_always_work: "on"
-    short_fanfares: "off"
-    skip_dex_registration: "on"
-    skip_nicknames: "off"
+    low_hp_beep: on
+    menu_account: on
+    more_uncaught_encounters: off
+    poison_flicker: on
+    rods_always_work: on
+    short_fanfares: off
+    skip_dex_registration: on
+    skip_nicknames: off
     sound: mono
     spinners: normal
-    surf_music: "off"
+    surf_music: off
     text_frame: 8
     text_speed: instant
     time_of_day: auto
-    trainersanity_indication: "off"
+    trainersanity_indication: off
     turbo_button: none
 
-  level_scaling: "off"
-  lock_kanto_gyms: "off"
+  level_scaling: off
+  lock_kanto_gyms: off
   all_pokemon_seen: false
   starting_money: vanilla
   better_marts: false
@@ -205,14 +204,13 @@ Pokemon Crystal:
   require_pokegear_for_phone_numbers: true
   death_link: true
   randomize_palettes: completely_random
-  randomize_music: "off"
+  randomize_music: off
   trainer_palette: random
   enable_mischief: random
 
   start_inventory_from_pool:
     Exp Share: 1
 
-  exclude_locations: [
-    Bill's Grandpa
-    Goldenrod Dept. Store 5F - Trading
-  ]
+  exclude_locations:
+    - Bill's Grandpa
+    - Goldenrod Dept. Store 5F - Trading

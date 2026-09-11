@@ -18,7 +18,16 @@ Pokepelago:
   # Regions #
   ###########
   regions:
-    ['Kanto' , 'Johto', 'Hoenn', 'Sinnoh', 'Unova', 'Kalos', 'Alola', 'Galar', 'Hisui', 'Paldea']
+    - Kanto
+    - Johto
+    - Hoenn
+    - Sinnoh
+    - Unova
+    - Kalos
+    - Alola
+    - Galar
+    - Hisui
+    - Paldea
   random_region_count: disabled
   group_hisui_galar: false
   region_locks: random

@@ -73,10 +73,36 @@ Pizza Tower:
   randomize_secrets: false
   do_move_rando: true
   move_rando_list:
-    ['Mach 4', 'Uppercut', 'Superjump', 'Grab', 'Taunt', 'Supertaunt', 'Bodyslam', 'Breakdance', 'Wallclimb', 'Double Jump', 'Rat Kick', 'Spin Attack', 'Wallbounce', 'Tornado', 'Crusher', 'Bomb']
+    # Peppino
+    - Mach 4
+    - Uppercut
+    - Superjump
+    - Grab
+    - Taunt
+    - Supertaunt
+    - Bodyslam
+    - Breakdance
+    - Wallclimb
+    # Gustavo
+    - Double Jump
+    - Rat Kick
+    - Spin Attack
   do_transfo_rando: true
   transfo_rando_list:
-    ['Ball', 'Knight', 'Firemouth', 'Ghost', 'Mort', 'Weenie', 'Barrel', 'Olive Bubble', 'Rocket', 'Pizzabox', 'Sticky Cheese', "Satan's Choice", 'Shotgun', 'Revolver']
+    - Ball
+    - Knight
+    - Firemouth
+    - Ghost
+    - Mort
+    - Weenie
+    - Barrel
+    - Olive Bubble
+    - Rocket
+    - Pizzabox
+    - Sticky Cheese
+    - Satan's Choice
+    - Shotgun
+    - Revolver
   shuffle_lap2: true
   randomize_music: false
   randomize_enemies: false

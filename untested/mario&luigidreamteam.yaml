@@ -14,6 +14,6 @@ Mario and Luigi Dream Team:
   # Gameplay Options #
   ####################
   second_hammer: mini_mario
-  reduce_mini: 'off'
-  reduce_ball_skips: 'on'
-  shopsanity: 'off'
+  reduce_mini: off
+  reduce_ball_skips: on
+  shopsanity: off

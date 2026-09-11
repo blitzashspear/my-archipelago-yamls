@@ -82,7 +82,7 @@ Hollow Knight:
   SplitCrystalHeart: false
   SplitMothwingCloak: false
   SplitMantisClaw: false
-  CostSanity: 'off'
+  CostSanity: off
   CostSanityHybridChance: 10
   CostSanityEggWeight: 1
   CostSanityGrubWeight: 1

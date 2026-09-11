@@ -12,10 +12,22 @@ Buckshot Roulette:
   asynchronous_points: false
   point_filler_percentage: 25
   consumable_item_logic: normal
-  included_custom_mechanics: ['Life Bank', 'Item Luck', 'Item Buffs']
-  item_buffs: ['Burner Phone', 'Beer', 'Expired Medicine', 'Adrenaline', 'Magnifying Glass', 'Cigarette Pack', 'Handcuffs', 'Hand Saw', 'Inverter']
+  included_custom_mechanics:
+    - Life Bank
+    - Item Luck
+    - Item Buffs
+  item_buffs:
+    - Adrenaline
+    - Beer
+    - Burner Phone
+    - Cigarette Pack
+    - Expired Medicine
+    - Handcuffs
+    - Hand Saw
+    - Inverter
+    - Magnifying Glass
   included_traps: []
   exclude_full_house: true
   shotsanity: balanced
   shotsanity_count: 100
-  streaksanity: 'off'
+  streaksanity: off

@@ -35,4 +35,4 @@ Portal 2:
   # Item & Location Options #
   ###########################
   exclude_locations:
-    - "Wheatley Monitor 11"
+    - Wheatley Monitor 11

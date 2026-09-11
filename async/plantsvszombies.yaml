@@ -63,7 +63,7 @@ Plants vs. Zombies:
   ################################
   conveyor_randomisation: true
   zombie_randomisation: true
-  zombie_weight_randomisation: 'off'
+  zombie_weight_randomisation: off
   plant_stat_randomisation: true
   maintain_vanilla_projectile_strength: false
   randomised_zombies:

@@ -28,10 +28,10 @@ Plants vs. Zombies:
   ################
   adventure_mode_progression: level_items
   minigame_levels: level_items
-  puzzle_levels: 'off'
-  survival_levels: 'off'
-  cloudy_day_levels: 'off'
-  bonus_levels: 'off'
+  puzzle_levels: off
+  survival_levels: off
+  cloudy_day_levels: off
+  bonus_levels: off
   china_level: item
 
   ###################
@@ -62,7 +62,7 @@ Plants vs. Zombies:
   ################################
   conveyor_randomisation: true
   zombie_randomisation: true
-  zombie_weight_randomisation: 'off'
+  zombie_weight_randomisation: off
   plant_stat_randomisation: true
   maintain_vanilla_projectile_strength: false
   randomised_zombies:
@@ -167,4 +167,4 @@ Plants vs. Zombies:
   # Item & Location Options #
   ###########################
   non_local_items:
-  - 'Random Seed Packet'
+  - Random Seed Packet

@@ -10,7 +10,11 @@ Manual_MarioKartSeries_arg7:
   progression_balancing: disabled
   accessibility: full
   enabled_games:
-    ['Mario Kart DS', 'Mario Kart Wii', 'Mario Kart 7', 'Mario Kart 8', 'Mario Kart World']
+    - Mario Kart DS
+    - Mario Kart Wii
+    - Mario Kart 7
+    - Mario Kart 8
+    - Mario Kart World
   enable_booster_course_pass: true
 
   ###################

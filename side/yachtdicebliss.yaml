@@ -7,16 +7,53 @@ Yacht Dice Bliss:
   progression_balancing: normal
   accessibility: full
   game_difficulty: hard
-  score_for_last_check: 999
+  score_for_last_check: 1000
   score_for_goal: 999
   minimal_number_of_dice_and_rolls: random
   number_of_dice_fragments_per_dice: random
   number_of_roll_fragments_per_roll: random
   total_number_of_categories: 16
   allowed_normal_categories:
-    ['Category Ones', 'Category Twos', 'Category Threes', 'Category Fours', 'Category Fives', 'Category Sixes', 'Category Choice', 'Category Inverse Choice', 'Category Pair', 'Category Three of a Kind', 'Category Four of a Kind', 'Category Tiny Straight', 'Category Small Straight', 'Category Large Straight', 'Category Full House', 'Category Yacht']
+    - Category Ones
+    - Category Twos
+    - Category Threes
+    - Category Fours
+    - Category Fives
+    - Category Sixes
+    - Category Choice
+    - Category Inverse Choice
+    - Category Pair
+    - Category Three of a Kind
+    - Category Four of a Kind
+    - Category Tiny Straight
+    - Category Small Straight
+    - Category Large Straight
+    - Category Full House
+    - Category Yacht
   allowed_alternative_categories:
-    ['Category Two times Ones', 'Category Half of Sixes', 'Category Twos and Threes', 'Category Sum of Odds', 'Category Sum of Evens', 'Category Double Threes and Fours', 'Category Quadruple Ones and Twos', 'Category Micro Straight', 'Category Three Odds', 'Category Three Distinct Dice', 'Category Two Pair', 'Category Five Distinct Dice', 'Category 4&5 Full House', 'Category Pair SUM', 'Category Three of a Kind SUM', 'Category Four of a Kind SUM', 'Category Tiny Straight SUM', 'Category Small Straight SUM', 'Category Large Straight SUM', 'Category Full House SUM', 'Category Yacht SUM', 'Category Micro Straight SUM', 'Category Two Pair SUM']
+    - Category Two times Ones
+    - Category Half of Sixes
+    - Category Twos and Threes
+    - Category Sum of Odds
+    - Category Sum of Evens
+    - Category Double Threes and Fours
+    - Category Quadruple Ones and Twos
+    - Category Micro Straight
+    - Category Three Odds
+    - Category Three Distinct Dice
+    - Category Two Pair
+    - Category Five Distinct Dice
+    - Category 4&5 Full House
+    - Category Pair SUM
+    - Category Three of a Kind SUM
+    - Category Four of a Kind SUM
+    - Category Tiny Straight SUM
+    - Category Small Straight SUM
+    - Category Large Straight SUM
+    - Category Full House SUM
+    - Category Yacht SUM
+    - Category Micro Straight SUM
+    - Category Two Pair SUM
   percentage_alternative_categories: random
   allowed_starting_categories: []
   number_of_starting_categories: 2

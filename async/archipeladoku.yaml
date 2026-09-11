@@ -14,7 +14,8 @@ Archipeladoku:
   bundle_size: 5
   duplicate_progression: 0
   disabled_locations:
-    ['columns', 'rows']
+    - columns
+    - rows
   location_scouting: disabled
   solve_selected_cell_ratio: 100
   solve_random_cell_ratio: 200

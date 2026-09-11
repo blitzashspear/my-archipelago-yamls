@@ -7,10 +7,10 @@ Super Mario Odyssey:
   progression_balancing: disabled
   accessibility: full
   goal: moon
-  story: 'off'
+  story: off
   extra_moons: more
-  shop_sanity: 'on'
+  shop_sanity: on
   colors: chaos
-  counts: 'off'
+  counts: off
   capture_sanity: false
   death_link: false

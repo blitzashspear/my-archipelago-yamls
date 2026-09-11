@@ -71,7 +71,28 @@ Pokemon Platinum:
   ###########
   randomize_encounters: true
   in_logic_encounters:
-    ['swarms', 'regular_honey_tree', 'surf', 'munchlax_honey_tree', 'odd_keystone', 'great_marsh_observatory', 'firered', 'ruby', 'emerald', 'trophy_garden', 'radar', 'great_marsh_observatory_national_dex', 'super_rod', 'roamers', 'sapphire', 'good_rod', 'day', 'leafgreen', 'night', 'old_rod', 'feebas_fishing']
+    - day
+    - emerald
+    - feebas_fishing
+    - firered
+    - good_rod
+    - great_marsh_observatory
+    - great_marsh_observatory_national_dex
+    - leafgreen
+    - munchlax_honey_tree
+    - night
+    - odd_keystone
+    - old_rod
+    - radar
+    - regular_honey_tree
+    - roamers
+    - ruby
+    - sapphire
+    - super_rod
+    - surf
+    - swarms
+    - trophy_garden
+    - feebas_fishing
   dexsanity: none
   evo_items_shop_in_ap_helper: true
   reusable_tms: true
@@ -98,7 +119,7 @@ Pokemon Platinum:
   # Quality of Life #
   ###################
   game_options:
-    battle_scene: 'off'
+    battle_scene: off
     battle_style: s
     button_mode: normal
     default_gender: random
@@ -125,7 +146,8 @@ Pokemon Platinum:
   master_repel: true
   require_fly_items_for_flight: false
   item_notifications_mask:
-    ['useful', 'progression']
+    - progression
+    - useful
   fast_fishing: true
 
   ###########################

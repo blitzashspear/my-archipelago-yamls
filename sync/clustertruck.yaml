@@ -19,7 +19,7 @@ ClusterTruck:
   ###########################
   # Item & Location Options #
   ###########################
-  #LOL FUNNY NUMBERS
+  # LOL FUNNY NUMBERS
   priority_locations:
   - 2-1
   - 4-2

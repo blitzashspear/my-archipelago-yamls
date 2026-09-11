@@ -1,12 +1,12 @@
 ﻿name: blitzashUCG
-description: AAAAAAHHH UNCANNY CAT TOO SCARRY
+description: AAAAAAHHH UNCANNY CAT TOO SCARRY (ft. Load Bearing Jak & Daxter)
 
 game: Uncanny Cat Golf
 Uncanny Cat Golf:
   progression_balancing: normal
   accessibility: full
   goal_level: '5_18'
-  prism_unlock_amount: 200
+  prism_unlock_amount: 250
   gimmick_lock: true
   level_unlock_style: individual
   minigames: false
@@ -14,6 +14,7 @@ Uncanny Cat Golf:
   world_p_levels: false
   world_e_levels: false
   peak_checks: false
+  excluded_levels: []
   rank_check_difficulty: ok
   temp_modifiers: true
   chill_mode: false

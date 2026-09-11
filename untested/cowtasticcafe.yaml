@@ -6,7 +6,8 @@ Cowtastic Cafe:
   progression_balancing: normal
   accessibility: full
   starting_ingredients:
-    ['Milk', 'Coffee']
+    - Coffee
+    - Milk
   drinks_per_check: 3
   checks_per_ingredient: 4
   shop_locations: 10

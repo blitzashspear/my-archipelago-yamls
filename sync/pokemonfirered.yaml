@@ -18,17 +18,17 @@ Pokemon FireRed and LeafGreen:
   shuffle_gyms: false
   shuffle_marts: false
   shuffle_harbors: false
-  shuffle_buildings: "off"
-  shuffle_dungeons: "off"
+  shuffle_buildings: off
+  shuffle_dungeons: off
   shuffle_interiors: false
-  shuffle_warp_tiles: "off"
-  shuffle_dropdowns: "off"
+  shuffle_warp_tiles: off
+  shuffle_dropdowns: off
   mix_entrance_warp_pools: []
   decouple_entrances_warps: false
-  randomize_fly_destinations: "off"
+  randomize_fly_destinations: off
   fly_destination_plando: {}
   shuffle_badges: true
-  shuffle_hidden: "off"
+  shuffle_hidden: off
   extra_key_items: true
   shopsanity: true
   vending_machines: true
@@ -91,7 +91,7 @@ Pokemon FireRed and LeafGreen:
   elite_four_rematch_count: 8
   cerulean_cave_requirement: vanilla
   cerulean_cave_count: 8
-  level_scaling: "off"
+  level_scaling: off
   modify_trainer_levels: 100
   force_fully_evolved: species
   wild_pokemon: completely_random
@@ -107,9 +107,8 @@ Pokemon FireRed and LeafGreen:
   misc_pokemon_blacklist: []
   types: vanilla
   abilities: follow_evolutions
-  ability_blacklist: [
-    Wonder Guard
-  ]
+  ability_blacklist:
+    - Wonder Guard
   moves: start_with_four_moves
   move_match_type_bias: 25
   move_normal_type_bias: 0
@@ -144,7 +143,7 @@ Pokemon FireRed and LeafGreen:
     Item Messages: Progression
     Surf Music: Off
     Text Speed: Instant
-  provide_hints: "off"
+  provide_hints: off
   death_link: false
 
   ###########################

@@ -1,10 +1,7 @@
 ﻿name: blitzashFNAF
 description: He always comes back.
 
-game: 
-  Ultimate Custom Night: 50
-  # FFPS: 50 - apworld is being reworked.
-  # Secret of the Mimic: 50 - apworld is in development.
+game: Ultimate Custom Night
 Ultimate Custom Night:
   progression_balancing: normal
   accessibility: full
@@ -15,6 +12,5 @@ Ultimate Custom Night:
   trap_chance: 25
   trap_chance_ex: 5
   vanilla_dd: false
-  exclude_animatronics:
-    []
+  exclude_animatronics: []
   death_link: false

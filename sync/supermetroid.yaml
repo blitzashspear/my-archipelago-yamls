@@ -23,7 +23,7 @@ Super Metroid:
   # Objectives and Endgame #
   ##########################
   objective:
-    ['kill all G4']
+    - kill all G4
   custom_objective: false
   tourian: vanilla
   escape_rando: false

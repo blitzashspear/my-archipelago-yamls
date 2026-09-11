@@ -12,9 +12,11 @@ Pokemon Black and White:
   version: black
   goal: seven_sages_hunt
   randomize_wild_pokemon: 
-    [Randomize, Prevent rare encounters]
+    - Randomize
+    - Prevent rare encounters
   randomize_trainer_pokemon: 
-    [Randomize, Similar base stats]
+    - Randomize
+    - Similar base stats
   pokemon_randomization_adjustments: 
     Stats leniency: 150
   shuffle_badges: anything
@@ -23,11 +25,12 @@ Pokemon Black and White:
   season_control: randomized
   modify_encounter_rates: vanilla
   modify_item_pool: 
-    [Ban bad filler, Useful filler]
+    - Ban bad filler
+    - Useful filler
   modify_logic: 
-    [Require Dowsing Machine, Require Flash]
-  adjust_levels: # DO NOT DELETE THIS LINE!!!! DEFAULT IS [Wild, Trainer]!!! I FUCKING HATE ADJUST LEVELS!!!!!
-    []
+    - Require Dowsing Machine
+    - Require Flash
+  adjust_levels: [] # DEFAULT IS Wild, Trainer!!!
   reusable_tms: im_not_a_masochist
 
   plugin_options:
@@ -60,22 +63,20 @@ Pokemon Black and White:
   # Item & Location Options #
   ###########################
   exclude_locations:
-    [
       # find this random pokemon haha please god no
-      "Castelia City - Item from scientist in building in northern street",
-      "Driftveil City - Item from man for seeing more than 50 pokémon",
-      "Nuvema Town - TM from Professor Juniper for seeing 25 species",
-      "Nuvema Town - TM from Professor Juniper for seeing 60 species",
-      "Nuvema Town - TM from Professor Juniper for seeing 115 species",
-      "Pinwheel Forest Outside - Item from challenge rock",
-      "Route 6 - Item from scientist for all Deerling forms",
+      - Castelia City - Item from scientist in building in northern street
+      - Driftveil City - Item from man for seeing more than 50 pokémon
+      - Nuvema Town - TM from Professor Juniper for seeing 25 species
+      - Nuvema Town - TM from Professor Juniper for seeing 60 species
+      - Nuvema Town - TM from Professor Juniper for seeing 115 species
+      - Pinwheel Forest Outside - Item from challenge rock
+      - Route 6 - Item from scientist for all Deerling forms
 
       # this guy is an asshole
-      "Icirrus City - Item from Pokémon Fan Club chairman for gaining 25 levels",
-      "Icirrus City - Item from Pokémon Fan Club chairman for gaining 50 levels",
-      "Icirrus City - Item from Pokémon Fan Club chairman for gaining 99 levels",
+      - Icirrus City - Item from Pokémon Fan Club chairman for gaining 25 levels
+      - Icirrus City - Item from Pokémon Fan Club chairman for gaining 50 levels
+      - Icirrus City - Item from Pokémon Fan Club chairman for gaining 99 levels
 
       # fuckass minigames
-      "Marvelous Bridge - Patrat shuffle reward",
-      "Village Bridge - Item from baker Chris"
-    ]
+      - Marvelous Bridge - Patrat shuffle reward
+      - Village Bridge - Item from baker Chris

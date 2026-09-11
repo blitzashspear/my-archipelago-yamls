@@ -11,9 +11,11 @@ Pokemon Black and White:
   version: white
   goal: ghetsis
   randomize_wild_pokemon: 
-    [Randomize, Prevent rare encounters]
+    - Randomize
+    - Prevent rare encounters
   randomize_trainer_pokemon: 
-    [Randomize, Similar base stats]
+    - Randomize
+    - Similar base stats
   pokemon_randomization_adjustments: 
     Stats leniency: 50
   shuffle_badges: anything
@@ -22,71 +24,16 @@ Pokemon Black and White:
   season_control: randomized
   modify_encounter_rates: vanilla
   modify_item_pool: 
-    [Ban bad filler, Useful filler]
+    - Ban bad filler
+    - Useful filler
   modify_logic: 
-    [Require Dowsing Machine, Require Flash]
-  adjust_levels: # DO NOT DELETE THIS LINE!!!! DEFAULT IS [Wild, Trainer]!!!
-    []
+    - Require Dowsing Machine
+    - Require Flash
+  adjust_levels: [] # DEFAULT IS Wild, Trainer!!!
   reusable_tms: im_not_a_masochist
   start_inventory_from_pool:
     Bicycle: 1
     HM02 Fly: 1
-
-  exclude_locations:
-    [
-      Abyssal Ruins items,
-
-      # find this random pokemon haha please god no
-      "Castelia City - Item from scientist in building in northern street",
-      "Driftveil City - Item from man for seeing more than 50 pokémon",
-      "Nuvema Town - TM from Professor Juniper for seeing 25 species",
-      "Nuvema Town - TM from Professor Juniper for seeing 60 species",
-      "Nuvema Town - TM from Professor Juniper for seeing 115 species",
-      "Pinwheel Forest Outside - Item from challenge rock",
-      "Route 6 - Item from scientist for all Deerling forms",
-
-      # this guy is an asshole
-      "Icirrus City - Item from Pokémon Fan Club chairman for gaining 25 levels",
-      "Icirrus City - Item from Pokémon Fan Club chairman for gaining 50 levels",
-      "Icirrus City - Item from Pokémon Fan Club chairman for gaining 99 levels",
-
-      # i am not playing minigames in a sync
-      "Marvelous Bridge - Patrat shuffle reward",
-      "Village Bridge - Item from baker Chris",
-
-      # these checks are behind go mode
-      "Chargestone Cave - TM from sage Bronius",
-      "Cold Storage - TM from sage Zinzolin",
-      "Desert Resort - Item from Professor Juniper",
-      "N's Castle - 2F right room item",
-      "N's Castle - 3F center room item",
-      "N's Castle - 4F center room item",
-      "N's Castle - Item from grunt in 3F left room",
-      "N's Castle - N's room item",
-      "Nuvema Town - Item from Looker after beating Ghetsis",
-      "Relic Castle - 1F towerside item",
-      "Relic Castle - B3F towerside hidden item",
-      "Relic Castle - TM from sage Ryoku",
-      "Route 18 - TM from sage Rood",
-      "Twist Mountain - Item from worker near ice rock cave",
-      "Victory Road 1F - Center cavern item",
-      "Victory Road 1F - Eastern cavern item",
-      "Victory Road 1F - Western cavern hidden item #1",
-      "Victory Road 1F - Western cavern hidden item #2",
-      "Victory Road 2F - Eastern cavern hidden item",
-      "Victory Road 3F - Middle cavern hidden item",
-      "Victory Road 3F - Western cavern item",
-      "Victory Road 4F - Eastern cavern hidden item #1",
-      "Victory Road 4F - Eastern cavern hidden item #2",
-      "Victory Road 4F - Western cavern hidden item",
-      "Victory Road 4F - Western cavern item",
-      "Victory Road Outside - Item #1",
-      "Victory Road Outside - Item #2",
-      "Victory Road Outside - Item #3",
-      "Victory Road Outside - Item #4",
-      "Victory Road Outside - Item #5",
-      "Victory Road Outside - Item #6"
-    ]
 
   plugin_options:
     qol:
@@ -126,3 +73,57 @@ Pokemon Black and White:
       from_pool: true
       world: false
       force: true
+
+  exclude_locations:
+    - Abyssal Ruins items,
+
+    # find this random pokemon haha please god no
+    - Castelia City - Item from scientist in building in northern street
+    - Driftveil City - Item from man for seeing more than 50 pokémon
+    - Nuvema Town - TM from Professor Juniper for seeing 25 species
+    - Nuvema Town - TM from Professor Juniper for seeing 60 species
+    - Nuvema Town - TM from Professor Juniper for seeing 115 species
+    - Pinwheel Forest Outside - Item from challenge rock
+    - Route 6 - Item from scientist for all Deerling forms
+
+    # this guy is an asshole
+    - Icirrus City - Item from Pokémon Fan Club chairman for gaining 25 levels
+    - Icirrus City - Item from Pokémon Fan Club chairman for gaining 50 levels
+    - Icirrus City - Item from Pokémon Fan Club chairman for gaining 99 levels
+
+    # i am not playing minigames in a sync
+    - Marvelous Bridge - Patrat shuffle reward
+    - Village Bridge - Item from baker Chris
+
+    # these checks are behind go mode
+    - Chargestone Cave - TM from sage Bronius
+    - Cold Storage - TM from sage Zinzolin
+    - Desert Resort - Item from Professor Juniper
+    - N's Castle - 2F right room item
+    - N's Castle - 3F center room item
+    - N's Castle - 4F center room item
+    - N's Castle - Item from grunt in 3F left room
+    - N's Castle - N's room item
+    - Nuvema Town - Item from Looker after beating Ghetsis
+    - Relic Castle - 1F towerside item
+    - Relic Castle - B3F towerside hidden item
+    - Relic Castle - TM from sage Ryoku
+    - Route 18 - TM from sage Rood
+    - Twist Mountain - Item from worker near ice rock cave
+    - Victory Road 1F - Center cavern item
+    - Victory Road 1F - Eastern cavern item
+    - "Victory Road 1F - Western cavern hidden item #1"
+    - "Victory Road 1F - Western cavern hidden item #2"
+    - Victory Road 2F - Eastern cavern hidden item
+    - Victory Road 3F - Middle cavern hidden item
+    - Victory Road 3F - Western cavern item
+    - "Victory Road 4F - Eastern cavern hidden item #1"
+    - "Victory Road 4F - Eastern cavern hidden item #2"
+    - Victory Road 4F - Western cavern hidden item
+    - Victory Road 4F - Western cavern item
+    - "Victory Road Outside - Item #1"
+    - "Victory Road Outside - Item #2"
+    - "Victory Road Outside - Item #3"
+    - "Victory Road Outside - Item #4"
+    - "Victory Road Outside - Item #5"
+    - "Victory Road Outside - Item #6"
