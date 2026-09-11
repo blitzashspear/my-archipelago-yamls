@@ -13,7 +13,7 @@ Minecraft Fabric:
   goal_condition: advancements_and_items_only
   advancements_required_for_goal: 50
   excluded_locations:
-    - 'Unreasonable'
+    - Unreasonable
 
   #####################
   # Itemsanty Options #
