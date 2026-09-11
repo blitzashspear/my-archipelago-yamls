@@ -4,6 +4,8 @@ import yaml
 
 YAMLS_FOLDER = Path(__file__).parent.parent
 
+# This entire script is AI slopped because I don't fucking care.
+
 def valid_yaml():
     for path in sorted(YAMLS_FOLDER.rglob("*.yaml")):
         try:
