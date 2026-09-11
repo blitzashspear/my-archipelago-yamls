@@ -125,6 +125,12 @@ def yaml_notated():
     return True
 
 if __name__ == "__main__":
+    count = sum(1 for _ in YAMLS_FOLDER.rglob("*.yaml"))
+    print(f"PERFORMING TESTS ON {count} YAMLS")
+    for folder in sorted(path for path in YAMLS_FOLDER.iterdir() if path.is_dir()):
+        folder_count = sum(1 for _ in folder.glob("*.yaml"))
+        if folder_count:
+            print(f"{folder.name}: {folder_count} YAMLS")
     if not valid_yaml():
         quit()
     if not async_balancing():
