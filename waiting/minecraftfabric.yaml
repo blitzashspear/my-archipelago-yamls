@@ -20,47 +20,41 @@ Minecraft Fabric:
   #####################
   itemsanity: true
   items_required_for_goal: 1000
-
   itemsanity_local_fill: random-range-90-95
   excluded_from_itemsanity:
-    - 'Discs'
-    - 'Mob Heads'
-    - 'Rare Ores'
-    - 'Sherds'
-    - 'Trims'
+    - Discs
+    - Mob Heads
+    - Rare Ores
+    - Sherds
+    - Trims
   empty_fill_percentage: 0
 
   ######################
   # Difficulty Options #
   ######################
   required_before_nether:
-    - 'Sprint'
-
+    - Sprint
   required_before_bosses:
-    - 'Beds'
-    - 'Bow'
-    - 'Iron Armor'
-    - 'Iron Weapons'
-    - 'Jump'
-    - 'Sprint'
-
+    - Beds
+    - Bow
+    - Iron Armor
+    - Iron Weapons
+    - Jump
+    - Sprint
   required_before_raids:
-    - 'Iron Armor'
-    - 'Iron Weapons'
-    - 'Jump'
-
+    - Iron Armor
+    - Iron Weapons
+    - Jump
   keep_inventory: true
-
   randomized_abilities:
-    - 'Jump'
-    - 'Sprint'
-    - 'Swim'
-
+    - Jump
+    - Sprint
+    - Swim
   time_saving_options:
-    - 'Copper Oxidation'
-    - 'Drowned Items'
-    - 'Rabbits Foot'
-    - 'Wither Skulls'
+    - Copper Oxidation
+    - Drowned Items
+    - Rabbits Foot
+    - Wither Skulls
 
   #################
   # Traps Options #
@@ -86,5 +80,5 @@ Minecraft Fabric:
   # Mod Support #
   ###############
   enabled_mods:
-    # For a list of supported Mods, refer to here: https://modded.wiki/w/Fabric_Archipelago_Mod:Mod_Support
+    # https://modded.wiki/w/Fabric_Archipelago_Mod:Mod_Support
     - minecraft
