@@ -1,13 +1,12 @@
 ﻿name: blitzashSR
 description: THE SAMUS RETURNS... IS REAL!!!
-# ASYNC ONLY - game too long
 
 game: 'Metroid: Samus Returns'
 'Metroid: Samus Returns':
   ################
   # Game Options #
   ################
-  progression_balancing: disabled
+  progression_balancing: 35
   accessibility: full
   dna_available: 20
   dna_required: random-range-15-20
