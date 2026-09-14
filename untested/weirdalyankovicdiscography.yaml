@@ -1,0 +1,41 @@
+﻿name: blitzashWeirdAl
+description: thank you ellie very cool
+# ASYNC ONLY
+
+game: '''Weird Al'' Yankovic Discography'
+'''Weird Al'' Yankovic Discography':
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+
+  #################
+  # Album Options #
+  #################
+  include_debut: true
+  include_in_3d: true
+  include_dare_to_be_stupid: false
+  include_polka_party: false
+  include_even_worse: true
+  include_uhf: false
+  include_off_the_deep_end: true
+  include_alapalooza: false
+  include_bad_hair_day: false
+  include_running_with_scissors: false
+  include_poodle_hat: false
+  include_straight_outta_lynwood: true
+  include_alpocalypse: false
+  include_mandatory_fun: false
+  include_medium_rarities: false
+  include_singles: false
+
+  ################
+  # Song Options #
+  ################
+  include_alt_recordings: false
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  priority_locations: []

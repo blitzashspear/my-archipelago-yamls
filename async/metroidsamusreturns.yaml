@@ -12,7 +12,7 @@ game: 'Metroid: Samus Returns'
   dna_available: 20
   dna_required: random-range-15-20
   hints: true
-  death_link: true
+  death_link: false # Breaks when in menu.
 
   #############
   # Item Pool #
