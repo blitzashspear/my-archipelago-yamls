@@ -62,6 +62,7 @@ Plants vs. Zombies:
   # Zombie & Plant Randomisation #
   ################################
   conveyor_randomisation: true
+  vasebreaker_randomisation: true
   zombie_randomisation: true
   zombie_weight_randomisation: off
   plant_stat_randomisation: true
@@ -78,6 +79,7 @@ Plants vs. Zombies:
     Football: 1
     Gargantuar: 1
     GigaGargantuar: 1
+    Imp: 1
     JackInTheBox: 1
     Ladder: 1
     Newspaper: 1
@@ -103,14 +105,16 @@ Plants vs. Zombies:
     Cloudy Day: 1
     Survival: 1
 
-  ###################
-  # Gameplay Tweaks #
-  ###################
+  ###############
+  # Game Tweaks #
+  ###############
   lock_conveyor_plants: true
   lock_vasebreaker_plants: true
   lock_izombie_zombies: true
   easy_upgrade_plants: false
   imitater_behaviour: normal
+  randomly_banned_plants_per_level: 8
+  harder_zombie_spawns: true
   disable_storm_flashes: false
   music_shuffle: disabled
   costume_chances:
@@ -151,20 +155,16 @@ Plants vs. Zombies:
   maximum_sun_upgrade: 150
   progressive_sun_capacity_items: true
   individual_tile_unlock_items: maximum
+  shuffle_butter_ability: true
+  rake_filler: true
 
   #########
   # Traps #
   #########
-  trap_percentage: 25
-  mower_deploy_trap_weight: 50
-  seed_packet_cooldown_trap_weight: 50
-  zombie_ambush_trap_weight: 50
-  zombie_shuffle_trap_weight: 50
-  zombie_caffeine_trap_weight: 50
-  rv_trap_weight: 50
-  crater_trap_weight: 50
-  lawn_flip_trap_weight: 10
-  lawn_randomiser_trap_weight: 10
+  trap_percentage: 0
 
+  ###########################
+  # Item & Location Options #
+  ###########################
   non_local_items:
-  - 'Random Seed Packet'
+  - Random Seed Packet

@@ -8,55 +8,71 @@ NSMBW:
   ################
   progression_balancing: normal
   accessibility: full
-  hint_movie_shop_price_logic: free
+  hint_hint_movies: false
 
-  ##############
-  # Locations  #
-  ##############
-  include_shortcuts: true
-  include_level_completion: true
-  include_hintmovies: true
-  randomize_starcoins: true
+  #############
+  # Locations #
+  #############
+  shortcuts_sanity: enabled
+  level_completion: true
+  hint_movie_sanity: true
+  starcoin_sanity: true
   include_inventory_powerups: 0
-  make_world_comp_priority: false # Causes generation failures ~0.5% if enabled.
+  world_comp_priority: false
 
   #########
   # Items #
   #########
   randomize_powerups: on
-  randomize_movement: off
-  randomize_time: 0
+  randomize_abilites: true
+  abilites_included:
+    - Ground Pound
+    - Swim
+    - Wall Jump
+    - Carry
+    - Climb # apparently has issues
+  randomize_level_elements: true
+  level_elements_included:
+    - Door
+    - P-Switch
+    - Check Point
+    - "!-Switch"
+  randomize_boss_health: true
 
   ###################
   # Clear condition #
   ###################
+  alternative_goal: bowser
   bowser_star_unlock: 100
-  bowser_world_unlock: 2
+  bowser_world_unlock: 0
 
   #########
   # Logic #
   #########
   logic_difficulty: normal
-  logic_outside_powerup: disallow
-  world9_unlock_condition: gaussian
+  logic_outside_powerup: false
   starting_world: random
+  hint_movie_shop_price_logic: free
 
   ####################
-  # Filler and traps #
+  # Filler and Traps #
   ####################
-  filler_items: 
+  filler_items:
     1-ups: 10
     Coin x01: 10
     Coin x10: 10
     Coin x50: 10
+    Fill Inventory: 10
+    Low Gravity: 10
+    Power-up Grace: 10
     Random Power-up: 10
     Super Speed: 10
-    fill inventory: 10
 
   trap_items:
     Goomba trap: 10
+    Gravity Trap: 10
     Literature trap: 10
-    Loose powerup trap: 10
+    Lose powerup trap: 10
     Movement lock trap: 10
     Reverse Control trap: 10
     Robbery trap: 10
@@ -69,11 +85,28 @@ NSMBW:
 
   trap_chance: 10
   amount_support_received: -1
+  modifier_multiplier_percentage: 100
+
+  ###############
+  # Riivolution #
+  ###############
+  use_riivolution: true
+  level_shuffle_riivolution: false
+  music_shuffle_riivolution: false
+  tile_sheet_shuffle_riivolution: true
+
+  #############
+  # DeathLink #
+  #############
+  death_link: false
+  death_link_group: ''
+  death_link_amnesty: 5
+  death_link_grace: 1
 
   #########
   # Other #
   #########
-  death_link: false
   starcoin_collect_immediately: true
   save_state_slot: 7
-  modifier_multiplier_percentage: 100
+  starcoin_shop_multiplier: 1
+  important_early_items: true

@@ -6,11 +6,22 @@ game:
   Peggle Nights: 50
 
 Peggle Deluxe:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
+
+  ################
+  # Goal Options #
+  ################
   goal: gold_pegs_final_level
   gold_pegs_total: 50
   gold_pegs_required: 40
+
+  ##################
+  # Master Options #
+  ##################
   master_selection_mode: multiple_masters
   master_selection:
     Bjorn: true
@@ -24,6 +35,10 @@ Peggle Deluxe:
     Tula: true
     Warren: true
   master_count: random
+
+  #################
+  # Level Options #
+  #################
   level_selection:
     1-1 Peggleland: true
     1-2 Slip and Slide: true
@@ -81,10 +96,26 @@ Peggle Deluxe:
     9-4 9 Luft Balloons: true
     9-5 Twisted Sisters: true
   level_count: 30
+
+  ####################
+  # Location Options #
+  ####################
   include_full_clears: false
+
+  ########################
+  # Target Score Options #
+  ########################
   target_score_requirement_mode: same_for_all_levels
   target_score_requirement_percentage: 100
+
+  ####################
+  # Gameplay Options #
+  ####################
   maximum_starting_ball_count: 10
+
+  #######################
+  # Useful Item Options #
+  #######################
   useful_item_percentage: 50
   useful_item_weights:
     Fever Meter Permanent Bonus: 1
@@ -93,11 +124,22 @@ Peggle Deluxe:
     Target Score Discount: 1
 
 Peggle Nights:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
+
+  ################
+  # Goal Options #
+  ################
   goal: shadow_peg_hunt
   shadow_pegs_total: 50
   shadow_pegs_required: 40
+
+  ##################
+  # Master Options #
+  ##################
   master_selection_mode: multiple_masters
   master_selection:
     Bjorn: true
@@ -112,6 +154,10 @@ Peggle Nights:
     Tula: true
     Warren: true
   master_count: random
+
+  #################
+  # Level Options #
+  #################
   level_selection:
     1-1 Crimewave: true
     1-2 Call For Help: true
@@ -184,10 +230,26 @@ Peggle Nights:
     9-4 I Love Carats: true
     9-5 Great Ball of Ire: true
   level_count: 30
+
+  ####################
+  # Location Options #
+  ####################
   include_full_clears: false
+
+  ########################
+  # Target Score Options #
+  ########################
   target_score_requirement_mode: same_for_all_levels
   target_score_requirement_percentage: 100
+
+  ####################
+  # Gameplay Options #
+  ####################
   maximum_starting_ball_count: 10
+
+  #######################
+  # Useful Item Options #
+  #######################
   useful_item_percentage: 50
   useful_item_weights:
     Fever Meter Permanent Bonus: 1

@@ -10,5 +10,14 @@ Mario Super Sluggers:
   starting_captain: random
   randomize_shops: none
   randomize_stars: false
+  randomize_error_items: false
+  randomize_stats: false
+  randomize_puzzles: true
+  randomize_quiz:
+    - vanilla
+    - sluggers
+    - math
+    - meme
   randomize_music: false
+  randomize_text: false
   reduced_cutscenes: true

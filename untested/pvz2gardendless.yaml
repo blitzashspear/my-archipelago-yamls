@@ -3,17 +3,70 @@ description: brains
 
 game: PvZ2 Gardendless
 PvZ2 Gardendless:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
-  world_count: 12
-  goal_type: world_keys
-  worlds_required: 6
-  modern_day_victory: zomboss
-  skip_tutorial: true
+
+  #################
+  # Goal Settings #
+  #################
+  goal_type: world_key
+  worlds_required: 7
+  enabled_worlds:
+    - Aerial Fortress
+    - Ancient Egypt
+    - Big Wave Beach
+    - Dark Ages
+    - Far Future
+    - Frostbite Caves
+    - Kongfu Temple
+    - Jurassic Marsh
+    - Lost City
+    - Modern Day
+    - Neon Mixtape Tour
+    - Pirate Seas
+    - Wild West
+
+  ###############
+  # AP Settings #
+  ###############
+  death_link: true
+
+  ################
+  # Level Access #
+  ################
+  world_count: 13
+  include_side_paths: false
+  include_levels_past_goal: false
+  plant_power_logic: on
+
+  ###################
+  # Extra Locations #
+  ###################
   shopsanity: false
+
+  #########
+  # Traps #
+  #########
+  trap_percentage: 5
+  trap_weight_lawn_mower: 50
+  trap_weight_costume_shuffle: 50
+  trap_weight_coins: 50
+  trap_weight_gems: 0
+
+  ###################
+  # Gameplay Tweaks #
+  ###################
+  skip_tutorial: true
   shuffle_upgrades: true
+  starting_plants: 1
   randomize_conveyor_plants: true
   shuffle_zombies: false
+
+  #######################
+  # Experimental DANGER #
+  #######################
+  include_danger_rooms: false
   early_world_keys: false
-  trap_percentage: 5
-  death_link: true

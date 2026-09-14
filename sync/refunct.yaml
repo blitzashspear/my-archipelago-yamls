@@ -13,25 +13,43 @@ Refunct:
   goal: button_31_1
   cubes: red_cubes_bag
   extra_cubes: green_cubes_bag
-  number_of_minigames: 10
+  number_of_minigames: 12
   nerf_minigame_checks: false
   number_of_unlocks_per_minigame: 1
   minigames_likeliness:
     Block Blub Minigame: 1
     Block Brawl Minigame: 1
     Button Galore Minigame: 1
-    Climb Chaos Minigame: 0
-    Climb Line Minigame: 0
-    Climb Narrow Minigame: 0
-    Climb Spiral Minigame: 0
     Clique: 1
+    Defunct Minigame: 1
+    Defunct Rando Minigame: 1
     Funny Bridge Game Minigame: 1
     OG Randomizer Minigame: 1
     Rando Mountain Minigame: 1
     Refunct Mountain Minigame: 1
     Seeker Minigame: 1
     Vanilla Minigame: 1
-  traps: pretty
+
+    Climb Chaos Minigame: 0
+    Climb Line Minigame: 0
+    Climb Narrow Minigame: 0
+    Climb Spiral Minigame: 0
+    Custom Minigame: 0
+  see_other_players: 10
+  effects_and_traps:
+    Ascend Trap: 1
+    Dark Skies: 1
+    Fast-mo Trap: 1
+    Hurricane: 1
+    No Skylight: 1
+    Red Sky: 1
+    Starry Sky: 1
+
+    Blurrrgh Trap: 0
+    Depthless Trap: 0
+    Slo-mo Trap: 0
+  rename_grass: none
+  rename_flowers: english
   death_link: true
 
   ###########################
