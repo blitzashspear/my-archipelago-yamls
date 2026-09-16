@@ -5,7 +5,7 @@ description: they call me ccccube
 game: MetroCUBEvania
 MetroCUBEvania:
   progression_balancing: random
-  accessibility: items
+  accessibility: full
   extra_checks: true
   medal_hunt: false
   extra_checkpoint: true

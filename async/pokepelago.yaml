@@ -8,7 +8,7 @@ Pokepelago:
   # Game Options #
   ################
   progression_balancing: disabled
-  accessibility: random
+  accessibility: minimal
   dexsanity: true
   starting_location_count: random
   goal_type: count

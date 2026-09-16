@@ -1,5 +1,7 @@
 from pathlib import Path
 import re
+import subprocess
+import sys
 import yaml
 
 YAMLS_FOLDER = Path(__file__).parent.parent
@@ -35,6 +37,26 @@ def async_balancing():
         return False
     return True
 
+def accessibility():
+    failed_yamls = []
+
+    for path in sorted(YAMLS_FOLDER.rglob("*.yaml")):
+        with path.open(encoding="utf-8") as file:
+            data = yaml.safe_load(file) or {}
+
+        game = data.get("game")
+        game_options = data.get(game, {}) if isinstance(game, str) else {}
+        access = game_options.get("accessibility") if isinstance(game_options, dict) else None
+        if access not in {"full", "minimal", None}:
+            failed_yamls.append((path, access))
+
+    if failed_yamls:
+        print("ACCESSIBILITY TEST FAILED")
+        for path, access in failed_yamls:
+            print(f"\t{path.relative_to(YAMLS_FOLDER)} ({access})")
+        return False
+    return True
+
 def valid_name():
     failed_yamls = []
 
@@ -42,7 +64,13 @@ def valid_name():
         with path.open(encoding="utf-8") as file:
             data = yaml.safe_load(file) or {}
 
-        if len(str(data.get("name", ""))) > 16:
+        name = str(data.get("name", ""))
+        if (
+            len(name) > 16
+            or "_" in name
+            or re.search(r"\s", name)
+            or not re.match(r"^blitzash[A-Z0-9]", name)
+        ):
             failed_yamls.append(path)
 
     if failed_yamls:
@@ -124,16 +152,47 @@ def yaml_notated():
         return False
     return True
 
+def same_name():
+    names = {}
+
+    for path in sorted(YAMLS_FOLDER.rglob("*.yaml")):
+        with path.open(encoding="utf-8") as file:
+            data = yaml.safe_load(file) or {}
+
+        name = data.get("name")
+        if name:
+            names.setdefault(name, []).append((path, data.get("game")))
+
+    duplicate_names = {
+        name: entries
+        for name, entries in names.items()
+        if any(game != entries[0][1] for _, game in entries[1:])
+    }
+    if duplicate_names:
+        print("SAME NAME TEST FAILED")
+        for name, entries in duplicate_names.items():
+            print("\t" + name)
+            for path, game in entries:
+                print(f"\t{path.relative_to(YAMLS_FOLDER)} ({game})")
+        return False
+    return True
+
 if __name__ == "__main__":
-    count = sum(1 for _ in YAMLS_FOLDER.rglob("*.yaml"))
-    print(f"PERFORMING TESTS ON {count} YAMLS")
-    for folder in sorted(path for path in YAMLS_FOLDER.iterdir() if path.is_dir()):
-        folder_count = sum(1 for _ in folder.glob("*.yaml"))
-        if folder_count:
-            print(f"{folder.name}: {folder_count} YAMLS")
+    yaml_paths = sorted(YAMLS_FOLDER.rglob("*.yaml"))
+    games = []
+    for path in yaml_paths:
+        with path.open(encoding="utf-8") as file:
+            data = yaml.safe_load(file) or {}
+        game = data.get("game")
+        if not any(game == existing_game for existing_game in games):
+            games.append(game)
+
+    print(f"PERFORMING TESTS ON {len(yaml_paths)} YAMLS WITH {len(games)} UNIQUE GAMES")
     if not valid_yaml():
         quit()
     if not async_balancing():
+        quit()
+    if not accessibility():
         quit()
     if not valid_name():
         quit()
@@ -144,5 +203,7 @@ if __name__ == "__main__":
     if not readable_comments():
         quit()
     if not yaml_notated():
+        quit()
+    if not same_name():
         quit()
     print("ALL TESTS PASSED")
