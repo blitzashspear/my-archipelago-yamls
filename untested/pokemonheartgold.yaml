@@ -1,0 +1,139 @@
+﻿name: blitzashHGSS
+description: why does this game have 4 implementations
+
+game: Pokemon HeartGold and SoulSilver
+Pokemon HeartGold and SoulSilver:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  version: heartgold
+  goal: clear_pokemon_league
+  death_link: false
+  death_link_group: ''
+  remote_items: all
+
+  #################
+  # Item Shuffles #
+  #################
+  overworlds: true
+  hiddens: true
+  npc_gifts: true
+  key_items: true
+  hms: true
+  badges: true
+  rods: true
+  bicycle: true
+  running_shoes: true
+  pokedex: false
+  time_items: true
+  sound_items: true
+  randomize_fly_items:
+    - kanto
+    - johto
+    - pokemon_league
+    - mount_silver
+  pokegear_card: false
+
+  ##############
+  # Roadblocks #
+  ##############
+  require_restored_power_for_magnet_train: true
+  blue_return_viridian_badge_requirement: 7
+
+  ################
+  # Logic Tweaks #
+  ################
+  visibility_hm_logic: true
+  dowsing_machine_logic: true
+
+  ############
+  # Starters #
+  ############
+  randomize_starters: true
+  require_two_level_evolution_starters: false
+  starter_whitelist: []
+  starter_blacklist: []
+
+  ###########
+  # Pokémon #
+  ###########
+  randomize_encounters: true
+  in_logic_encounters:
+    - rods
+    - time
+    - rock_smash
+    - sounds
+  encounter_species_blacklist: []
+  dexsanity: none
+  dexsanity_mode: noreq
+  dexsanity_blacklist: []
+  dexsanity_whitelist: []
+  dexsanity_required: []
+  in_logic_evolution_methods:
+    - use_item
+    - time
+    - location
+    - level
+    - held_item
+    - happiness
+  ap_items_shop_in_ap_helper: true
+  reusable_tms: true
+  mossy_rock_locations: both
+  icy_rock_locations: both
+  magnetic_field_locations: both
+
+  ############
+  # Trainers #
+  ############
+  trainersanity: none
+  trainersanity_whitelist: []
+  trainersanity_blacklist: []
+  trainersanity_required: []
+  randomize_trainer_parties: true
+  trainer_party_blacklist: []
+
+  #######
+  # HMs #
+  #######
+  remove_badge_requirements: []
+  tmhm_compatibility: none
+  hm_reader: precollected
+  hm_reader_mode: noreq_mon
+
+  ###################
+  # Quality of Life #
+  ###################
+  game_options:
+    battle_scene: off
+    battle_style: set
+    button_mode: normal
+    received_items_notification: jingle
+    sound: stereo
+    text_frame: random
+    text_speed: fast
+
+  blind_trainers: true
+  hm_cut_ins: false
+  fps60: true
+  normalize_encounters: true
+  instant_text: true
+  hold_a_to_advance: true
+  always_catch: true
+  guaranteed_escape: true
+  talk_trainers_without_fight: false
+  exp_multiplier: 100
+  master_repel: true
+  item_notifications_mask:
+    - progression
+    - useful
+  require_fly_items_for_flight: false
+  fast_fishing: true
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  start_inventory_from_pool:
+    Master Repel: 1
+    Bicycle: 1

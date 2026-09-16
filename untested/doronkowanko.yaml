@@ -1,0 +1,10 @@
+﻿name: blitzashDW
+description: doggy :)
+
+game: DORONKO WANKO
+DORONKO WANKO:
+  progression_balancing: normal
+  accessibility: full
+  goal: badges
+  logic: standard
+  filler_damage_amount: 100_damage

@@ -20,6 +20,7 @@ Portal 2:
   cutscene_levels: false
   wheatley_monitors: true
   ratman_dens: false
+  vitrified_doors: false
 
   ################
   # Trap Options #

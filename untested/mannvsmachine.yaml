@@ -1,0 +1,48 @@
+﻿name: blitzashMVM
+description: i have no friends to tf2 ap with :(
+# ASYNC ONLY
+
+game: Team Fortress 2 Mann vs Machine
+Team Fortress 2 Mann vs Machine:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  server_settings: false
+  death_link: false
+
+  #############
+  # Run shape #
+  #############
+  mission_count: 8
+  difficulty_pool: normal
+  excluded_missions:
+    # Removing expert missions and wave 666.
+    - Caliginous Caper
+    - Cataclysm
+    - Desperation
+    - Mannslaughter
+  community_missions: false
+  server_mods: []
+  start_mission: random
+  start_class: random
+
+  ########
+  # Goal #
+  ########
+  goal: missionsanity
+  missionsanity_percentage: 80
+  medal_on_clear: true
+
+  ###########
+  # Rewards #
+  ###########
+  mission_ticket_importance: progression
+  class_unlock_importance: progression
+  weapon_slot_importance: progression
+  weapon_buff_importance: useful
+  cash_rewards: false
+  weapon_buff_percentage: 75
+  weapon_buff_stack_chance: 25
+  trap_percentage: 0

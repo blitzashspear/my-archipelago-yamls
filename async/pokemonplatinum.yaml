@@ -19,7 +19,7 @@ Pokemon Platinum:
   # Item Shuffles #
   #################
   overworlds: true
-  hiddens: false
+  hiddens: true
   npc_gifts: true
   key_items: true
   hms: true
@@ -156,7 +156,6 @@ Pokemon Platinum:
   start_inventory_from_pool:
     Master Repel: 1
     Bicycle: 1
-    HM02 Fly: 1
 
   exclude_locations:
     # No thank you dexsanity

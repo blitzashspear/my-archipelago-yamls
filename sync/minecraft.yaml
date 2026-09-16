@@ -5,6 +5,7 @@ game: Minecraft
 Minecraft:
   progression_balancing: normal
   accessibility: full
+  plando_connections: []
   advancement_goal: 50
   egg_shards_required: 10
   egg_shards_available: 15
@@ -17,4 +18,6 @@ Minecraft:
   include_postgame_advancements: false
   bee_traps: 15
   send_defeated_mobs: false
+  immediate_respawn: true
   death_link: true
+  starting_items: []
