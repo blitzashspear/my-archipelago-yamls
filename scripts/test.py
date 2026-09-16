@@ -1,7 +1,5 @@
 from pathlib import Path
 import re
-import subprocess
-import sys
 import yaml
 
 YAMLS_FOLDER = Path(__file__).parent.parent
@@ -14,7 +12,7 @@ def valid_yaml():
             with path.open(encoding="utf-8") as file:
                 data = yaml.safe_load(file) or {}
         except yaml.scanner.ScannerError:
-            print("VALID YAML TEST FAILED")
+            print("INVALID YAML ENCOUNTERED")
             print(path.name)
             return False
     return True
