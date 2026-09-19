@@ -1,0 +1,21 @@
+﻿name: blitzashDW
+description: get all medals
+# SIDE GAME
+
+game: DORONKO WANKO
+DORONKO WANKO:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  goal: badge
+  logic: standard
+  filler_damage_amount: 100_damage
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  exclude_locations:
+  - Congratulations! # I don't want to watch the cutscene until im finished getting all medals.
+  - Damage Gift 13 # Check is bugged.
