@@ -1,6 +1,6 @@
 name: blitzashBW
-description: every copy of pokemon black is personalized
-# ASYNC ONLY - TRAINERSANITY (not implemented in apworld yet but i will add it to this yaml) & NON-GHETSIS GOAL
+description: find all sages
+# ASYNC ONLY
 
 game: Pokemon Black and White
 Pokemon Black and White:

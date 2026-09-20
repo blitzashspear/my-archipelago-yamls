@@ -1,5 +1,5 @@
 ﻿name: blitzashBTD6
-description: funni monkey game
+description: 25-40 medals
 
 game: Bloons TD6
 Bloons TD6:
@@ -15,7 +15,7 @@ Bloons TD6:
   ################
   goal: default
   total_medals: 50
-  medalreq: random-range-50-75
+  medalreq: random-range-50-80
 
   ###############
   # Map Options #

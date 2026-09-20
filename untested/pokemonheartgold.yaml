@@ -1,5 +1,6 @@
 ﻿name: blitzashHGSS
-description: why does this game have 4 implementations
+description: champion
+# Trueblue's implementation
 
 game: Pokemon HeartGold and SoulSilver
 Pokemon HeartGold and SoulSilver:

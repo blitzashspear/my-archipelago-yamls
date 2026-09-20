@@ -1,5 +1,5 @@
 ﻿name: blitzashMVM
-description: i have no friends to tf2 ap with :(
+description: beat 8 missions
 # ASYNC ONLY
 
 game: Team Fortress 2 Mann vs Machine
@@ -32,7 +32,7 @@ Team Fortress 2 Mann vs Machine:
   # Goal #
   ########
   goal: missionsanity
-  missionsanity_percentage: 80
+  missionsanity_percentage: 100
   medal_on_clear: true
 
   ###########

@@ -1,0 +1,106 @@
+﻿name: blitzashBread
+description: 100% the game
+# ASYNC ONLY
+
+game: Metroid Bread
+Metroid Bread:
+  progression_balancing: disabled
+  accessibility: minimal
+  death_link: false
+  game_goal: one_hundred_percent
+  required_dna: 0
+  door_lock_rando: individual_doors
+  doors_to_change:
+    - Access Open
+    - Charge Beam Door
+    - Grapple Beam Door
+    - Missile Door
+    - Plasma Beam Door
+    - Power Beam Door
+    - Super Missile Door
+    - Wave Beam Door
+    - Wide Beam Door
+  change_doors_to:
+    - Charge Beam Door
+    - Diffusion Beam Door
+    - Grapple Beam Door
+    - Ice Missile Door
+    - Missile Door
+    - Plasma Beam Door
+    - Power Beam Door
+    - Storm Missile Door
+    - Super Missile Door
+    - Wave Beam Door
+    - Wide Beam Door
+
+  transport_rando: randomized
+  include_boss_pickups: true
+  start_with_pulse_radar: false
+  show_boss_lifebar: false
+  show_enemy_life: false
+  show_enemy_damage: false
+  show_player_damage: false
+  immediate_energy_parts: false
+  constant_heat_damage: 20
+  constant_cold_damage: 20
+  constant_lava_damage: 20
+  enable_death_counter: true
+  room_name_display: always
+  raven_beak_damage_table: consistent_high
+  nerf_power_bombs: true
+  disabled_lights: random
+  x_starts_released: false
+
+  energy_tanks: 8
+  energy_parts: 16
+  missile_tanks: 35
+  missile_plus_tanks: 10
+  power_bomb_tanks: 12
+  energy_per_tank: 100
+  starting_missiles: 15
+  starting_power_bombs: 0
+  missile_tank_ammo: 2
+  missile_plus_tank_ammo: 10
+  power_bomb_tank_ammo: 1
+  vanilla_flash_shift_behaviour: false
+  flash_shift_upgrade_amount: 1
+  flash_shift_upgrade_count: 2
+  speed_booster_upgrade_count: 4
+  flash_shift_included_ammo: 0
+  flash_shift_upgrade_requires_main_item: true
+  progressive_beams: false
+  progressive_charge: true
+  progressive_missiles: false
+  progressive_bombs: true
+  progressive_suit: true
+  progressive_spin: true
+  starting_location: random_save_station
+  starting_kit_items: random-range-0-1
+  early_morph_ball: false
+
+  knowledge_tricks: beginner
+  movement_tricks: beginner
+  combat_tricks: intermediate
+  pseudo_wave: beginner
+  infinite_bomb_jump: intermediate
+  water_bomb_jump: beginner
+  water_space_jump: beginner
+  single_wall_wall_jump: beginner
+  slide_jump: beginner
+  speedbooster_conservation: beginner
+  wall_jump_tricks: beginner
+  heat_cold_runs: beginner
+  reverse_grapple_block: true
+  damage_boost: disabled
+  stand_on_frozen_enemy: beginner
+  grapple_movement: beginner
+  cross_bomb_skip: disabled
+  climb_sloped_tunnels: disabled
+  short_boost: disabled
+  diffusion_abuse: beginner
+  flash_shift_skip: disabled
+  diagonal_bomb_jump: disabled
+  ledge_warp: disabled
+  cross_bomb_launch: disabled
+  floor_clip: disabled
+  climb_sloped_surfaces: disabled

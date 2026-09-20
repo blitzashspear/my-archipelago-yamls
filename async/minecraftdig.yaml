@@ -1,6 +1,6 @@
 ﻿name: blitzashMCDig
-description: diggy diggy holes
-# ASYNC ONLY - 9 CHUNKS
+description: 9 chunks
+# ASYNC ONLY
 
 game: Minecraft Dig
 Minecraft Dig:

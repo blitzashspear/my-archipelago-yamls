@@ -1,6 +1,6 @@
 name: blitzashSudoku
-description: used to sudoku on the plane lmfao
-# ASYNC ONLY - THAT'S A LOT OF BOARDS
+description: 50 boards
+# ASYNC ONLY
 
 game: Archipeladoku
 Archipeladoku:
