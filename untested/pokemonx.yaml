@@ -1,0 +1,11 @@
+﻿name: blitzashXY
+description: pokemon league
+
+game: Pokemon X and Y
+Pokemon X and Y:
+  progression_balancing: disabled
+  accessibility: full
+  include_hidden_items: true
+  require_dowsing_machine: true
+  trainersanity: false
+  goal: pokemon_league

@@ -1,0 +1,8 @@
+﻿name: blitzashBrawl
+description: beat the game
+
+game: Super Smash Bros. Brawl - The Subspace Emissary
+Super Smash Bros. Brawl - The Subspace Emissary:
+  progression_balancing: disabled
+  accessibility: full
+  tabuu_trophies_needed: 50
