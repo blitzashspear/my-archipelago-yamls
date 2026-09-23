@@ -39,7 +39,7 @@ Celeste (Open World):
   # Movement Options #
   ####################
   dash_shuffle: octal
-  climb_shuffle: off
+  climb_shuffle: none
   crouch_shuffle: true
   split_interactables: per_level_and_side
 
