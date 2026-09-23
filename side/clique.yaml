@@ -3,7 +3,6 @@ description: side game
 
 game: Clique
 Clique:
-  # Game Options
   progression_balancing: extreme
   accessibility: full
   color:

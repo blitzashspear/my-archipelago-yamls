@@ -31,7 +31,6 @@ Metroid Bread:
     - Super Missile Door
     - Wave Beam Door
     - Wide Beam Door
-
   transport_rando: randomized
   include_boss_pickups: true
   start_with_pulse_radar: false
