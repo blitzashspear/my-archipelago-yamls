@@ -23,9 +23,9 @@ Celeste (Open World):
   ####################
   # Location Options #
   ####################
-  checkpointsanity: false
+  checkpointsanity: true
   binosanity: false
-  keysanity: false
+  keysanity: true
   gemsanity: false
   carsanity: false
   roomsanity: false
