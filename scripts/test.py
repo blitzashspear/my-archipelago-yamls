@@ -125,26 +125,26 @@ def readable_comments():
         return False
     return True
 
-def yaml_notated():
+def yaml_description():
     failed_yamls = []
 
-    expected_markers = {
-        YAMLS_FOLDER / "async": "# ASYNC ONLY",
-        YAMLS_FOLDER / "side": "# SIDE GAME",
+    expected_descriptions = {
+        "async": "async only",
+        "side": "side game",
+        "sync": "sync viable",
     }
-    for folder, expected_marker in expected_markers.items():
+
+    for folder_name, expected_description in expected_descriptions.items():
+        folder = YAMLS_FOLDER / folder_name
         for path in sorted(folder.glob("*.yaml")):
             with path.open(encoding="utf-8") as file:
-                lines = file.readlines()
+                data = yaml.safe_load(file) or {}
 
-            marker = lines[2].rstrip("\r\n") if len(lines) > 2 else ""
-            if (folder.name == "async" and not marker.startswith(expected_marker)) or (
-                folder.name == "side" and marker != expected_marker
-            ):
+            if data.get("description") != expected_description:
                 failed_yamls.append(path)
 
     if failed_yamls:
-        print("YAML NOTATION TEST FAILED")
+        print("YAML DESCRIPTION TEST FAILED")
         for path in failed_yamls:
             print("\t" + str(path.relative_to(YAMLS_FOLDER)))
         return False
@@ -196,7 +196,7 @@ if __name__ == "__main__":
         quit()
     if not readable_comments():
         quit()
-    if not yaml_notated():
+    if not yaml_description():
         quit()
     if not same_name():
         quit()

@@ -1,6 +1,5 @@
 name: blitzashPVZ
-description: 50 levels, 21-27 tacos
-# ASYNC ONLY
+description: async only
 
 game: Plants vs. Zombies
 Plants vs. Zombies:

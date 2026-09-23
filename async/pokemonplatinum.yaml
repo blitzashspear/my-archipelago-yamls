@@ -1,6 +1,5 @@
 ﻿name: blitzashDPP
-description: champion
-# ASYNC ONLY
+description: async only
 
 game: Pokemon Platinum
 Pokemon Platinum:

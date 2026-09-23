@@ -1,6 +1,5 @@
 name: blitzashFRLG
-description: champ rematch
-# ASYNC ONLY
+description: async only
 
 game: Pokemon FireRed and LeafGreen
 Pokemon FireRed and LeafGreen:

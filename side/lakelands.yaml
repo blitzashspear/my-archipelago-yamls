@@ -1,0 +1,8 @@
+﻿name: blitzashLL
+description: side game
+# Archipelago Game Jam (May 22nd 2026)
+
+game: Lakelands
+Lakelands:
+  progression_balancing: normal
+  accessibility: full

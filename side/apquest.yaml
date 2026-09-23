@@ -1,6 +1,5 @@
 name: blitzashAPQuest
-description: beat boss
-# SIDE GAME
+description: side game
 
 game: 
   APQuest: 50

@@ -1,5 +1,5 @@
 ﻿name: blitzashSM
-description: beat the game
+description: sync viable
 
 game: Super Metroid
 Super Metroid:
@@ -24,6 +24,7 @@ Super Metroid:
   ##########################
   objective:
     - kill all G4
+    - visit the animals
   custom_objective: false
   tourian: vanilla
   escape_rando: false

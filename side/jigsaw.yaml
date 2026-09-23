@@ -1,6 +1,5 @@
 ﻿name: blitzashJigsaw
-description: 100-200 pieces
-# SIDE GAME
+description: side game
 
 game: Jigsaw
 Jigsaw:

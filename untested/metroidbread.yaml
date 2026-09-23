@@ -1,6 +1,5 @@
 ﻿name: blitzashBread
-description: 100% the game
-# ASYNC ONLY
+description: async only
 
 game: Metroid Bread
 Metroid Bread:

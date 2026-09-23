@@ -1,6 +1,5 @@
 name: blitzashNonogram
-description: 15x15
-# SIDE GAME
+description: side game
 
 game: Nonograhmm
 Nonograhmm:

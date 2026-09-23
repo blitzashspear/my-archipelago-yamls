@@ -1,6 +1,5 @@
 ﻿name: blitzashWeirdAl
-description: listen to 4 albums
-# ASYNC ONLY
+description: async only
 
 game: '''Weird Al'' Yankovic Discography'
 '''Weird Al'' Yankovic Discography':

@@ -1,0 +1,9 @@
+﻿name: blitzashBKClown
+description: side game
+
+game: BKClown
+BKClown:
+  progression_balancing: disabled
+  accessibility: full
+  LemonAdded: true
+  SLWH: true

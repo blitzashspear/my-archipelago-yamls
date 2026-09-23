@@ -1,6 +1,5 @@
 name: blitzashShapez
-description: reach level 27
-# ASYNC ONLY
+description: async only
 
 game: shapez
 shapez:

@@ -1,6 +1,5 @@
 ﻿name: blitzashMCF
-description: get 1000 items
-# ASYNC ONLY
+description: async only
 
 game: Minecraft Fabric
 Minecraft Fabric:

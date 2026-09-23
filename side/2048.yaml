@@ -1,6 +1,5 @@
 name: blitzash2048
-description: get to 2048
-# SIDE GAME
+description: side game
 
 game: '2048'
 '2048':

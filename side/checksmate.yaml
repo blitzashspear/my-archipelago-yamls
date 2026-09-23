@@ -1,6 +1,5 @@
 ﻿name: blitzashChess
-description: beat supersize board
-# SIDE GAME
+description: side game
 
 game: ChecksMate
 ChecksMate:

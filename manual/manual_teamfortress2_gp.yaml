@@ -1,7 +1,7 @@
 name: blitzashTF2
-description: get all class tokens
+description: sync viable
 
 game: Manual_TeamFortress2_GP
 Manual_TeamFortress2_GP:
-    progression_balancing: 50
+    progression_balancing: normal
     accessibility: full

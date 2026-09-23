@@ -1,6 +1,5 @@
 ﻿name: blitzashPP
-description: 1000 pokemon
-# ASYNC ONLY
+description: async only
 
 game: Pokepelago
 Pokepelago:

@@ -1,6 +1,5 @@
 ﻿name: blitzashSR
-description: 15-20 dna
-# ASYNC ONLY
+description: async only
 
 game: 'Metroid: Samus Returns'
 'Metroid: Samus Returns':

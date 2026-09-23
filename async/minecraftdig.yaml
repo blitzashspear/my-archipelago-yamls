@@ -1,6 +1,5 @@
 ﻿name: blitzashMCDig
-description: 9 chunks
-# ASYNC ONLY
+description: async only
 
 game: Minecraft Dig
 Minecraft Dig:

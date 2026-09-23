@@ -1,0 +1,78 @@
+name: blitzashCeleste
+description: sync viable
+
+game: Celeste (Open World)
+Celeste (Open World):
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  death_link: true
+  trap_link: true
+  logic_difficulty: assist_mode
+
+  ################
+  # Goal Options #
+  ################
+  goal_area: core_c
+  lock_goal_area: true
+  total_strawberries: 5
+  strawberries_required_percentage: 80
+
+  ####################
+  # Location Options #
+  ####################
+  checkpointsanity: false
+  binosanity: false
+  keysanity: false
+  gemsanity: false
+  carsanity: false
+  roomsanity: false
+  include_goldens: false
+  include_core: true
+  include_farewell: none
+  include_b_sides: true
+  include_c_sides: true
+
+  ####################
+  # Movement Options #
+  ####################
+  dash_shuffle: octal
+  climb_shuffle: split
+  crouch_shuffle: true
+  split_interactables: per_level_and_side
+
+  ##################
+  # Junk and Traps #
+  ##################
+  junk_fill_percentage: 0
+  reduce_raspberries: true
+  trap_fill_percentage: 75
+  trap_expiration_action: new_screens
+  trap_expiration_amount: 10
+  bald_trap_weight: medium
+  literature_trap_weight: medium
+  stun_trap_weight: medium
+  invisible_trap_weight: medium
+  fast_trap_weight: medium
+  slow_trap_weight: medium
+  ice_trap_weight: medium
+  reverse_trap_weight: medium
+  screen_flip_trap_weight: medium
+  laughter_trap_weight: medium
+  hiccup_trap_weight: medium
+  zoom_trap_weight: medium
+  tiny_trap_weight: medium
+
+  #####################
+  # Aesthetic Options #
+  #####################
+  music_shuffle: none
+  require_cassettes: false
+  torch_behavior: start_unlit
+  madeline_hair_length: random
+  madeline_one_dash_hair_color: random
+  madeline_two_dash_hair_color: random
+  madeline_no_dash_hair_color: random
+  madeline_feather_hair_color: random

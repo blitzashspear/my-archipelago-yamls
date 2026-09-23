@@ -1,6 +1,5 @@
 ﻿name: blitzashMCV
-description: beat the game
-# SIDE GAME
+description: side game
 
 game: MetroCUBEvania
 MetroCUBEvania:

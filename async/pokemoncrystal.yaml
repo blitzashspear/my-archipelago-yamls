@@ -1,6 +1,5 @@
 name: blitzashGSC
-description: 16 badges
-# ASYNC ONLY
+description: async only
 
 game: Pokemon Crystal
 Pokemon Crystal:

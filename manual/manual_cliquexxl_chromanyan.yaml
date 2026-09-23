@@ -1,6 +1,5 @@
 ﻿name: blitzashXXL
-description: 1000 buttons
-# ASYNC ONLY
+description: async only
 
 game: Manual_CliqueXXL_ChromaNyan
 Manual_CliqueXXL_ChromaNyan:

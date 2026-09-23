@@ -1,6 +1,5 @@
 ﻿name: blitzashClique
-description: click the button
-# SIDE GAME
+description: side game
 
 game: Clique
 Clique:

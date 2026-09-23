@@ -1,6 +1,5 @@
 ﻿name: blitzashMKSeries
-description: 180 trophies
-# ASYNC ONLY
+description: async only
 
 game: Manual_MarioKartSeries_arg7
 Manual_MarioKartSeries_arg7:

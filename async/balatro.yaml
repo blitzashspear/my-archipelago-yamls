@@ -1,6 +1,5 @@
 ﻿name: blitzashBalatro
-description: beat all decks on black stake
-# ASYNC ONLY
+description: async only
 
 game: Balatro
 Balatro:

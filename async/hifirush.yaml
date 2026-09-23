@@ -1,6 +1,5 @@
 ﻿name: blitzashHiFiRush
-description: 11 unlock next track
-# ASYNC ONLY
+description: async only
 
 game: Hi-Fi RUSH
 Hi-Fi RUSH:

@@ -1,6 +1,5 @@
 ﻿name: blitzashPaint
-description: 85% similarity
-# SIDE GAME
+description: side game
 
 game: Paint
 Paint:

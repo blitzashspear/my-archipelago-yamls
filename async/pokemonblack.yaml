@@ -1,6 +1,5 @@
 name: blitzashBW
-description: find all sages
-# ASYNC ONLY
+description: async only
 
 game: Pokemon Black and White
 Pokemon Black and White:

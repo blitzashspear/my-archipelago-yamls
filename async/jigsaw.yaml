@@ -1,6 +1,5 @@
 name: blitzashJigsaw
-description: 500-1000 pieces
-# ASYNC ONLY - THAT'S A LOT OF PIECES
+description: async only
 
 game: Jigsaw
 Jigsaw:

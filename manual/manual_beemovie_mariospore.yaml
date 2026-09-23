@@ -1,0 +1,9 @@
+﻿name: blitzashBeeMovie
+description: sync viable
+
+game: Manual_BeeMovie_MarioSpore
+Manual_BeeMovie_MarioSpore:
+  progression_balancing: disabled
+  accessibility: minimal
+  filler_traps: 20
+  death_link: true

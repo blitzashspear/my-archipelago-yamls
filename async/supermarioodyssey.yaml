@@ -1,6 +1,5 @@
 ﻿name: blitzashSMO
-description: moon
-# ASYNC ONLY
+description: async only
 
 game: Super Mario Odyssey
 Super Mario Odyssey:

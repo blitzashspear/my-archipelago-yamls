@@ -1,6 +1,5 @@
 ﻿name: blitzashWordle
-description: 20 words, 10 streak.
-# SIDE GAME
+description: side game
 
 game: Wordipelago
 Wordipelago:

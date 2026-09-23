@@ -1,6 +1,5 @@
 ﻿name: blitzashMVM
-description: beat 8 missions
-# ASYNC ONLY
+description: async only
 
 game: Team Fortress 2 Mann vs Machine
 Team Fortress 2 Mann vs Machine:

@@ -1,6 +1,5 @@
 name: blitzashSudoku
-description: 50 boards
-# ASYNC ONLY
+description: async only
 
 game: Archipeladoku
 Archipeladoku:
