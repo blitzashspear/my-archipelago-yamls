@@ -6,7 +6,7 @@ Celeste (Open World):
   ################
   # Game Options #
   ################
-  progression_balancing: disabled
+  progression_balancing: 10
   accessibility: full
   death_link: true
   trap_link: true
@@ -17,8 +17,8 @@ Celeste (Open World):
   ################
   goal_area: core_c
   lock_goal_area: true
-  total_strawberries: 5
-  strawberries_required_percentage: 80
+  total_strawberries: 10
+  strawberries_required_percentage: 100
 
   ####################
   # Location Options #
@@ -39,7 +39,7 @@ Celeste (Open World):
   # Movement Options #
   ####################
   dash_shuffle: octal
-  climb_shuffle: split
+  climb_shuffle: off
   crouch_shuffle: true
   split_interactables: per_level_and_side
 
