@@ -1,0 +1,24 @@
+﻿name: blitzashMania
+description: collect all chaos emeralds
+
+game: Sonic Mania
+Sonic Mania:
+  progression_balancing: normal
+  accessibility: full
+  blue_spheres: off
+  encore_mode: false
+  filler_weights:
+    10 Rings: 25
+    1000 Points: 8
+    1UP: 4
+    Hyper Ring: 5
+    Invincibility: 12
+    Shield: 10
+    Super Sneakers: 12
+  trap_weights:
+    Placebo Trap: 4
+
+  trap_percent: 10
+  completion_type: good_ending
+  ring_link: on
+  death_link: false

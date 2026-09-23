@@ -177,15 +177,11 @@ def same_name():
 
 if __name__ == "__main__":
     yaml_paths = sorted(YAMLS_FOLDER.rglob("*.yaml"))
-    games = []
     for path in yaml_paths:
         with path.open(encoding="utf-8") as file:
             data = yaml.safe_load(file) or {}
-        game = data.get("game")
-        if not any(game == existing_game for existing_game in games):
-            games.append(game)
 
-    print(f"PERFORMING TESTS ON {len(yaml_paths)} YAMLS WITH {len(games)} UNIQUE GAMES")
+    print(f"PERFORMING TESTS ON {len(yaml_paths)} YAMLS")
     if not valid_yaml():
         quit()
     if not async_balancing():

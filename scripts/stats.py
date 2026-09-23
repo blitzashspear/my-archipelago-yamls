@@ -27,12 +27,25 @@ def index_games(local_games):
 		indexed_games = list(executor.map(index_game_name, index_entries))
 	return [game for game in local_games if game in indexed_games]
 
+def yaml_paths_for_scope(scope):
+	paths = [path for path in YAMLS_FOLDER.rglob("*.yaml")]
+	if scope == "ready":
+		paths = [
+			path for path in paths
+			if path.relative_to(YAMLS_FOLDER).parts and path.relative_to(YAMLS_FOLDER).parts[0] not in {"untested", "waiting"}
+		]
+	return paths
+
 if __name__ == "__main__":
+	scope_prompt = input("Run stats for all YAMLs or ready YAMLs only? [all/ready]: ").strip().lower()
+	scope = "ready" if scope_prompt in {"ready", "r"} else "all"
+	selected_paths = yaml_paths_for_scope(scope)
+
 	total = 0
 	games = []
 	game_counts = []
 	death_link_count = 0
-	for path in YAMLS_FOLDER.rglob("*.yaml"):
+	for path in selected_paths:
 		with path.open(encoding="utf-8") as file:
 			data = yaml.safe_load(file) or {}
 		game = data.get("game")
@@ -51,7 +64,7 @@ if __name__ == "__main__":
 			game_counts.append((game, 1))
 
 	for folder in sorted(path for path in YAMLS_FOLDER.iterdir() if path.is_dir()):
-		count = sum(1 for _ in folder.glob("*.yaml"))
+		count = sum(1 for file_path in selected_paths if file_path.parent == folder)
 		if not count:
 			continue
 		total += count
@@ -60,7 +73,13 @@ if __name__ == "__main__":
 	len_games = len(games)
 	print(f"TOTAL: {total} YAMLS")
 	print(f"UNIQUE GAMES: {len_games}")
+	print("GAMES WITH 2 OR MORE YAMLS:")
+	for game, count in sorted(game_counts, key=lambda game_count: str(game_count[0])):
+		if count > 1:
+			print(f"\t{game}: {count}")
 	print(f"DEATHLINK ENABLED: {death_link_count} YAMLS")
-	len_index_games = len(index_games(games))
-	percentage_index_games = round(len_index_games / len_games * 100)
-	print(f"{len_index_games} GAMES ({percentage_index_games}%) SUPPORTED BY IONIUM")
+	index_prompt = input("Check Ionium compatibility? [Y/N]: ").strip().lower()
+	if index_prompt in {"y", "yes"}:
+		len_index_games = len(index_games(games))
+		percentage_index_games = round(len_index_games / len_games * 100)
+		print(f"{len_index_games} GAMES ({percentage_index_games}%) SUPPORTED BY IONIUM")
