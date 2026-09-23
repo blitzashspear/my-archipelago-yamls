@@ -53,7 +53,7 @@ if __name__ == "__main__":
 			games.append(game)
 
 		game_options = data.get(game, {}) if isinstance(game, str) else {}
-		if game_options.get("death_link") is True:
+		if game_options.get("death_link") is True or game_options.get("deathlink") is True:
 			death_link_count += 1
 
 		for existing_game, count in game_counts:
