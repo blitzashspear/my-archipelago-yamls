@@ -18,20 +18,6 @@ Untitled Goose Game:
   include_model_church_pecks: all_pecks
   include_milestone_locations: true
   include_new_tasks: true
-    # - Break the intro gate
-    # - Drop some mail in the well
-    # - Short out the garden radio
-    # - Lock the groundskeeper IN the garden
-    # - Trap the TV shop owner in the garage
-    # - Break through the boards to the back gardens
-    # - Make the woman fix the topiary
-    # - Pose as a duck statue
-    # - Dress up the bush with both ribbons
-    # - Do some interior redecorating
-    # - Trip the burly man
-    # - Break a pint glass
-    # - Perform at the pub with a harmonica
-
   filler_amount_mega_honk: 3
   filler_amount_speedy_feet: 10
   filler_active_silent_steps: true

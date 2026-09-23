@@ -46,6 +46,7 @@ Bloons TD6:
   #######################
   progressive_knowledge: false
   progressive_prices: true
+  progressive_starting_cash: 10
   max_level: 150
   xp_curve: false
   static_req: 5000
@@ -55,7 +56,7 @@ Bloons TD6:
   ###################
   pop_tier_checks: false
   upgrade_sanity: false
-  round_sanity: 10
+  round_sanity: 20
   custom_round_checks:
     - "64"
     - "68"
@@ -79,6 +80,7 @@ Bloons TD6:
   ################
   # Trap Options #
   ################
+  trap_link: true
   trap_percentage: 25
   trap_weights:
     Bee Trap: 10
