@@ -18,7 +18,7 @@ Sweet Defeat:
   # Item & Location Options #
   ###########################
   exclude_locations:
-  # This level sucks.
-  - Normal Level 29
-  - Pacifism Level 29
-  - One Level 29
+    # This level sucks.
+    - Normal Level 29
+    - Pacifism Level 29
+    - One Level 29

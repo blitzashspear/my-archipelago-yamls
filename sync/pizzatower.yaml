@@ -114,14 +114,14 @@ Pizza Tower:
   - Snotty Murdered
 
   excluded_locations:
-  # i can get one level, okay.
-  - Pizzascare Sausage Toppin
-  - Pizzascare Cheese Toppin
-  - Pizzascare Tomato Toppin
-  - Pizzascare Pineapple Toppin
-  - Pizzascare Mushroom Toppin
-  - Pizzascare Secret 1
-  - Pizzascare Secret 2
-  - Pizzascare Secret 3
-  - Pizzascare Treasure
-  - Pizzascare Complete
+    # i can get one level, okay.
+    - Pizzascare Sausage Toppin
+    - Pizzascare Cheese Toppin
+    - Pizzascare Tomato Toppin
+    - Pizzascare Pineapple Toppin
+    - Pizzascare Mushroom Toppin
+    - Pizzascare Secret 1
+    - Pizzascare Secret 2
+    - Pizzascare Secret 3
+    - Pizzascare Treasure
+    - Pizzascare Complete

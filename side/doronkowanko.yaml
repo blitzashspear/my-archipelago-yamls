@@ -16,5 +16,5 @@ DORONKO WANKO:
   # Item & Location Options #
   ###########################
   exclude_locations:
-  - Congratulations! # I don't want to watch the cutscene until im finished getting all medals.
-  - Damage Gift 13 # Check is bugged.
+    - Congratulations! # I don't want to watch the cutscene until im finished getting all medals.
+    - Damage Gift 13 (P$20,000,000) # Check is bugged.

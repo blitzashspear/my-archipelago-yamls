@@ -166,4 +166,4 @@ Plants vs. Zombies:
   # Item & Location Options #
   ###########################
   non_local_items:
-  - Random Seed Packet
+    - Random Seed Packet

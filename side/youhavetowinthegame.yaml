@@ -44,10 +44,10 @@ You Have to Win the Game:
   require_unlock_teleporters: true
   logic_difficulty: hard
   include_extra_roadblocks:
-  - Quarry
-  - Mineshaft
-  - Castle
-  - Graveyard
+    - Quarry
+    - Mineshaft
+    - Castle
+    - Graveyard
   password_randomization: 
     words: 45
     any: 5

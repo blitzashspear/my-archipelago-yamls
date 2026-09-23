@@ -90,5 +90,5 @@ Hollow Knight:
   CostSanityCharmWeight: 1
   CostSanityGeoWeight: 8
   local_items:
-  - Mimics
+    - Mimics
   StartingGeo: random
