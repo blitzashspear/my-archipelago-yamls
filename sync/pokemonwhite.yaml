@@ -31,9 +31,6 @@ Pokemon Black and White:
     - Require Flash
   adjust_levels: [] # DEFAULT IS Wild, Trainer!!!
   reusable_tms: im_not_a_masochist
-  start_inventory_from_pool:
-    Bicycle: 1
-    HM02 Fly: 1
 
   plugin_options:
     qol:
@@ -73,6 +70,10 @@ Pokemon Black and White:
       from_pool: true
       world: false
       force: true
+
+  start_inventory_from_pool:
+    Bicycle: 1
+    HM02 Fly: 1
 
   exclude_locations:
     - Abyssal Ruins items

@@ -14,9 +14,11 @@ Mario Kart Wii:
     - 2nd_place
     - 3rd_place
   include_race_checks: true
-  cups_required_for_goal: 8
+  cups_required_for_goal: 6
   goal_difficulty: 1st_place
   goal_cc: 150cc
+  lock_default_characters: true
+  lock_default_vehicles: true
   enable_item_randomization: true
   starting_items: []
   random_item_mode: uniform

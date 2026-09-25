@@ -14,7 +14,7 @@ Refunct:
   goal: button_31_1
   cubes: red_cubes_bag
   extra_cubes: green_cubes_bag
-  number_of_minigames: 12
+  number_of_minigames: 11
   nerf_minigame_checks: false
   number_of_unlocks_per_minigame: 1
   minigames_likeliness:
@@ -23,7 +23,6 @@ Refunct:
     Button Galore Minigame: 1
     Clique: 1
     Defunct Minigame: 1
-    Defunct Rando Minigame: 1
     Funny Bridge Game Minigame: 1
     OG Randomizer Minigame: 1
     Rando Mountain Minigame: 1
@@ -36,6 +35,7 @@ Refunct:
     Climb Narrow Minigame: 0
     Climb Spiral Minigame: 0
     Custom Minigame: 0
+    Defunct Rando Minigame: 0
   see_other_players: 10
   effects_and_traps:
     Ascend Trap: 1
@@ -56,5 +56,6 @@ Refunct:
   ###########################
   # Item & Location Options #
   ###########################
-  priorty_locations:
+  priority_locations:
     - "Clique: The Button"
+    - "Funny Bridge Game Minigame: Cube"

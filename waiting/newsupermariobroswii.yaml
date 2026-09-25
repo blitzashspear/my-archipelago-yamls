@@ -30,7 +30,6 @@ NSMBW:
     - Swim
     - Wall Jump
     - Carry
-    - Climb # apparently has issues
   randomize_level_elements: true
   level_elements_included:
     - Door

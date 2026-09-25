@@ -8,7 +8,7 @@ Bloons TD6:
   ################
   progression_balancing: normal
   accessibility: full
-  death_link: true
+  death_link: false
 
   ################
   # Goal Options #
@@ -38,7 +38,7 @@ Bloons TD6:
   # Monkey Options #
   ##################
   category_lock: false
-  starting_monkey: true
+  starting_monkey: []
   num_start_monkey: 1
 
   #######################
@@ -81,13 +81,13 @@ Bloons TD6:
   # Trap Options #
   ################
   trap_link: true
-  trap_percentage: 25
+  trap_percentage: 10
   trap_weights:
     Bee Trap: 10
     Chaos Control Trap: 10
     Flood Trap: 10
     Freeze Trap: 10
-    Input Sequence Trap: 10
+    Input Sequence Trap: 0
     Literature Trap: 10
     Math Quiz Trap: 10
     Modified Bloons: 10
@@ -97,7 +97,7 @@ Bloons TD6:
     Shuffle Trap: 10
     Speed Up Trap: 10
     Swap Trap: 10
-    Trivia Trap: 10
+    Trivia Trap: 0
     Yap Trap: 10
 
     144p Trap: 0

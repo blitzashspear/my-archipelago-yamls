@@ -57,5 +57,5 @@ Refunct:
   ###########################
   # Item & Location Options #
   ###########################
-  priorty_locations:
+  priority_locations:
     - "Clique: The Button"
