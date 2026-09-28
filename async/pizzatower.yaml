@@ -6,7 +6,7 @@ Pizza Tower:
   ################
   # Game Options #
   ################
-  progression_balancing: normal
+  progression_balancing: disabled
   accessibility: full
 
   ###################
