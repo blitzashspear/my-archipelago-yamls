@@ -19,5 +19,5 @@ Manual_MarioKartSeries_arg7:
   ###################
   # Trophy Settings #
   ###################
-  total_trophy_count: 200
-  trophy_percent: 90
+  total_trophy_count: 223
+  trophy_percent: 90 # 200

@@ -10,7 +10,7 @@ Refunct:
   progression_balancing: normal
   accessibility: full
   amount_of_grass: 160
-  required_grass_percentage: random-range-90-100
+  required_grass_percentage: random-range-90-100 # 144-160
   goal: button_31_1
   cubes: red_cubes_bag
   extra_cubes: green_cubes_bag

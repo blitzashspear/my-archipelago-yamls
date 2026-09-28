@@ -19,7 +19,7 @@ Celeste (Open World):
   lock_goal_area: false
   goal_area_checkpointsanity: false
   total_strawberries: 202
-  strawberries_required_percentage: random-range-75-99
+  strawberries_required_percentage: random-range-75-99 # 150-200
 
   ####################
   # Location Options #

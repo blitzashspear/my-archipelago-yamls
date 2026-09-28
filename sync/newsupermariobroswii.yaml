@@ -1,5 +1,5 @@
 ﻿name: blitzashNSMBW
-description: untested
+description: sync viable
 
 game: NSMBW
 NSMBW:
@@ -23,19 +23,18 @@ NSMBW:
   #########
   # Items #
   #########
-  randomize_powerups: on
+  randomize_powerups: on_except_mushroom
   randomize_abilites: true
   abilites_included:
+    - Carry
     - Ground Pound
     - Swim
     - Wall Jump
-    - Carry
   randomize_level_elements: true
   level_elements_included:
+    - "!-Switch"
     - Door
     - P-Switch
-    - Check Point
-    - "!-Switch"
   randomize_boss_health: true
 
   ###################

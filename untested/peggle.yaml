@@ -34,7 +34,7 @@ Peggle Deluxe:
     Splork: true
     Tula: true
     Warren: true
-  master_count: random
+  master_count: 10
 
   #################
   # Level Options #
@@ -153,7 +153,7 @@ Peggle Nights:
     Splork: true
     Tula: true
     Warren: true
-  master_count: random
+  master_count: 10
 
   #################
   # Level Options #

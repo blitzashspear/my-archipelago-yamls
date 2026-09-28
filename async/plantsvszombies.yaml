@@ -54,7 +54,7 @@ Plants vs. Zombies:
   bonus_levels_goal: 0
   total_levels_goal: 50
   taco_hunt_items: 30
-  taco_hunt_percentage: random-range-70-90
+  taco_hunt_percentage: random-range-70-90 # 21-27
   fast_goal: true
 
   ################################
@@ -77,25 +77,23 @@ Plants vs. Zombies:
     DolphinRider: 1
     Football: 1
     Gargantuar: 1
+    GatlingHead: 1
     GigaGargantuar: 1
     Imp: 1
     JackInTheBox: 1
+    JalapenoHead: 1
     Ladder: 1
     Newspaper: 1
+    PeaHead: 1
     Pogo: 1
     Polevaulter: 1
     ScreenDoor: 1
     Snorkel: 1
+    SquashHead: 1
+    TallnutHead: 1
     TrashCan: 1
+    WallnutHead: 1
     Zomboni: 1
-
-    # It's not just bad - It's dogshit!
-    GatlingHead: 0
-    JalapenoHead: 0
-    PeaHead: 0
-    SquashHead: 0
-    TallnutHead: 0
-    WallnutHead: 0
 
   zombie_randomised_modes:
     Adventure: 1

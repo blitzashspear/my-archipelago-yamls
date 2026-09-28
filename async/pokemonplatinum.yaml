@@ -129,7 +129,6 @@ Pokemon Platinum:
     sound: stereo
     text_frame: 1
     text_speed: fast
-
   blind_trainers: true
   hm_cut_ins: false
   fps60: true

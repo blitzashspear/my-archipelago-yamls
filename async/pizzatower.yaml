@@ -1,0 +1,127 @@
+﻿name: blitzashPT
+description: async only
+
+game: Pizza Tower
+Pizza Tower:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+
+  ###################
+  # General Options #
+  ###################
+  character: peppino
+  difficulty: normal
+  completion_goal: ctop
+  open_world: false
+  bonus_ladders: 0
+  snotty_floor: random
+  death_link: false
+  ring_link: true
+
+  ################
+  # Boss Options #
+  ################
+  toppin_count: 100
+  floor_1_cost: 10
+  floor_2_cost: 30
+  floor_3_cost: 50
+  floor_4_cost: 70
+  floor_5_cost: 90
+  shuffle_boss_keys: true
+
+  ################
+  # Extra Checks #
+  ################
+  treasure_checks: true
+  secret_checks: true
+  srank_checks: false
+  prank_checks: false
+  cheftask_checks: false
+  pumpkin_checks: false
+
+  ####################
+  # Filler and Traps #
+  ####################
+  trap_percentage: 20
+  clothing_filler: true
+  filler_weights:
+    Cross Buff: 20
+    Nothing: 0
+    Permanent 10 Points: 0
+    Permanent 100 Points: 10
+    Permanent 50 Points: 0
+    Pizza Shield: 10
+    Primo Burg: 15
+
+  trap_weights:
+    Clown Trap: 20
+    Fake Santa Trap: 20
+    Ghost Trap: 10
+    Granny Trap: 20
+    Jumpscare: 5
+    Oktoberfest!: 20
+    Timer Trap: 10
+
+  #########################
+  # Randomization Options #
+  #########################
+  randomize_levels: false
+  randomize_bosses: false
+  randomize_secrets: false
+  do_move_rando: true
+  move_rando_list:
+    # Peppino
+    - Mach 4
+    - Uppercut
+    - Superjump
+    - Grab
+    - Taunt
+    - Supertaunt
+    - Bodyslam
+    - Breakdance
+    - Wallclimb
+    # Gustavo
+    - Double Jump
+    - Rat Kick
+    - Spin Attack
+  do_transfo_rando: true
+  transfo_rando_list:
+    - Ball
+    - Barrel
+    - Firemouth
+    - Ghost
+    - Knight
+    - Mort
+    - Olive Bubble
+    - Pizzabox
+    - Revolver
+    - Rocket
+    - Satan's Choice
+    - Shotgun
+    - Sticky Cheese
+    - Weenie
+  shuffle_lap2: true
+  randomize_music: false
+  randomize_enemies: false
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  priority_locations:
+    - Snotty Murdered
+
+  excluded_locations:
+    # i can get one level, okay.
+    - Pizzascare Sausage Toppin
+    - Pizzascare Cheese Toppin
+    - Pizzascare Tomato Toppin
+    - Pizzascare Pineapple Toppin
+    - Pizzascare Mushroom Toppin
+    - Pizzascare Secret 1
+    - Pizzascare Secret 2
+    - Pizzascare Secret 3
+    - Pizzascare Treasure
+    - Pizzascare Complete

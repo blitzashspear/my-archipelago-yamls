@@ -1,0 +1,19 @@
+﻿name: blitzashJunko
+description: sync viable
+
+game: Junko
+Junko:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  early_revolver: early_local
+  shuffle_strange_rocks: false
+  exclude_HIDDEN_orange_button: true
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  exclude_locations: # Where the fuck are these.
+    - Insides Hidden Blue Button

@@ -4,6 +4,9 @@ description: async only
 
 game: Terraria
 Terraria:
+  ################
+  # Game Options #
+  ################
   progression_balancing: disabled
   accessibility: full
   calamity: false
@@ -15,10 +18,14 @@ Terraria:
   fishing_achievements: false
   fill_extra_checks_with: useful_items
   death_link: false
+
+  ###########################
+  # Item & Location Options #
+  ###########################
   exclude_locations:
-  - Old One's Army Tier 1
-  - Old One's Army Tier 2
-  - Old One's Army Tier 3
+    - Old One's Army Tier 1
+    - Old One's Army Tier 2
+    - Old One's Army Tier 3
   plando_items:
     - items:
         Hardmode

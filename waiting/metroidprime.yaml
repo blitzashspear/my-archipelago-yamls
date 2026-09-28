@@ -1,0 +1,60 @@
+﻿name: blitzashPrime
+description: untested
+
+game: Metroid Prime
+Metroid Prime:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  death_link: false
+
+  ###########
+  # General #
+  ###########
+  required_artifacts: 12
+  artifact_hints: enable_scanned
+  final_bosses: ridley
+  starting_room: normal
+  combat_logic_difficulty: normal_logic
+
+  ###################
+  # Gameplay Tweaks #
+  ###################
+  progressive_beam_upgrades: false
+  missile_launcher: true
+  main_power_bomb: true
+  randomize_starting_beam: false
+  shuffle_scan_visor: false
+  shuffle_unlimited_missiles: true
+  shuffle_unlimited_power_bombs: true
+  spring_ball: when_bombs_acquired
+  pre_scan_elevators: true
+  non_varia_heat_damage: true
+  staggered_suit_damage: progressive
+
+  ######################
+  # Door Randomization #
+  ######################
+  elevator_randomization: false
+  door_color_randomization: none
+  blast_shield_randomization: none
+
+  ##########
+  # Tricks #
+  ##########
+  trick_difficulty: no_tricks
+  remove_hive_mecha: false
+  backwards_lower_mines: false
+  remove_xray_requirements: remove_none
+  remove_thermal_requirements: remove_none
+  flaahgra_power_bombs: false
+  trick_allow_list: []
+  trick_deny_list: []
+
+  ############
+  # Cosmetic #
+  ############
+  display_nonlocal_items: match_series
+  etank_capacity: 100
