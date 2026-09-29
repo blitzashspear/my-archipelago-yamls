@@ -29,6 +29,7 @@ Metroid Dread:
     - Power Beam Door
     - Super Missile Door
     - Wave Beam Door
+    - Wide Beam Door
   transport_rando: off
   include_boss_pickups: true
   trick_level: beginner

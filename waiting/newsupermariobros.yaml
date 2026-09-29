@@ -8,19 +8,32 @@ New Super Mario Bros. DS:
   ################
   progression_balancing: normal
   accessibility: full
-  death_link: false
+
+  #################
+  # Goal Settings #
+  #################
   goal: defeat_bowser
+
+  ###################
+  # Location Checks #
+  ###################
   red_coin_checks: true
   one_up_block_checks: false
   blocksanity: false
   secret_exit_checks: true
   toad_house_checks: true
-  star_coin_gate_mode: individual
+  advanced_location_item_placement: allow_progression
+
+  ###########################
+  # Overworld & Progression #
+  ###########################
+  level_randomization: off
+  star_coin_gate_mode: vanilla
+  star_coin_tracking: instant
   tower_castle_keys: true
-  
-  ###################
-  # License Options #
-  ###################
+  secret_exit_shortcut_logic: true
+  secret_exit_world_unlock_logic: false
+  cannon_route_logic: true
   license_mini_mushroom: true
   license_blue_shell: true
   license_mega_mushroom: true
@@ -28,53 +41,58 @@ New Super Mario Bros. DS:
   license_fire_flower: true
   license_touchscreen_pocket: true
 
-  ##################
-  # Filler Options #
-  ##################
-  filler_powerups: true
-  filler_starman: true
-  filler_extra_lives: true
-  filler_coins: true
-  filler_time_capsule: false
-  filler_starman_lite: false
-  filler_trap_shield: true
-  filler_care_package: false
-  filler_life_insurance: true
+  ################
+  # Filler Items #
+  ################
+  filler_items:
+    - coins
+    - extra_lives
+    - life_insurance
+    - powerups
+    - starman
+    - trap_shield
 
-  ################
-  # Trap Options #
-  ################
-  trap_percentage: 20
+  #########
+  # Traps #
+  #########
+  trap_percentage: 10
   bonk_trap_can_kill: true
-  trap_hyper_speed: true
-  trap_slow_speed: true
-  trap_walljump_lock: true
-  trap_no_jump: true
-  trap_reverse_controls: true
-  trap_no_sprint: true
-  trap_ice_shoes: true
-  trap_heavy_mario: true
-  trap_auto_run: true
-  trap_sticky_buttons: true
-  trap_coin_tax: true
-  trap_camera_drift: true
-  trap_screen_flip: true
-  trap_camera_sway: true
-  trap_im_stuck: true
-  trap_screen_tint: true
-  trap_retro_filter: true
-  trap_spotlight: true
-  trap_ground_clap: true
-  trap_head_bonk: true
-  trap_crazy_pixels: true
-  trap_bonk: true
-  trap_coin_thief: true
-  trap_button_roulette: false
-  trap_boo_curse: false
-  trap_timer_drain: false
+  traps:
+    - auto_run
+    - bonk
+    - camera_drift
+    - camera_sway
+    - coin_tax
+    - coin_thief
+    - crazy_pixels
+    - ground_clap
+    - head_bonk
+    - heavy_mario
+    - hyper_speed
+    - ice_shoes
+    - im_stuck
+    - no_jump
+    - no_sprint
+    - no_turnaround
+    - powerup_pickpocket
+    - reverse_controls
+    - retro_filter
+    - screen_flip
+    - screen_tint
+    - slow_speed
+    - spotlight
+    - sticky_buttons
+    - walljump_lock
+
+  ##############
+  # Death Link #
+  ##############
+  death_link: false
 
   ####################
   # Cosmetic Options #
   ####################
   mario_palette: gold
   luigi_palette: silver
+  secondary_screen_background: randomized
+  music_randomization: off
