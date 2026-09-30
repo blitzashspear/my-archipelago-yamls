@@ -15,7 +15,7 @@ NSMBW:
   #############
   shortcuts_sanity: enabled
   level_completion: true
-  hint_movie_sanity: true
+  hint_movie_sanity: false
   starcoin_sanity: true
   include_inventory_powerups: 0
   world_comp_priority: false
