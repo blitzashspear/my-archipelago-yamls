@@ -3,23 +3,20 @@ description: sync viable
 
 game: Metroid Dread
 Metroid Dread:
-  progression_balancing: 30
+  progression_balancing: 25
   accessibility: minimal
   starting_area: artaria
   door_lock_rando: individual_doors
   doors_to_change:
-    # Removed Sensor Doors from list
-    - Access Open
     - Charge Beam Door
     - Grapple Beam Door
     - Missile Door
     - Plasma Beam Door
-    - Power Beam Door
     - Super Missile Door
     - Wave Beam Door
     - Wide Beam Door
   change_doors_to:
-  # Added Ice and Diffusion Doors they dont work.
+  # Ice and Diffusion Doors don't work.
     - Charge Beam Door
     - Diffusion Beam Door
     - Grapple Beam Door
@@ -33,8 +30,7 @@ Metroid Dread:
   transport_rando: off
   include_boss_pickups: true
   trick_level: beginner
-  # Switch randomly disconnects, when I reconnect it sends a faulty DeathLink
-  death_link: false
+  death_link: true
   start_with_pulse_radar: false
   show_boss_lifebar: false
   show_enemy_life: false
@@ -43,7 +39,7 @@ Metroid Dread:
   enable_death_counter: true
   show_dna_in_hud: true
   room_name_display: always
-  raven_beak_damage_table: consistent_low
+  raven_beak_damage_table: consistent_high
   nerf_power_bombs: true
   disabled_lights: random
   x_starts_released: false
