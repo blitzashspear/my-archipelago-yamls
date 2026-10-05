@@ -37,11 +37,10 @@ def yaml_paths_for_scope(scope):
 	return paths
 
 if __name__ == "__main__":
-	scope_prompt = input("Run stats for all YAMLs or ready YAMLs only? [all/ready]: ").strip().lower()
-	scope = "ready" if scope_prompt in {"ready", "r"} else "all"
+	include_unready = input("Include unready YAMLs? [Y/N]: ").strip().lower() in {"y", "yes"}
+	scope = "all" if include_unready else "ready"
 	selected_paths = yaml_paths_for_scope(scope)
 
-	total = 0
 	games = []
 	game_counts = []
 	death_link_count = 0
@@ -53,7 +52,7 @@ if __name__ == "__main__":
 			games.append(game)
 
 		game_options = data.get(game, {}) if isinstance(game, str) else {}
-		if game_options.get("death_link") is True or game_options.get("deathlink") is True:
+		if game_options.get("death_link") or game_options.get("deathlink"):
 			death_link_count += 1
 
 		for existing_game, count in game_counts:
@@ -63,16 +62,16 @@ if __name__ == "__main__":
 		else:
 			game_counts.append((game, 1))
 
+	print(f"TOTAL: {len(selected_paths)} YAMLS")
+	print(f"UNIQUE GAMES: {len(games)}")
+	print("YAML COUNT BY FOLDER:")
+	
 	for folder in sorted(path for path in YAMLS_FOLDER.iterdir() if path.is_dir()):
 		count = sum(1 for file_path in selected_paths if file_path.parent == folder)
 		if not count:
 			continue
-		total += count
-		print(f"{folder.name}: {count} YAMLS")
+		print(f"\t{folder.name}: {count} YAMLS")
 
-	len_games = len(games)
-	print(f"TOTAL: {total} YAMLS")
-	print(f"UNIQUE GAMES: {len_games}")
 	print("GAMES WITH 2 OR MORE YAMLS:")
 	for game, count in sorted(game_counts, key=lambda game_count: str(game_count[0])):
 		if count > 1:
@@ -81,5 +80,5 @@ if __name__ == "__main__":
 	index_prompt = input("Check Ionium compatibility? [Y/N]: ").strip().lower()
 	if index_prompt in {"y", "yes"}:
 		len_index_games = len(index_games(games))
-		percentage_index_games = round(len_index_games / len_games * 100)
+		percentage_index_games = round(len_index_games / len(games) * 100)
 		print(f"{len_index_games} GAMES ({percentage_index_games}%) SUPPORTED BY IONIUM")

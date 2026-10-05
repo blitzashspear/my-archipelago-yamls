@@ -5,6 +5,7 @@ game: Tetris
 Tetris:
   progression_balancing: normal
   accessibility: full
+  allow_collecting_from: true # MWGG
   goal_score: 500000
   location_count: 300
   starting_speed: 25

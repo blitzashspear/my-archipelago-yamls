@@ -42,6 +42,10 @@ Celeste (Open World):
   dash_shuffle: unified
   climb_shuffle: none
   crouch_shuffle: true
+
+  ################
+  # Item Options #
+  ################
   split_interactables: per_level
 
   ##################

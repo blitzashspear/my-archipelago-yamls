@@ -11,5 +11,6 @@ holo8:
   no_anomaly_percentage: 10
   reused_anomaly_percentage: 0
   hard_anomalies: false
-  talentsanity_filler: terminated
-  death_link: false
+  talentsanity_filler: everyone
+  death_link: true
+  deathlink_on_wrong_elevator: false

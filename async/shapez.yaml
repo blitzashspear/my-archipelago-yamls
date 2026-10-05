@@ -6,7 +6,6 @@ shapez:
   progression_balancing: disabled
   accessibility: full
   goal: vanilla
-  goal_amount: 27
   required_shapes_multiplier: 10
   allow_floating_layers: false
   randomize_level_requirements: true

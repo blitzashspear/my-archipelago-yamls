@@ -14,7 +14,7 @@ Refunct:
   goal: button_31_1
   cubes: red_cubes_bag
   extra_cubes: green_cubes_bag
-  number_of_minigames: 11
+  number_of_minigames: 12
   nerf_minigame_checks: false
   number_of_unlocks_per_minigame: 1
   minigames_likeliness:
@@ -27,9 +27,9 @@ Refunct:
     OG Randomizer Minigame: 1
     Rando Mountain Minigame: 1
     Refunct Mountain Minigame: 1
+    Relocate Minigame: 1
     Seeker Minigame: 1
     Vanilla Minigame: 1
-
     Climb Chaos Minigame: 0
     Climb Line Minigame: 0
     Climb Narrow Minigame: 0

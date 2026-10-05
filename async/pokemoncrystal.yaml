@@ -1,56 +1,104 @@
-name: blitzashGSC
+﻿name: blitzashGSC
 description: async only
 
 game: Pokemon Crystal
 Pokemon Crystal:
+  ################
+  # Game Options #
+  ################
   progression_balancing: disabled
   accessibility: full
-  goal: red
+  goal:
+    - Defeat Team Rocket
+    - Elite Four
+    - Red
+
+  #######
+  # Map #
+  #######
   randomize_starting_town: false
+  starting_town_blocklist: []
   johto_only: off
+  randomize_entrances: []
+  randomize_fly_destinations: false
+  plando_connections: []
+  flooded_mine: false
+  route_23_restored: false
+
+  ##############
+  # Roadblocks #
+  ##############
+  victory_road_requirement: badges
+  victory_road_count: 8
+  victory_road_strength: false
+  elite_four_requirement: badges
+  elite_four_count: 8
+  lance_requires_elite_four: true
   red_requirement: badges
   red_count: 16
+  dark_areas:
+    - _Random
+  magnet_train_access: pass
+  ss_aqua_access: vanilla
+  vanilla_event_chains: []
+
+  ####################
+  # Johto Roadblocks #
+  ####################
   mt_silver_requirement: badges
   mt_silver_count: 16
   radio_tower_requirement: badges
   radio_tower_count: 7
   route_44_access_requirement: badges
   route_44_access_count: 7
-  kanto_access_requirement: become_champion
-  kanto_access_count: 8
-  victory_road_access: vanilla
-  dark_areas: []
   route_32_condition: egg_from_aide
-  route_2_access: ledge
-  route_3_access: vanilla
   route_42_access: vanilla
   mount_mortar_access: vanilla
   red_gyarados_access: vanilla
   blackthorn_dark_cave_access: vanilla
   national_park_access: vanilla
-  saffron_gatehouse_tea: []
   remove_ilex_cut_tree: true
+  route_30_access: mr_pokemon
+  route_30_battle: blocks_northbound
+
+  ####################
+  # Kanto Roadblocks #
+  ####################
+  route_22_access_requirement: wake_snorlax
+  route_22_access_count: 8
+  route_2_access: vanilla
+  route_3_access: vanilla
+  saffron_gatehouse_tea:
+    - _All
   undergrounds_require_power: both
   east_west_underground: true
-  vanilla_clair: true
   route_12_access: vanilla
-  magnet_train_access: pass
-  ss_aqua_access: vanilla
-  route_30_battle: blocks_northbound
+  south_kanto_access: route_19
+  south_kanto_condition: enter_south_kanto
+
+  #########
+  # Items #
+  #########
   randomize_badges: completely_random
   randomize_pokegear: false
   randomize_hidden_items: true
   randomize_berry_trees: false
+  randomize_pokedex: vanilla
   randomize_pokemon_requests: off
   randomize_fly_unlocks: off
   randomize_bug_catching_contest: off
   randomize_phone_call_items: off
+  momsanity: false
   require_itemfinder: logically_required
   remote_items: true
-  item_pool_fill: vanilla
+  item_pool_fill: Vanilla
   add_missing_useful_items: false
-  exclude_post_goal_locations: true
   grasssanity: off
+  randomize_item_values: false
+
+  ##############
+  # Shopsanity #
+  ##############
   shopsanity:
     - _All
   shopsanity_prices: vanilla
@@ -59,96 +107,147 @@ Pokemon Crystal:
   provide_shop_hints: off
   shopsanity_restrict_rare_candies: false
   shopsanity_x_items: anywhere
-  hm_compatibility: vanilla
+
+  #######
+  # HMs #
+  #######
+  hm_same_type_compatibility: vanilla
+  hm_other_type_compatibility: vanilla
   hm_badge_requirements: vanilla
   remove_badge_requirement: []
-  require_flash: logically_required
+  require_flash: hard_required
   field_moves_always_usable: true
   free_fly_location: off
-  free_fly_blocklist: []
   early_fly: false
-  fly_cheese: out_of_logic
+
+  ###########
+  # Pokemon #
+  ###########
   randomize_wilds: evolution_lines
+  shared_wild_encounters: false
   wild_encounter_blocklist: []
-  randomize_static_pokemon: false
+  wild_match_mode: none
+  time_of_day_encounters: false
+  randomize_static_pokemon: match_base_stats
   static_blocklist: []
+  unique_static_pokemon: disabled
   randomize_base_stats: vanilla
   randomize_types: vanilla
-  shared_primary_type: off
   randomize_evolution: vanilla
-  convergent_evolution: avoid
-  evolution_blocklist: []
+  maximum_evolution_level: disabled
   randomize_breeding: vanilla
-  breeding_blocklist: []
   randomize_trades: vanilla
   encounter_grouping: all_split
+  unlockable_time_of_day: false
   encounter_slot_distribution: remove_one_percents
+
+  ############
+  # Starters #
+  ############
   randomize_starters: first_stage_can_evolve
   starters_bst_average: normal_starters
   starter_blocklist: []
+
+  #########
+  # Moves #
+  #########
   randomize_learnsets: start_with_four_moves
-  learnset_type_bias: 25
+  learnset_type_bias: -1
   metronome_only: false
-  randomize_move_types: false
-  randomize_move_values: vanilla
+  randomize_moves:
+    - Power Full
+    - PP Full
   randomize_type_chart: vanilla
-  physical_special_split: vanilla
+  physical_special_split: random_by_type
   hm_power_cap: none
   randomize_tm_moves: false
-  tm_plando: {}
-  tm_compatibility: fully_compatible
+  tm_same_type_compatibility: fully_compatible
+  tm_other_type_compatibility: 75
   reusable_tms: true
   move_blocklist:
     - Thief
   tm_blocklist: []
+  modernise_moves_generation: newest
+  modernise_moves_type: buffs_only
+
+  ############
+  # Trainers #
+  ############
   randomize_trainer_parties: completely_random
   trainer_party_blocklist: []
   boost_trainers: vanilla
   trainer_level_boost: 1
   force_fully_evolved: 30
+
+  ###############
+  # Dexsanities #
+  ###############
   dexsanity: none
-  dexcountsanity: none
-  dexcountsanity_step: 1
-  dexcountsanity_leniency: 0
-  dexsanity_starters: allow
+
+  #################
+  # Trainersanity #
+  #################
   johto_trainersanity: full
   kanto_trainersanity: full
+  rematchsanity: false
+
+  ################
+  # Battle Tower #
+  ################
+  battle_tower_sanity: off
+
+  #################
+  # Pokemon Logic #
+  #################
   wild_encounter_methods_required:
-    - Bug Catching Contest
-    - Fishing
-    - Headbutt
     - Land
-    - Rock Smash
     - Surfing
+    - Fishing
   enforce_wild_encounter_methods_logic: false
   static_pokemon_required: true
   trades_required: false
+  randomize_lucky_number_show: false
   evolution_methods_required:
-    - Happiness
     - Level
-    - Level Tyrogue
     - Use Item
   evolution_gym_levels: 8
   breeding_methods_required: with_ditto
+  enforce_breeding_methods_logic: false
 
+  #########
+  # Traps #
+  #########
   filler_trap_percentage: 10
-  phone_trap_weight: 50
-  sleep_trap_weight: 0
-  poison_trap_weight: 50
-  burn_trap_weight: 50
-  freeze_trap_weight: 0
-  paralysis_trap_weight: 0
+  trap_weights:
+    Burn Trap: 50
+    Poison Trap: 50
+    Phone Trap: 10
+    Explosion Trap: 0
+    Freeze Trap: 0
+    Ice Trap: 0
+    Metronome Trap: 0
+    Paralysis Trap: 0
+    Sandstorm Trap: 0
+    Shuffle Trap: 0
+    Sleep Trap: 0
+    Teleport Trap: 0
+    Tutorial Trap: 0
+    Whirlpool Trap: 0
   trap_link: true
 
+  ###################
+  # Quality of Life #
+  ###################
   game_options:
-    ap_item_sound: on
+    ap_item_notification: sound
     auto_hms: on
-    auto_run: off
+    auto_run: on
+    battle_always_run: on
     battle_animations: no_scene
-    battle_move_stats: off
+    battle_move_stats: on
     battle_shift: set
     bike_music: off
-    blind_trainers: off
+    blind_trainers: on
     catch_exp: on
     dex_area_beep: off
     exp_distribution: gen8
@@ -156,12 +255,14 @@ Pokemon Crystal:
     fast_egg_make: on
     guaranteed_catch: on
     hms_require_teaching: off
-    item_notification: popup
+    local_item_notification: text
     low_hp_beep: on
     menu_account: on
     more_uncaught_encounters: off
+    music: on
     poison_flicker: on
     rods_always_work: on
+    scaling_exp: off
     short_fanfares: off
     skip_dex_registration: on
     skip_nicknames: off
@@ -171,20 +272,20 @@ Pokemon Crystal:
     text_frame: 8
     text_speed: instant
     time_of_day: auto
-    trainersanity_indication: off
+    tracker_slot: 0
+    trainersanity_indication: on
     turbo_button: none
-
   level_scaling: off
   lock_kanto_gyms: off
   all_pokemon_seen: false
-  starting_money: vanilla
+  starting_money: random
   better_marts: false
   build_a_mart: []
-  experience_modifier: normal
+  growth_rates: normalized
+  experience_modifier: 25
+  exp_share_type: exp_all
   skip_elite_four: false
-  minimum_catch_rate: 255
-  always_unlock_fly_destinations: false
-  trainer_name: BLITZ
+  always_unlock_fly_destinations: true
   field_move_menu_order:
     - Cut
     - Fly
@@ -200,15 +301,33 @@ Pokemon Crystal:
     - Sweet Scent
   default_pokedex_mode: new
   progressive_rods: true
-  require_pokegear_for_phone_numbers: true
+  phone_call_mode: simple
+  wonder_trading: true
   death_link: true
-  randomize_palettes: completely_random
+
+  #################
+  # Intro Presets #
+  #################
+  trainer_gender: randomize
+  trainer_name: BLITZ
+  rival_name: random_crystal
+  start_time: now
+
+  ############
+  # Cosmetic #
+  ############
+  modify_palettes: randomize
   randomize_music: off
-  trainer_palette: random
-  enable_mischief: random
+  trainer_palette: FF991C
+  colored_item_balls: true
 
+  ######
+  # :3 #
+  ######
+  enable_mischief: off
+
+  ###########################
+  # Item & Location Options #
+  ###########################
   start_inventory_from_pool:
-    Exp Share: 1
-
-  exclude_locations:
-    - Bill's Grandpa
+    Exp All: 1

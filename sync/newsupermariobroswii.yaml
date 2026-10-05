@@ -35,7 +35,7 @@ NSMBW:
     - "!-Switch"
     - Door
     - P-Switch
-  randomize_boss_health: true
+  randomize_boss_health: false
 
   ###################
   # Clear condition #
