@@ -45,7 +45,7 @@ Pizza Tower:
   ####################
   # Filler and Traps #
   ####################
-  trap_percentage: 20
+  trap_percentage: 10
   clothing_filler: true
   filler_weights:
     Cross Buff: 20

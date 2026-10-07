@@ -6,3 +6,4 @@ Hungry Pumkin:
   progression_balancing: disabled
   accessibility: full
   death_link: false
+  allow_collecting_from: false # MWGG

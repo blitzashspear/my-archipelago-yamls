@@ -5,6 +5,7 @@ game: Metroid Dread
 Metroid Dread:
   progression_balancing: 25
   accessibility: minimal
+  allow_collecting_from: false # MWGG
   starting_area: artaria
   door_lock_rando: individual_doors
   doors_to_change:
