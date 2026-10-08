@@ -14,7 +14,7 @@ Plants vs. Zombies:
   ###############
   goty_compatability_mode: false
   death_link: true
-  energy_link: false
+  energy_link: true
   ring_link: true
   seed_link: true
   lawn_link: true
