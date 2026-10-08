@@ -11,7 +11,7 @@ Buckshot Roulette:
   additional_goal_requirements: none
   asynchronous_points: false
   point_filler_percentage: 25
-  consumable_item_logic: normal
+  consumable_item_logic: tight
   included_custom_mechanics:
     - Life Bank
     - Item Luck

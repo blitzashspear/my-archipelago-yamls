@@ -119,35 +119,3 @@ Peggle Deluxe:
     Full Clear Discount: 1
     Score Multiplier: 1
     Target Score Discount: 1
-
-Peggle Nights:
-  ################
-  # Game Options #
-  ################
-  progression_balancing: normal
-  accessibility: full
-
-  ################
-  # Goal Options #
-  ################
-  goal: shadow_peg_hunt
-  shadow_pegs_total: 50
-  shadow_pegs_required: 40
-
-  ##################
-  # Master Options #
-  ##################
-  master_selection_mode: multiple_masters
-  master_selection:
-    Bjorn: true
-    Claude: true
-    Jimmy Lightning: true
-    Kat Tut: true
-    Lord Cinderbottom: true
-    Marina: true
-    Master Hu: true
-    Renfield: true
-    Splork: true
-    Tula: true
-    Warren: true
-  master_count: 10
