@@ -110,7 +110,7 @@ Plants vs. Zombies:
   easy_upgrade_plants: false
   imitater_behaviour: normal
   randomly_banned_plants_per_level: 8
-  harder_zombie_spawns: true
+  harder_zombie_spawns: false
   disable_storm_flashes: false
   music_shuffle: disabled
   costume_chances:

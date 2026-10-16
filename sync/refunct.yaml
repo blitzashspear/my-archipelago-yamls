@@ -9,6 +9,7 @@ Refunct:
   ################
   progression_balancing: normal
   accessibility: full
+  allow_collecting_from: true # MWGG
   amount_of_grass: 160
   required_grass_percentage: random-range-90-100 # 144-160
   goal: button_31_1

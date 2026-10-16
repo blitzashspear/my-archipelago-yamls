@@ -44,6 +44,7 @@ if __name__ == "__main__":
 	games = []
 	game_counts = []
 	death_link_count = 0
+	mwgg_count = 0
 	for path in selected_paths:
 		with path.open(encoding="utf-8") as file:
 			data = yaml.safe_load(file) or {}
@@ -52,6 +53,8 @@ if __name__ == "__main__":
 			games.append(game)
 
 		game_options = data.get(game, {}) if isinstance(game, str) else {}
+		if "allow_collecting_from" in game_options:
+			mwgg_count += 1
 		if game_options.get("death_link") or game_options.get("deathlink"):
 			death_link_count += 1
 
@@ -77,6 +80,7 @@ if __name__ == "__main__":
 		if count > 1:
 			print(f"\t{game}: {count}")
 	print(f"DEATHLINK ENABLED: {death_link_count} YAMLS")
+	print(f"YAMLS USED IN MWGG: {mwgg_count}")
 	index_prompt = input("Check Ionium compatibility? [Y/N]: ").strip().lower()
 	if index_prompt in {"y", "yes"}:
 		len_index_games = len(index_games(games))

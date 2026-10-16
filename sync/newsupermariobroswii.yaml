@@ -72,13 +72,13 @@ NSMBW:
     Literature trap: 10
     Lose powerup trap: 10
     Movement lock trap: 10
-    Reverse Control trap: 10
     Robbery trap: 10
     Shrink trap: 10
     Slow Trap: 10
     Throw trap: 10
 
     Death trap: 0
+    Reverse Control trap: 0
     Time trap: 0
 
   trap_chance: 10

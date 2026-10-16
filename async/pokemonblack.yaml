@@ -9,15 +9,64 @@ Pokemon Black and White:
   progression_balancing: disabled
   accessibility: full
   version: black
-  goal: seven_sages_hunt
+  goal: 
+    - [ghetsis, champion, cynthia, seven_sages_hunt]
   randomize_wild_pokemon: 
     - Randomize
     - Prevent rare encounters
   randomize_trainer_pokemon: 
     - Randomize
     - Similar base stats
+  randomize_starter_pokemon:
+    - Randomize
+  randomize_static_pokemon:
+    - Randomize
+    - Similar base stats
+  randomize_gift_pokemon:
+    - Randomize
+  randomize_legendary_pokemon:
+    - Randomize
+    - Keep legendary
   pokemon_randomization_adjustments: 
     Stats leniency: 150
+  wild_randomization_blacklist: []
+  trainer_randomization_blacklist: []
+
+  #########
+  # Stats #
+  #########
+  randomize_base_stats: []
+  randomize_evolutions: []
+  randomize_types: []
+  randomize_level_up_movesets:
+    - Randomize
+    - Follow evolutions
+    - Start with 4
+  randomize_tm_hm_compatibility:
+    - Force all TMs
+    - Force all HMs
+  randomize_catch_rates:
+    - Randomize
+  randomize_egg_groups: []
+  randomize_egg_species: []
+  stats_randomization_adjustments:
+    Catch rates maximum: 255
+    Catch rates minimum: 255
+    Levelup moves amount maximum: 22
+    Levelup moves amount minimum: 10
+    Maximum evo level: 100
+    Stats total maximum: 800
+    Stats total minimum: 200
+
+  #############
+  # Move Data #
+  #############
+  randomize_move_data: []
+  randomize_type_chart: []
+
+  #####################################
+  # Items, locations, and progression #
+  #####################################
   shuffle_badges: anything
   shuffle_tm_hm: anything
   dexsanity: 0
@@ -29,7 +78,22 @@ Pokemon Black and White:
   modify_logic: 
     - Require Dowsing Machine
     - Require Flash
-  adjust_levels: [] # DEFAULT IS Wild, Trainer!!!
+  adjust_levels: []
+
+  #################
+  # Miscellaneous #
+  #################
+  modify_levels:
+    Trainer mode: 0
+    Trainer value: 100
+    Wild mode: 0
+    Wild value: 100
+  exp_multiplier: 16
+  all_pokemon_seen: false
+  replace_evo_methods:
+    - Friendship
+  master_ball_seller: []
+  funny_dialog: false
   reusable_tms: im_not_a_masochist
 
   plugin_options:
@@ -50,13 +114,10 @@ Pokemon Black and White:
       remove_dust_cloud_items: true
       bike_everywhere: true
       remove_surf_bike_music: true
-
       battle_scene: turned_off
       battle_style: set
       pokemon_entrance_animations: vanilla
       fast_hatch: true
-      
-    starter_rando: true
 
   ###########################
   # Item & Location Options #

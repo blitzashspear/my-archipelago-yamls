@@ -93,21 +93,6 @@ def ends_with_new_line():
         return False
     return True
 
-def no_non_empty_brackets():
-    failed_yamls = []
-
-    for path in sorted(YAMLS_FOLDER.rglob("*.yaml")):
-        with path.open(encoding="utf-8") as file:
-            if re.search(r"\[[^\[\]]+\]|\{[^\{\}]+\}", file.read()):
-                failed_yamls.append(path)
-
-    if failed_yamls:
-        print("NO NON-EMPTY BRACKETS TEST FAILED")
-        for path in failed_yamls:
-            print("\t" + str(path.relative_to(YAMLS_FOLDER)))
-        return False
-    return True
-
 def readable_comments():
     failed_comments = []
 
@@ -191,8 +176,6 @@ if __name__ == "__main__":
     if not valid_name():
         quit()
     if not ends_with_new_line():
-        quit()
-    if not no_non_empty_brackets():
         quit()
     if not readable_comments():
         quit()

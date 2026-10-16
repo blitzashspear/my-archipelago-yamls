@@ -1,5 +1,5 @@
 ﻿name: blitzashPrime
-description: untested
+description: async only
 
 game: Metroid Prime
 Metroid Prime:
@@ -14,7 +14,7 @@ Metroid Prime:
   # General #
   ###########
   required_artifacts: 12
-  artifact_hints: enable_scanned
+  artifact_hints: disable
   final_bosses: ridley
   starting_room: normal
   combat_logic_difficulty: normal_logic
