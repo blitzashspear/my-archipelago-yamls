@@ -14,7 +14,7 @@ Peggle Deluxe:
   ################
   goal: gold_pegs_final_level
   gold_pegs_total: 40
-  gold_pegs_required: 25
+  gold_pegs_required: 30
 
   ##################
   # Master Options #
@@ -87,11 +87,12 @@ Peggle Deluxe:
     10-3 When Pigs Fly: true
     10-4 Yang, Yin: true
     10-5 Zen Frog: true
-    11-1 Paw Reader: true
-    11-2 End of Time: true
-    11-3 Billions & Billions: true
-    11-4 Don't Panic: true
-    11-5 Beyond Reason: true
+    # adios world 11
+    11-1 Paw Reader: false
+    11-2 End of Time: false
+    11-3 Billions & Billions: false
+    11-4 Don't Panic: false
+    11-5 Beyond Reason: false
   level_count: 30
 
   ####################
@@ -103,19 +104,18 @@ Peggle Deluxe:
   # Target Score Options #
   ########################
   target_score_requirement_mode: same_for_all_levels
-  target_score_requirement_percentage: 100
+  target_score_requirement_percentage: 90
 
   ####################
   # Gameplay Options #
   ####################
-  maximum_starting_ball_count: 10
+  maximum_starting_ball_count: 15
 
   #######################
   # Useful Item Options #
   #######################
   useful_item_percentage: 50
   useful_item_weights:
-    Fever Meter Permanent Bonus: 1
     Full Clear Discount: 1
     Score Multiplier: 1
     Target Score Discount: 1

@@ -13,8 +13,8 @@ Peggle Nights:
   # Goal Options #
   ################
   goal: shadow_peg_hunt
-  shadow_pegs_total: 125
-  shadow_pegs_required: 100
+  shadow_pegs_total: 100
+  shadow_pegs_required: 80
 
   ##################
   # Master Options #
@@ -131,7 +131,6 @@ Peggle Nights:
   #######################
   useful_item_percentage: 50
   useful_item_weights:
-    Fever Meter Permanent Bonus: 1
     Full Clear Discount: 1
     Score Multiplier: 1
     Target Score Discount: 1
