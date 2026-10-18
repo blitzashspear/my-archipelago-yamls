@@ -28,7 +28,7 @@ New Super Mario Bros. DS:
   # Overworld & Progression #
   ###########################
   level_randomization: off
-  star_coin_gate_mode: vanilla
+  star_coin_gate_mode: no_keys
   star_coin_tracking: instant
   tower_castle_keys: true
   secret_exit_shortcut_logic: true
@@ -40,6 +40,9 @@ New Super Mario Bros. DS:
   license_mushroom: true
   license_fire_flower: true
   license_touchscreen_pocket: true
+  powerup_permit_placement: early
+  selected_powerup_permits:
+    - Mushroom Permit
 
   ################
   # Filler Items #

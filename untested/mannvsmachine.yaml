@@ -6,7 +6,7 @@ Team Fortress 2 Mann vs Machine:
   ################
   # Game Options #
   ################
-  progression_balancing: normal
+  progression_balancing: disabled
   accessibility: full
   server_settings: false
   death_link: false
