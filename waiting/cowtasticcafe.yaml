@@ -1,0 +1,22 @@
+﻿name: blitzashCowCafe
+description: async only
+
+game: Cowtastic Cafe
+Cowtastic Cafe:
+  progression_balancing: disabled
+  accessibility: full
+  starting_ingredients:
+    - Coffee
+    - Milk
+  drinks_per_check: 3
+  checks_per_ingredient: 4
+  shop_locations: 10
+  extra_candy: 1
+  milk_flow: 5
+  shop_base_price: 50
+  shop_price_step: 10
+  min_drink_quality: good
+  death_link: false
+  censorship_mode: false
+  allow_milk_rate_adjustment: false
+  scout_shop: visible
