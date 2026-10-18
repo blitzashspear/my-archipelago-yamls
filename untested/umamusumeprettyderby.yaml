@@ -1,0 +1,114 @@
+﻿name: blitzashUma
+description: untested
+
+game: Umamusume Pretty Derby
+Umamusume Pretty Derby:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  goal:
+    # rank_score: finish one career at or above Goal Rank Score. Rank checks above
+    # that score aren't generated (nothing sits past the goal).
+    # g1_collector: win Goal G1 Count different G1s (across careers).
+    # all_scenarios: finish a career in each of the 4 scenarios (needs all 3 unlocks).
+    # legend_race: beat the SS+ Legend Race rival (needs legend_ladder on). A short game.
+    rank_score: 50
+    g1_collector: 0
+    all_scenarios: 0
+    legend_race: 0
+
+  goal_rank_score:
+    # Rank score the goal career needs. UG is 19600, UG1 20000, SS 17500, S 14500.
+    # 21000 or more adds two Progressive Stat Cap items so it stays reachable.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 14500
+    # Maximum value is 23900
+    20000: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-14500-23900: 0 # random value between 14500 and 23900
+
+  goal_g1_count:
+    # Different G1s to win for the g1_collector goal (34 exist).
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 34
+    24: 50
+    random: 0
+    random-low: 0 # random value weighted towards lower values
+    random-high: 0 # random value weighted towards higher values
+    random-range-5-34: 0 # random value between 5 and 34
+
+  logic_difficulty: relaxed
+  starting_scenario: random
+  starting_trainees: shuffled
+  starting_trainee_count: 5
+  starting_supports: 0
+  trainee_count: 15
+  support_count: 30
+  maxed_supports: false
+  uncap_crystals: 25
+  trainee_awakenings: one_per_trainee
+  g1_checks: true
+  g1_place: 1
+  g1_per_scenario: false
+  scenario_rank_checks: true
+  global_rank_ladder: true
+  unique_race_checks: true
+  legend_ladder: true
+  team_trials_checks: 0
+  fan_checks: false
+  trap_percentage: 5
+  trap_cap: 2
+  spicy_traps: false
+  trap_weights:
+    Amnesia Trap: 0
+    Bad Condition Trap: 15
+    Bad Mood Trap: 15
+    Butterfingers Trap: 15
+    Low Energy Trap: 10
+    Tunnel Vision Trap: 15
+
+  ###########################
+  # Item & Location Options #
+  ###########################
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with the specified amount of these items. Example: {Bomb: 1, Arrow: 3}
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []
+
+  plando_items:
+    # Generic items plando.
+    []
