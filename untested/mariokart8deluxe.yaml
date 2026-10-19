@@ -1,0 +1,22 @@
+﻿name: blitzashMK8DX
+description: untested
+
+game: Mario Kart 8 Deluxe
+Mario Kart 8 Deluxe:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  include_booster_course_pass: true
+  include_top3_locations: true
+  include_win_locations: true
+  shuffle_characters: true
+  shuffle_vehicles: true
+  shuffle_items: true
+  restrict_cpu_items: true
+  speed_stages: 5
+  min_speed_percent: 50
+  win_requires_speed: 5
+  goal_cups: 8
+  starting_cups: 1

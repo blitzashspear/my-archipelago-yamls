@@ -7,7 +7,7 @@ Plants vs. Zombies:
   # Game Options #
   ################
   progression_balancing: disabled
-  accessibility: full
+  accessibility: minimal
 
   ###############
   # AP Settings #
@@ -29,7 +29,7 @@ Plants vs. Zombies:
   adventure_mode_progression: level_items
   minigame_levels: level_items
   puzzle_levels: level_items
-  survival_levels: level_items
+  survival_levels: off
   cloudy_day_levels: level_items
   bonus_levels: level_items
   china_level: item

@@ -5,8 +5,10 @@ game: Uncanny Cat Golf
 Uncanny Cat Golf:
   progression_balancing: normal
   accessibility: full
+  allow_collecting_from: false # MWGG
   goal_level: '5_18'
   prism_unlock_amount: 250
+  macguffin_goal: false
   gimmick_lock: true
   level_unlock_style: individual
   minigames: false
@@ -14,9 +16,12 @@ Uncanny Cat Golf:
   world_p_levels: false
   world_e_levels: false
   peak_checks: false
+  coinsanity: off
   excluded_levels: []
+  goal_rank_requirement: any
   rank_check_difficulty: ok
   temp_modifiers: true
+  buff_uncanny_cat_spray: true
   chill_mode: false
   panic_mode: false
   death_link: false
