@@ -8,6 +8,7 @@ Tetris:
   allow_collecting_from: true # MWGG
   goal_score: 500000
   location_count: 300
+  overclocked_location_count: 300
   starting_speed: 25
   target_speed: 15
   maximum_speed: 10

@@ -1,5 +1,5 @@
 ﻿name: blitzashNSMB
-description: untested
+description: sync viable
 
 game: New Super Mario Bros. DS
 New Super Mario Bros. DS:
@@ -17,11 +17,11 @@ New Super Mario Bros. DS:
   ###################
   # Location Checks #
   ###################
-  red_coin_checks: true
+  red_coin_checks: false
   one_up_block_checks: false
   blocksanity: false
-  secret_exit_checks: true
-  toad_house_checks: true
+  secret_exit_checks: false
+  toad_house_checks: false
   advanced_location_item_placement: allow_progression
 
   ###########################
@@ -95,7 +95,7 @@ New Super Mario Bros. DS:
   ####################
   # Cosmetic Options #
   ####################
-  mario_palette: gold
-  luigi_palette: silver
+  mario_palette: crazy_random
+  luigi_palette: crazy_random
   secondary_screen_background: randomized
   music_randomization: off

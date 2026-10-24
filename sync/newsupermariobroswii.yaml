@@ -8,7 +8,6 @@ NSMBW:
   ################
   progression_balancing: normal
   accessibility: full
-  hint_hint_movies: false
 
   #############
   # Locations #
@@ -35,22 +34,36 @@ NSMBW:
     - "!-Switch"
     - Door
     - P-Switch
+    - Yoshi
   randomize_boss_health: false
 
   ###################
   # Clear condition #
   ###################
   alternative_goal: bowser
-  bowser_star_unlock: 100
-  bowser_world_unlock: 0
+  goal_starcoin_unlock: 100
+  goal_world_unlock: 0
+  goal_level_unlock: 0
 
   #########
   # Logic #
   #########
   logic_difficulty: normal
   logic_outside_powerup: false
-  starting_world: random
+  starting_world:
+    world1: 1
+    world2: 1
+    world3: 1
+    world4: 1
+    world5: 1
+    world6: 1
+    world7: 1
+    world8: 0
+  starcoin_requirement_world_unlock: 9
   hint_movie_shop_price_logic: free
+  world_unlock: separate
+  level_unlock: vanilla
+  important_early_items: true
 
   ####################
   # Filler and Traps #
@@ -72,6 +85,7 @@ NSMBW:
     Literature trap: 10
     Lose powerup trap: 10
     Movement lock trap: 10
+    Paranoia Trap: 10
     Robbery trap: 10
     Shrink trap: 10
     Slow Trap: 10
@@ -84,22 +98,23 @@ NSMBW:
   trap_chance: 10
   amount_support_received: -1
   modifier_multiplier_percentage: 100
+  percentage_filler_forced_local: 20
 
-  ###############
-  # Riivolution #
-  ###############
-  use_riivolution: true
-  level_shuffle_riivolution: false
-  music_shuffle_riivolution: false
-  tile_sheet_shuffle_riivolution: true
+  ####################
+  # Cosmetic Shuffle #
+  ####################
+  music_shuffle: false
+  tile_sheet_shuffle: true
+
+  #################
+  # Level Shuffle #
+  #################
+  level_shuffle: off
 
   #############
   # DeathLink #
   #############
   death_link: false
-  death_link_group: ''
-  death_link_amnesty: 5
-  death_link_grace: 1
 
   #########
   # Other #
@@ -107,4 +122,5 @@ NSMBW:
   starcoin_collect_immediately: true
   save_state_slot: 7
   starcoin_shop_multiplier: 1
-  important_early_items: true
+  hint_hint_movies: false
+  inventory_item_hints_percentage_chance: 0

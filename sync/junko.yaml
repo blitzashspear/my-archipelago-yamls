@@ -5,6 +5,7 @@ game: Junko
 Junko:
   progression_balancing: normal
   accessibility: full
+  allow_collecting_from: true # MWGG
   early_revolver: early_local
   shuffle_strange_rocks: false
   exclude_HIDDEN_orange_button: true

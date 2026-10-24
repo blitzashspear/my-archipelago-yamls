@@ -1,0 +1,60 @@
+﻿name: blitzashDraco
+description: untested
+
+game: Dracomino
+Dracomino:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: normal
+  accessibility: full
+  goal: 100
+
+  #################
+  # Shape Options #
+  #################
+  starting_shapes: 7
+  extra_shapes: 20
+  randomize_orientations: false
+  monomino_weight: per unique shapes
+  domino_weight: per unique shapes
+  tromino_weight: per unique shapes
+  tetromino_weight: per unique shapes
+  pentomino_weight: per unique shapes
+
+  ###################
+  # Ability Options #
+  ###################
+  starting_drop_method: random
+  early_second_drop: true
+  early_rotate: false
+  next_piece_slots: 5
+  hold_slots: 1
+  ability_whitelist:
+    - Ghost Piece
+    - Gravity
+    - Hard Drop
+    - Kick
+    - Lock Delay
+    - Rotate Clockwise
+    - Rotate Counterclockwise
+    - Soft Drop
+
+  ###############
+  # Other Items #
+  ###############
+  tutorials: 0
+  trap_weight: 0
+
+  #################
+  # Logic Options #
+  #################
+  line_clear_leniency: 2
+  max_stacking_height: 15
+
+  ################
+  # Link Options #
+  ################
+  death_link: false
+  trap_link: false
+  energy_link: true

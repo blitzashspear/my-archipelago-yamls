@@ -37,7 +37,7 @@ Plants vs. Zombies:
   ###################
   # Extra Locations #
   ###################
-  huge_wave_locations: true
+  huge_wave_locations: false
   wavesanity_locations: 1000
   shop_behaviour: normal
   shop_items: 64
