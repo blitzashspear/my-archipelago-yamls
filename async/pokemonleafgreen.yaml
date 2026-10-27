@@ -142,6 +142,3 @@ Pokemon FireRed and LeafGreen:
     Text Speed: Instant
   provide_hints: off
   death_link: false
-  
-  exclude_locations:
-    - Pokedex Progress
