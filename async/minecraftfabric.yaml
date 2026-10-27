@@ -1,8 +1,11 @@
-﻿name: blitzashMCF
+﻿name: blitzashMCFabric
 description: async only
 
 game: Minecraft Fabric
 Minecraft Fabric:
+  ################
+  # Game Options #
+  ################
   progression_balancing: disabled
   accessibility: full
 
@@ -12,6 +15,7 @@ Minecraft Fabric:
   goal_condition: advancements_and_items_only
   advancements_required_for_goal: 50
   excluded_locations:
+    - Hard
     - Unreasonable
 
   #####################
@@ -19,14 +23,14 @@ Minecraft Fabric:
   #####################
   itemsanity: true
   items_required_for_goal: 1000
-  itemsanity_local_fill: random-range-90-95
+  itemsanity_local_fill: random-range-90-98
   excluded_from_itemsanity:
     - Discs
     - Mob Heads
     - Rare Ores
     - Sherds
     - Trims
-  empty_fill_percentage: 0
+  empty_fill_percentage: 75
 
   ######################
   # Difficulty Options #
@@ -38,15 +42,12 @@ Minecraft Fabric:
     - Bow
     - Iron Armor
     - Iron Weapons
-    - Jump
-    - Sprint
   required_before_raids:
+    - Beds
     - Iron Armor
     - Iron Weapons
-    - Jump
   keep_inventory: true
   randomized_abilities:
-    - Jump
     - Sprint
     - Swim
   time_saving_options:
@@ -58,22 +59,13 @@ Minecraft Fabric:
   #################
   # Traps Options #
   #################
-  trap_fill_percentage: 5
-  reverse_controls_trap_weight: medium
-  inverted_mouse_trap_weight: medium
-  ice_trap_weight: medium
-  random_effect_trap_weight: medium
-  stun_trap_weight: medium
-  tnt_trap_weight: medium
-  teleport_trap_weight:  medium
-  bee_trap_weight: medium
-  literature_trap_weight: medium
+  trap_fill_percentage: 0
 
   ######################
   # World Link Options #
   ######################
   deathlink_enabled: false
-  traplink_enabled: true
+  traplink_enabled: false
 
   ###############
   # Mod Support #

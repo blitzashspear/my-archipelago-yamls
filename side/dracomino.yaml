@@ -1,5 +1,5 @@
 ﻿name: blitzashDraco
-description: untested
+description: side game
 
 game: Dracomino
 Dracomino:
@@ -15,12 +15,12 @@ Dracomino:
   #################
   starting_shapes: 7
   extra_shapes: 20
-  randomize_orientations: false
-  monomino_weight: per unique shapes
-  domino_weight: per unique shapes
-  tromino_weight: per unique shapes
-  tetromino_weight: per unique shapes
-  pentomino_weight: per unique shapes
+  randomize_orientations: true
+  monomino_weight: 1
+  domino_weight: 1
+  tromino_weight: 2
+  tetromino_weight: 7
+  pentomino_weight: 4
 
   ###################
   # Ability Options #

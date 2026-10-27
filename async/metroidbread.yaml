@@ -6,7 +6,7 @@ Metroid Bread:
   progression_balancing: disabled
   accessibility: minimal
   death_link: false
-  game_goal: one_hundred_percent
+  game_goal: defeat_raven_beak
   required_dna: 0
   door_lock_rando: individual_doors
   doors_to_change:

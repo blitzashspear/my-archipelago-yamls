@@ -3,9 +3,13 @@ description: async only
 
 game: Super Mario Bros Wonder
 Super Mario Bros Wonder:
-  progression_balancing: normal
+  progression_balancing: disabled
   accessibility: full
-  open_world: false
+  open_world: true
+  open_world_count: 6
+  palaces_required: 6
+  world_unlock_items: true
+  character_block_sanity: true
   goal: 'bc: bowser''s rage stage - royal seed'
   death_link: false
   ten_coin_sanity: true
