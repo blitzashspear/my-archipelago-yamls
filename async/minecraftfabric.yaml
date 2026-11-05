@@ -55,11 +55,26 @@ Minecraft Fabric:
     - Drowned Items
     - Rabbits Foot
     - Wither Skulls
+  logic_difficulty_options:
+    - Explorers Compass Logic
+    - Meteorology
+    - Movement Before Exploration
+    - Natures Compass Logic
+    - Sleeping Before Exploration
 
   #################
   # Traps Options #
   #################
-  trap_fill_percentage: 0
+  trap_fill_percentage: 5
+  reverse_controls_trap_weight: medium
+  inverted_mouse_trap_weight: none
+  ice_trap_weight: medium
+  random_effect_trap_weight: medium
+  stun_trap_weight: medium
+  tnt_trap_weight: none
+  teleport_trap_weight: medium
+  bee_trap_weight: medium
+  literature_trap_weight: medium
 
   ######################
   # World Link Options #

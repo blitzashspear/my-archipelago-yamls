@@ -1,0 +1,67 @@
+﻿name: blitzashStrawJam
+description: async only
+
+game: Celeste Modded
+Celeste Modded:
+  ################
+  # Game Options #
+  ################
+  progression_balancing: disabled
+  accessibility: full
+  exclude_multiroom_berries: false
+
+  ##############
+  # Difficulty #
+  ##############
+  logic_difficulty: easy
+
+  #########
+  # Items #
+  #########
+  item_consolidation_mode: none
+  open_heart_gates: false
+
+  ##########
+  # Levels #
+  ##########
+  start_level_set: beginner_lobby
+  strawberry_jam_max_difficulty: beginner_red
+  include_a_sides: false
+  include_b_sides: false
+  include_c_sides: false
+  include_farewell: false
+  include_beginner: all
+  include_intermediate: none
+  include_advanced: none
+  include_expert: none
+  include_grandmaster: none
+  heart_sides_start_unlocked: true
+  exclude_puzzle_levels: false
+
+  #############
+  # Locations #
+  #############
+  randomize_checkpoints: false
+  winged_golden: false
+  easter_egg_rooms: false
+  easter_egg_rooms_difficult: false
+
+  ##################
+  # Room Locations #
+  ##################
+  room_checks: true
+  trivial_room_checks: do_nothing
+  room_checks_beginner: true
+
+  #################
+  # Win Condition #
+  #################
+  win_condition_level: beginner_heartside
+  strawberries_required_percentage: random-range-75-95
+  total_strawberries: 100
+  require_berries_for_goal: true
+
+  #####################
+  # Deathless Berries #
+  #####################
+  include_beginner_silvers: false

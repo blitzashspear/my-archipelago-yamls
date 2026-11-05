@@ -17,11 +17,8 @@ Metroid Dread:
     - Wave Beam Door
     - Wide Beam Door
   change_doors_to:
-  # Ice and Diffusion Doors don't work.
     - Charge Beam Door
-    - Diffusion Beam Door
     - Grapple Beam Door
-    - Ice Missile Door
     - Missile Door
     - Plasma Beam Door
     - Power Beam Door

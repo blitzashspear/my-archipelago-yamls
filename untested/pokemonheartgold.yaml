@@ -12,7 +12,6 @@ Pokemon HeartGold and SoulSilver:
   version: heartgold
   goal: clear_pokemon_league
   death_link: false
-  death_link_group: ''
   remote_items: all
 
   #################

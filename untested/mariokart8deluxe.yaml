@@ -3,9 +3,6 @@ description: untested
 
 game: Mario Kart 8 Deluxe
 Mario Kart 8 Deluxe:
-  ################
-  # Game Options #
-  ################
   progression_balancing: normal
   accessibility: full
   include_booster_course_pass: true
