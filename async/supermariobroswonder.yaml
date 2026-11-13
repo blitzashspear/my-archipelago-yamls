@@ -1,0 +1,13 @@
+﻿name: blitzashWonder
+description: async only
+
+game: Super Mario Bros Wonder
+Super Mario Bros Wonder:
+  progression_balancing: disabled
+  accessibility: full
+  open_world: false
+  character_block_sanity: true
+  goal: 'bc: bowser''s rage stage - royal seed'
+  death_link: false
+  ten_coin_sanity: true
+  gold_flag_sanity: true

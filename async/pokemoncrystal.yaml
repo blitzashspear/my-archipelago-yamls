@@ -310,7 +310,7 @@ Pokemon Crystal:
   #################
   trainer_gender: randomize
   trainer_name: BLITZ
-  rival_name: random_crystal
+  rival_name: POOP
   start_time: now
 
   ############
@@ -318,7 +318,7 @@ Pokemon Crystal:
   ############
   modify_palettes: randomize
   randomize_music: off
-  trainer_palette: FF991C
+  trainer_palette: FF771C
   colored_item_balls: true
 
   ######

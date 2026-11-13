@@ -1,5 +1,5 @@
-﻿name: blitzashHG
-description: untested
+﻿name: blitzashSS
+description: async only
 # Trueblue's implementation
 
 game: Pokemon HeartGold and SoulSilver
@@ -9,8 +9,8 @@ Pokemon HeartGold and SoulSilver:
   ################
   progression_balancing: normal
   accessibility: full
-  version: heartgold
-  goal: clear_pokemon_league
+  version: soulsilver
+  goal: defeat_red
   death_link: false
   remote_items: all
 
@@ -61,23 +61,18 @@ Pokemon HeartGold and SoulSilver:
   ###########
   randomize_encounters: true
   in_logic_encounters:
+    - rock_smash
     - rods
     - time
-    - rock_smash
-    - sounds
   encounter_species_blacklist: []
   dexsanity: none
-  dexsanity_mode: noreq
-  dexsanity_blacklist: []
-  dexsanity_whitelist: []
-  dexsanity_required: []
   in_logic_evolution_methods:
-    - use_item
-    - time
-    - location
-    - level
     - held_item
     - happiness
+    - level
+    - location
+    - time
+    - use_item
   ap_items_shop_in_ap_helper: true
   reusable_tms: true
   mossy_rock_locations: both
@@ -87,7 +82,7 @@ Pokemon HeartGold and SoulSilver:
   ############
   # Trainers #
   ############
-  trainersanity: none
+  trainersanity: full
   trainersanity_whitelist: []
   trainersanity_blacklist: []
   trainersanity_required: []

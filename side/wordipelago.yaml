@@ -3,8 +3,15 @@ description: side game
 
 game: Wordipelago
 Wordipelago:
+  ################
+  # Game Options #
+  ################
   progression_balancing: normal
   accessibility: full
+
+  #######################
+  # Starting Conditions #
+  #######################
   starting_letters: 4
   starting_guesses: 2
   additional_guesses: 0
@@ -12,21 +19,42 @@ Wordipelago:
   yellow_unlocked: false
   unused_letters_unlocked: false
   shuffle_typing: none
+
+  #########
+  # Goals #
+  #########
   word_checks: 20
   word_streak_checks: 10
   win_condition: words_and_streak
+
+  ##############
+  # Difficulty #
+  ##############
   logic_difficulty: normal
   word_weighting: 3
+
+  #############
+  # Locations #
+  #############
   minimum_point_shop_checks: 10
   point_shop_check_price: 300
   green_checks: complete
   yellow_checks: composition
   letter_checks: all
+  grass_sanity: true
+  key_words: []
+
+  #########
+  # Items #
+  #########
   time_reward_count: 12
   time_reward_seconds: 10
   extra_time_reward_percent: 0
   shop_points_item_size: 100
-  shop_points_item_default_filler: false
+
+  #########
+  # Traps #
+  #########
   bad_guess_trap_percent: 0
   random_guess_trap_percent: 10
   extra_cooldown_trap_percent: 10

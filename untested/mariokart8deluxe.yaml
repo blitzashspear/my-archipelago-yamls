@@ -13,7 +13,7 @@ Mario Kart 8 Deluxe:
   shuffle_items: true
   restrict_cpu_items: true
   speed_stages: 5
-  min_speed_percent: 50
+  min_speed_percent: 75
   win_requires_speed: 5
   goal_cups: 8
   starting_cups: 1

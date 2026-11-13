@@ -1,0 +1,20 @@
+﻿name: blitzashGems
+description: side game
+
+game: Twiddly Gems
+Twiddly Gems:
+  progression_balancing: 5
+  accessibility: full
+  goal: clear_last_level
+  ap_gems: 4
+  ap_gem_odds: 50
+  inventory_items: 20
+  progressive_levels: true
+  spare_unlocks: 20 # 15 + 3 xtra
+  exclude_gold_and_silver: true
+  trap_percent: 0
+  inventory_item_chance:
+    cross_clear: 50
+    rainbow: 50
+    rocket: 50
+    rocket_cluster: 50

@@ -1,0 +1,8 @@
+﻿name: blitzashPPT
+description: untested
+
+game: Puyo Puyo Tetris
+Puyo Puyo Tetris:
+  progression_balancing: normal
+  accessibility: full
+  goal_percentage: 75

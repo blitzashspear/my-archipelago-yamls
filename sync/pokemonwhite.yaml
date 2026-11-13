@@ -104,28 +104,6 @@ Pokemon Black and White:
   funny_dialog: false
   reusable_tms: im_not_a_masochist
 
-  plugin_options:
-    qol:
-      skip_intro: false
-      skip_intro_gender:
-        male: 50
-        female: 50
-      instant_text: true
-      faster_story: true
-      guaranteed_catch: true
-      blind_trainers: true
-      remove_pickup_animation: true
-      gym_warps: true
-      hm_use: fastest
-      guaranteed_fishing: false
-      remove_dust_cloud_items: true
-      bike_everywhere: true
-      remove_surf_bike_music: true
-      battle_scene: turned_off
-      battle_style: set
-      pokemon_entrance_animations: vanilla
-      fast_hatch: true
-
   ###########################
   # Item & Location Options #
   ###########################

@@ -6,4 +6,7 @@ game: n-Puzzle
 n-Puzzle:
   progression_balancing: disabled
   accessibility: full
-  size: 3x3
+  size:
+    3x3: 30 
+    4x4: 20
+  death_link: false
